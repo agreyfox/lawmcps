@@ -1,0 +1,4 @@
+
+> flowise-components@3.0.1 build /home/lq/projects/liw/Flowise3.0/packages/components
+> tsc && gulp
+
