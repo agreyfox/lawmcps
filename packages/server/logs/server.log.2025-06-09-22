@@ -1,0 +1,115 @@
+2025-06-09 22:00:42 [INFO]: ⬆️ POST /api/v1/auth/refreshToken
+2025-06-09 22:00:42 [INFO]: ⬆️ POST /api/v1/auth/refreshToken
+2025-06-09 22:00:42 [INFO]: ⬆️ POST /api/v1/auth/resolve
+2025-06-09 22:00:47 [INFO]: ⬆️ POST /api/v1/auth/login
+2025-06-09 22:01:01 [INFO]: ⬆️ POST /api/v1/node-load-method/chatGoogleGemini
+2025-06-09 22:01:20 [INFO]: ⬆️ POST /api/v1/internal-prediction/4f7a2e9a-7512-45a1-905e-c8c54d7f7ffa
+2025-06-09 22:01:54 [INFO]: ⬆️ POST /api/v1/node-load-method/documentStoreVS
+2025-06-09 22:02:10 [INFO]: ⬆️ POST /api/v1/internal-prediction/8b62eb5b-a36d-46e9-b26a-7cd3a064c7a1
+2025-06-09 22:03:56 [INFO]: 🖊 PUT /api/v1/chatflows/8b62eb5b-a36d-46e9-b26a-7cd3a064c7a1
+2025-06-09 22:04:04 [INFO]: ❌ DELETE /api/v1/chatmessage/8b62eb5b-a36d-46e9-b26a-7cd3a064c7a1?chatId=855440fc-1383-4ec9-8129-4463cb1290f6&chatType=INTERNAL
+2025-06-09 22:04:04 [ERROR]: [server]: Error deleting file storage for chatflow 8b62eb5b-a36d-46e9-b26a-7cd3a064c7a1, chatId 855440fc-1383-4ec9-8129-4463cb1290f6
+2025-06-09 22:04:19 [INFO]: ⬆️ POST /api/v1/internal-prediction/8b62eb5b-a36d-46e9-b26a-7cd3a064c7a1
+2025-06-09 22:04:55 [ERROR]: [server]: Error: 422 Failed to deserialize the JSON body into the target type: tools[0]: invalid type: string "{{customTool_0.data.instance}}", expected struct Tool at line 8 column 36
+Error: 422 Failed to deserialize the JSON body into the target type: tools[0]: invalid type: string "{{customTool_0.data.instance}}", expected struct Tool at line 8 column 36
+    at APIError.generate (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/openai@4.96.0_encoding@0.1.13_ws@8.18.0_bufferutil@4.0.8_utf-8-validate@6.0.4__zod@3.22.4/node_modules/openai/error.js:60:20)
+    at OpenAI.makeStatusError (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/openai@4.96.0_encoding@0.1.13_ws@8.18.0_bufferutil@4.0.8_utf-8-validate@6.0.4__zod@3.22.4/node_modules/openai/core.js:302:33)
+    at OpenAI.makeRequest (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/openai@4.96.0_encoding@0.1.13_ws@8.18.0_bufferutil@4.0.8_utf-8-validate@6.0.4__zod@3.22.4/node_modules/openai/core.js:346:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async /home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@langchain+openai@0.3.13_@langchain+core@0.3.37_openai@4.96.0_encoding@0.1.13_ws@8.18.0_3e7d0ad6beedde1e4cb64651d5d28791/node_modules/@langchain/openai/dist/chat_models.cjs:1558:29
+    at async RetryOperation._fn (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/p-retry@4.6.2/node_modules/p-retry/index.js:50:12)
+2025-06-09 22:06:39 [ERROR]: [server]: Error: 422 Failed to deserialize the JSON body into the target type: tools[0]: invalid type: string "{{customTool_0.data.instance}}", expected struct Tool at line 8 column 36
+Error: 422 Failed to deserialize the JSON body into the target type: tools[0]: invalid type: string "{{customTool_0.data.instance}}", expected struct Tool at line 8 column 36
+    at APIError.generate (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/openai@4.96.0_encoding@0.1.13_ws@8.18.0_bufferutil@4.0.8_utf-8-validate@6.0.4__zod@3.22.4/node_modules/openai/error.js:60:20)
+    at OpenAI.makeStatusError (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/openai@4.96.0_encoding@0.1.13_ws@8.18.0_bufferutil@4.0.8_utf-8-validate@6.0.4__zod@3.22.4/node_modules/openai/core.js:302:33)
+    at OpenAI.makeRequest (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/openai@4.96.0_encoding@0.1.13_ws@8.18.0_bufferutil@4.0.8_utf-8-validate@6.0.4__zod@3.22.4/node_modules/openai/core.js:346:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async /home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@langchain+openai@0.3.13_@langchain+core@0.3.37_openai@4.96.0_encoding@0.1.13_ws@8.18.0_3e7d0ad6beedde1e4cb64651d5d28791/node_modules/@langchain/openai/dist/chat_models.cjs:1558:29
+    at async RetryOperation._fn (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/p-retry@4.6.2/node_modules/p-retry/index.js:50:12)
+2025-06-09 22:07:28 [INFO]: ⬆️ POST /api/v1/node-load-method/groqChat
+2025-06-09 22:07:39 [INFO]: ⬆️ POST /api/v1/node-load-method/groqChat
+2025-06-09 22:07:45 [INFO]: 🖊 PUT /api/v1/chatflows/8b62eb5b-a36d-46e9-b26a-7cd3a064c7a1
+2025-06-09 22:07:52 [INFO]: ⬆️ POST /api/v1/internal-prediction/8b62eb5b-a36d-46e9-b26a-7cd3a064c7a1
+2025-06-09 22:07:53 [ERROR]: [server]: Error: 400 {"error":{"message":"'tools.0' : value must be an object","type":"invalid_request_error"}}
+Error: 400 {"error":{"message":"'tools.0' : value must be an object","type":"invalid_request_error"}}
+    at APIError.generate (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/groq-sdk@0.5.0_encoding@0.1.13/node_modules/groq-sdk/error.js:40:20)
+    at Groq.makeStatusError (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/groq-sdk@0.5.0_encoding@0.1.13/node_modules/groq-sdk/core.js:275:33)
+    at Groq.makeRequest (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/groq-sdk@0.5.0_encoding@0.1.13/node_modules/groq-sdk/core.js:318:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async RetryOperation._fn (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/p-retry@4.6.2/node_modules/p-retry/index.js:50:12)
+2025-06-09 22:16:21 [INFO]: ⬆️ POST /api/v1/node-load-method/groqChat
+2025-06-09 22:16:37 [INFO]: ⬆️ POST /api/v1/node-load-method/groqChat
+2025-06-09 22:16:45 [INFO]: ⬆️ POST /api/v1/internal-prediction/8b62eb5b-a36d-46e9-b26a-7cd3a064c7a1
+2025-06-09 22:16:49 [ERROR]: [server]: Error: 400 {"error":{"message":"'tools.0' : value must be an object","type":"invalid_request_error"}}
+Error: 400 {"error":{"message":"'tools.0' : value must be an object","type":"invalid_request_error"}}
+    at APIError.generate (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/groq-sdk@0.5.0_encoding@0.1.13/node_modules/groq-sdk/error.js:40:20)
+    at Groq.makeStatusError (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/groq-sdk@0.5.0_encoding@0.1.13/node_modules/groq-sdk/core.js:275:33)
+    at Groq.makeRequest (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/groq-sdk@0.5.0_encoding@0.1.13/node_modules/groq-sdk/core.js:318:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async RetryOperation._fn (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/p-retry@4.6.2/node_modules/p-retry/index.js:50:12)
+2025-06-09 22:17:10 [INFO]: 🖊 PUT /api/v1/chatflows/8b62eb5b-a36d-46e9-b26a-7cd3a064c7a1
+2025-06-09 22:17:13 [INFO]: ⬆️ POST /api/v1/internal-prediction/8b62eb5b-a36d-46e9-b26a-7cd3a064c7a1
+2025-06-09 22:17:14 [ERROR]: [server]: Error: 400 {"error":{"message":"'tools.0' : value must be an object","type":"invalid_request_error"}}
+Error: 400 {"error":{"message":"'tools.0' : value must be an object","type":"invalid_request_error"}}
+    at APIError.generate (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/groq-sdk@0.5.0_encoding@0.1.13/node_modules/groq-sdk/error.js:40:20)
+    at Groq.makeStatusError (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/groq-sdk@0.5.0_encoding@0.1.13/node_modules/groq-sdk/core.js:275:33)
+    at Groq.makeRequest (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/groq-sdk@0.5.0_encoding@0.1.13/node_modules/groq-sdk/core.js:318:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async RetryOperation._fn (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/p-retry@4.6.2/node_modules/p-retry/index.js:50:12)
+2025-06-09 22:23:29 [INFO]: ⬆️ POST /api/v1/node-load-method/documentStoreVS
+2025-06-09 22:23:40 [INFO]: ⬆️ POST /api/v1/node-load-method/groqChat
+2025-06-09 22:23:48 [INFO]: ⬆️ POST /api/v1/internal-prediction/c4feaae2-a264-4b2f-834f-3b7f98ad8bd9
+2025-06-09 22:25:42 [ERROR]: [server]: Error: 413 {"error":{"message":"Request too large for model `qwen-qwq-32b` in organization `org_01j732905qf0taw4cr5x1yjnn5` service tier `on_demand` on tokens per minute (TPM): Limit 6000, Requested 33898, please reduce your message size and try again. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing","type":"tokens","code":"rate_limit_exceeded"}}
+Error: 413 {"error":{"message":"Request too large for model `qwen-qwq-32b` in organization `org_01j732905qf0taw4cr5x1yjnn5` service tier `on_demand` on tokens per minute (TPM): Limit 6000, Requested 33898, please reduce your message size and try again. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing","type":"tokens","code":"rate_limit_exceeded"}}
+    at APIError.generate (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/groq-sdk@0.5.0_encoding@0.1.13/node_modules/groq-sdk/error.js:63:16)
+    at Groq.makeStatusError (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/groq-sdk@0.5.0_encoding@0.1.13/node_modules/groq-sdk/core.js:275:33)
+    at Groq.makeRequest (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/groq-sdk@0.5.0_encoding@0.1.13/node_modules/groq-sdk/core.js:318:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async RetryOperation._fn (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/p-retry@4.6.2/node_modules/p-retry/index.js:50:12)
+2025-06-09 22:26:39 [INFO]: ⬆️ POST /api/v1/internal-prediction/11cd36e7-a356-457c-af2b-1340d0be3c34
+2025-06-09 22:27:41 [INFO]: ⬆️ POST /api/v1/node-load-method/groqChat
+2025-06-09 22:27:49 [INFO]: ⬆️ POST /api/v1/internal-prediction/8b62eb5b-a36d-46e9-b26a-7cd3a064c7a1
+2025-06-09 22:27:51 [ERROR]: [server]: Error: 400 {"error":{"message":"'tools.0' : value must be an object","type":"invalid_request_error"}}
+Error: 400 {"error":{"message":"'tools.0' : value must be an object","type":"invalid_request_error"}}
+    at APIError.generate (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/groq-sdk@0.5.0_encoding@0.1.13/node_modules/groq-sdk/error.js:40:20)
+    at Groq.makeStatusError (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/groq-sdk@0.5.0_encoding@0.1.13/node_modules/groq-sdk/core.js:275:33)
+    at Groq.makeRequest (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/groq-sdk@0.5.0_encoding@0.1.13/node_modules/groq-sdk/core.js:318:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async RetryOperation._fn (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/p-retry@4.6.2/node_modules/p-retry/index.js:50:12)
+2025-06-09 22:32:42 [INFO]: Starting Flowise...
+2025-06-09 22:32:42 [INFO]: 📦 [server]: Data Source initialized successfully
+2025-06-09 22:32:42 [INFO]: 🔄 [server]: Database migrations completed successfully
+2025-06-09 22:32:42 [INFO]: 🔐 [server]: Identity Manager initialized successfully
+2025-06-09 22:32:46 [INFO]: 🔧 [server]: Nodes pool initialized successfully
+2025-06-09 22:32:46 [INFO]: ⏹️ [server]: Abort controllers pool initialized successfully
+2025-06-09 22:32:46 [INFO]: 🔑 [server]: Encryption key initialized successfully
+2025-06-09 22:32:46 [INFO]: 🚦 [server]: Rate limiters initialized successfully
+2025-06-09 22:32:46 [INFO]: 💾 [server]: Cache pool initialized successfully
+2025-06-09 22:32:46 [INFO]: 📊 [server]: Usage cache manager initialized successfully
+2025-06-09 22:32:46 [INFO]: 📈 [server]: Telemetry initialized successfully
+2025-06-09 22:32:46 [INFO]: 🌊 [server]: SSE Streamer initialized successfully
+2025-06-09 22:32:46 [INFO]: 🎉 [server]: All initialization steps completed successfully!
+2025-06-09 22:32:46 [INFO]: ⚡️ [server]: Flowise Server is listening at :3003
+2025-06-09 22:32:55 [INFO]: ⬆️ POST /api/v1/node-load-method/groqChat
+2025-06-09 22:33:01 [INFO]: ⬆️ POST /api/v1/internal-prediction/8b62eb5b-a36d-46e9-b26a-7cd3a064c7a1
+2025-06-09 22:33:04 [ERROR]: [server]: Error: 400 {"error":{"message":"'tools.0' : value must be an object","type":"invalid_request_error"}}
+Error: 400 {"error":{"message":"'tools.0' : value must be an object","type":"invalid_request_error"}}
+    at APIError.generate (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/groq-sdk@0.5.0_encoding@0.1.13/node_modules/groq-sdk/error.js:40:20)
+    at Groq.makeStatusError (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/groq-sdk@0.5.0_encoding@0.1.13/node_modules/groq-sdk/core.js:275:33)
+    at Groq.makeRequest (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/groq-sdk@0.5.0_encoding@0.1.13/node_modules/groq-sdk/core.js:318:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async RetryOperation._fn (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/p-retry@4.6.2/node_modules/p-retry/index.js:50:12)
+2025-06-09 22:33:19 [INFO]: 🖊 PUT /api/v1/chatflows/8b62eb5b-a36d-46e9-b26a-7cd3a064c7a1
+2025-06-09 22:33:37 [INFO]: 🖊 PUT /api/v1/chatflows/8b62eb5b-a36d-46e9-b26a-7cd3a064c7a1
+2025-06-09 22:33:40 [INFO]: ⬆️ POST /api/v1/internal-prediction/8b62eb5b-a36d-46e9-b26a-7cd3a064c7a1
+2025-06-09 22:33:41 [ERROR]: [server]: Error: 400 {"error":{"message":"'tools.0' : value must be an object","type":"invalid_request_error"}}
+Error: 400 {"error":{"message":"'tools.0' : value must be an object","type":"invalid_request_error"}}
+    at APIError.generate (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/groq-sdk@0.5.0_encoding@0.1.13/node_modules/groq-sdk/error.js:40:20)
+    at Groq.makeStatusError (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/groq-sdk@0.5.0_encoding@0.1.13/node_modules/groq-sdk/core.js:275:33)
+    at Groq.makeRequest (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/groq-sdk@0.5.0_encoding@0.1.13/node_modules/groq-sdk/core.js:318:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async RetryOperation._fn (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/p-retry@4.6.2/node_modules/p-retry/index.js:50:12)
+2025-06-09 22:33:55 [INFO]: ⬆️ POST /api/v1/node-load-method/chatGoogleGemini
+2025-06-09 22:34:13 [INFO]: 🖊 PUT /api/v1/chatflows/8b62eb5b-a36d-46e9-b26a-7cd3a064c7a1
+2025-06-09 22:34:15 [INFO]: ⬆️ POST /api/v1/internal-prediction/8b62eb5b-a36d-46e9-b26a-7cd3a064c7a1
+2025-06-09 22:34:24 [INFO]: ⬆️ POST /api/v1/internal-prediction/8b62eb5b-a36d-46e9-b26a-7cd3a064c7a1

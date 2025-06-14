@@ -1,0 +1,59 @@
+2025-06-10 08:50:43 [INFO]: Starting Flowise...
+2025-06-10 08:50:43 [INFO]: 📦 [server]: Data Source initialized successfully
+2025-06-10 08:50:43 [INFO]: 🔄 [server]: Database migrations completed successfully
+2025-06-10 08:50:43 [INFO]: 🔐 [server]: Identity Manager initialized successfully
+2025-06-10 08:50:48 [INFO]: 🔧 [server]: Nodes pool initialized successfully
+2025-06-10 08:50:48 [INFO]: ⏹️ [server]: Abort controllers pool initialized successfully
+2025-06-10 08:50:48 [INFO]: 🔑 [server]: Encryption key initialized successfully
+2025-06-10 08:50:48 [INFO]: 🚦 [server]: Rate limiters initialized successfully
+2025-06-10 08:50:48 [INFO]: 💾 [server]: Cache pool initialized successfully
+2025-06-10 08:50:48 [INFO]: 📊 [server]: Usage cache manager initialized successfully
+2025-06-10 08:50:48 [INFO]: 📈 [server]: Telemetry initialized successfully
+2025-06-10 08:50:48 [INFO]: 🌊 [server]: SSE Streamer initialized successfully
+2025-06-10 08:50:48 [INFO]: 🎉 [server]: All initialization steps completed successfully!
+2025-06-10 08:50:48 [ERROR]: uncaughtException:  listen EADDRINUSE: address already in use :::3003
+Error: listen EADDRINUSE: address already in use :::3003
+    at Server.setupListenHandle [as _listen2] (node:net:1817:16)
+    at listenInCluster (node:net:1865:12)
+    at Server.listen (node:net:1953:7)
+    at Object.start (/home/lq/projects/liw/Flowise3.0/packages/server/dist/index.js:354:12)
+    at async Start.run (/home/lq/projects/liw/Flowise3.0/packages/server/dist/commands/start.js:37:9)
+    at async Start._run (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@oclif+core@4.0.7/node_modules/@oclif/core/lib/command.js:302:22)
+    at async Config.runCommand (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@oclif+core@4.0.7/node_modules/@oclif/core/lib/config/config.js:424:25)
+    at async Object.run (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@oclif+core@4.0.7/node_modules/@oclif/core/lib/main.js:94:16)
+2025-06-10 08:50:59 [INFO]: ⬆️ POST /api/v1/auth/refreshToken
+2025-06-10 08:50:59 [INFO]: ⬆️ POST /api/v1/auth/refreshToken
+2025-06-10 08:51:16 [INFO]: ⬆️ POST /api/v1/node-load-method/chatGoogleGemini
+2025-06-10 08:51:23 [INFO]: ⬆️ POST /api/v1/internal-prediction/8b62eb5b-a36d-46e9-b26a-7cd3a064c7a1
+2025-06-10 08:51:47 [INFO]: Shutting down Flowise...
+2025-06-10 08:53:47 [INFO]: Starting Flowise...
+2025-06-10 08:53:47 [INFO]: 📦 [server]: Data Source initialized successfully
+2025-06-10 08:53:47 [INFO]: 🔄 [server]: Database migrations completed successfully
+2025-06-10 08:53:47 [INFO]: 🔐 [server]: Identity Manager initialized successfully
+2025-06-10 08:54:04 [INFO]: 🔧 [server]: Nodes pool initialized successfully
+2025-06-10 08:54:04 [INFO]: ⏹️ [server]: Abort controllers pool initialized successfully
+2025-06-10 08:54:04 [INFO]: 🔑 [server]: Encryption key initialized successfully
+2025-06-10 08:54:04 [INFO]: 🚦 [server]: Rate limiters initialized successfully
+2025-06-10 08:54:04 [INFO]: 💾 [server]: Cache pool initialized successfully
+2025-06-10 08:54:04 [INFO]: 📊 [server]: Usage cache manager initialized successfully
+2025-06-10 08:54:04 [INFO]: 📈 [server]: Telemetry initialized successfully
+2025-06-10 08:54:04 [INFO]: 🌊 [server]: SSE Streamer initialized successfully
+2025-06-10 08:54:04 [INFO]: 🎉 [server]: All initialization steps completed successfully!
+2025-06-10 08:54:04 [INFO]: ⚡️ [server]: Flowise Server is listening at :3003
+2025-06-10 08:54:20 [INFO]: ⬆️ POST /api/v1/node-load-method/chatGoogleGemini
+2025-06-10 08:54:38 [INFO]: ⬆️ POST /api/v1/node-load-method/groqChat
+2025-06-10 08:54:46 [INFO]: ⬆️ POST /api/v1/node-load-method/groqChat
+2025-06-10 08:54:57 [INFO]: 🖊 PUT /api/v1/chatflows/8b62eb5b-a36d-46e9-b26a-7cd3a064c7a1
+2025-06-10 08:55:03 [INFO]: ❌ DELETE /api/v1/chatmessage/8b62eb5b-a36d-46e9-b26a-7cd3a064c7a1?chatId=e7ae85d2-6114-4d4a-895b-d50be847806f&chatType=INTERNAL
+2025-06-10 08:55:03 [ERROR]: [server]: Error deleting file storage for chatflow 8b62eb5b-a36d-46e9-b26a-7cd3a064c7a1, chatId e7ae85d2-6114-4d4a-895b-d50be847806f
+2025-06-10 08:55:09 [INFO]: ⬆️ POST /api/v1/internal-prediction/8b62eb5b-a36d-46e9-b26a-7cd3a064c7a1
+2025-06-10 08:58:03 [ERROR]: [server]: Error: 400 {"error":{"message":"'tools.0' : value must be an object","type":"invalid_request_error"}}
+Error: 400 {"error":{"message":"'tools.0' : value must be an object","type":"invalid_request_error"}}
+    at APIError.generate (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/groq-sdk@0.5.0_encoding@0.1.13/node_modules/groq-sdk/error.js:40:20)
+    at Groq.makeStatusError (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/groq-sdk@0.5.0_encoding@0.1.13/node_modules/groq-sdk/core.js:275:33)
+    at Groq.makeRequest (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/groq-sdk@0.5.0_encoding@0.1.13/node_modules/groq-sdk/core.js:318:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async RetryOperation._fn (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/p-retry@4.6.2/node_modules/p-retry/index.js:50:12)
+2025-06-10 08:58:58 [INFO]: ❌ DELETE /api/v1/chatmessage/8b62eb5b-a36d-46e9-b26a-7cd3a064c7a1?chatId=e7ae85d2-6114-4d4a-895b-d50be847806f&chatType=INTERNAL
+2025-06-10 08:58:58 [ERROR]: [server]: Error deleting file storage for chatflow 8b62eb5b-a36d-46e9-b26a-7cd3a064c7a1, chatId e7ae85d2-6114-4d4a-895b-d50be847806f
+2025-06-10 08:59:02 [INFO]: ⬆️ POST /api/v1/internal-prediction/8b62eb5b-a36d-46e9-b26a-7cd3a064c7a1

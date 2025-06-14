@@ -1,0 +1,71 @@
+2025-06-12 11:00:24 [INFO]: 🖊 PUT /api/v1/chatflows/41313e33-ae4e-4338-92e9-fc1fc606d281
+2025-06-12 11:00:28 [INFO]: ⬆️ POST /api/v1/prediction/41313e33-ae4e-4338-92e9-fc1fc606d281
+2025-06-12 11:00:28 [INFO]: [server]: Request originated from UNKNOWN ORIGIN
+2025-06-12 11:01:21 [INFO]: 🖊 PUT /api/v1/chatflows/41313e33-ae4e-4338-92e9-fc1fc606d281
+2025-06-12 11:01:23 [INFO]: ⬆️ POST /api/v1/prediction/41313e33-ae4e-4338-92e9-fc1fc606d281
+2025-06-12 11:01:23 [INFO]: [server]: Request originated from UNKNOWN ORIGIN
+2025-06-12 11:02:41 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2025-06-12 11:02:42 [INFO]: ⬆️ POST /api/v1/node-load-method/chatGoogleGemini
+2025-06-12 11:03:43 [INFO]: 🖊 PUT /api/v1/chatflows/41313e33-ae4e-4338-92e9-fc1fc606d281
+2025-06-12 11:03:48 [INFO]: ❌ DELETE /api/v1/chatmessage/41313e33-ae4e-4338-92e9-fc1fc606d281?chatId=594ad535-60d7-4bd2-ae98-4f39e767297d&chatType=INTERNAL
+2025-06-12 11:03:48 [ERROR]: [server]: Error deleting file storage for chatflow 41313e33-ae4e-4338-92e9-fc1fc606d281, chatId 594ad535-60d7-4bd2-ae98-4f39e767297d
+2025-06-12 11:03:57 [INFO]: ⬆️ POST /api/v1/internal-prediction/41313e33-ae4e-4338-92e9-fc1fc606d281
+2025-06-12 11:04:02 [ERROR]: [server]: Error executing node llmAgentflow_0: Error in LLM node: No tool calls found in the response.
+2025-06-12 11:04:02 [ERROR]: [server]: Error: Error in LLM node: No tool calls found in the response.
+Error: Error in LLM node: No tool calls found in the response.
+    at executeAgentFlow (/home/lq/projects/liw/Flowise3.0/packages/server/dist/utils/buildAgentflow.js:1287:19)
+    at async utilBuildChatflow (/home/lq/projects/liw/Flowise3.0/packages/server/dist/utils/buildChatflow.js:797:28)
+    at async createAndStreamInternalPrediction (/home/lq/projects/liw/Flowise3.0/packages/server/dist/controllers/internal-predictions/index.js:38:29)
+2025-06-12 11:04:08 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2025-06-12 11:04:08 [INFO]: ⬆️ POST /api/v1/node-load-method/chatGoogleGemini
+2025-06-12 11:05:06 [INFO]: ⬆️ POST /api/v1/assistants/generate/instruction
+2025-06-12 11:05:56 [INFO]: 🖊 PUT /api/v1/chatflows/41313e33-ae4e-4338-92e9-fc1fc606d281
+2025-06-12 11:06:04 [INFO]: ⬆️ POST /api/v1/internal-prediction/41313e33-ae4e-4338-92e9-fc1fc606d281
+2025-06-12 11:06:09 [ERROR]: [server]: Error executing node llmAgentflow_0: Error in LLM node: No tool calls found in the response.
+2025-06-12 11:06:09 [ERROR]: [server]: Error: Error in LLM node: No tool calls found in the response.
+Error: Error in LLM node: No tool calls found in the response.
+    at executeAgentFlow (/home/lq/projects/liw/Flowise3.0/packages/server/dist/utils/buildAgentflow.js:1287:19)
+    at async utilBuildChatflow (/home/lq/projects/liw/Flowise3.0/packages/server/dist/utils/buildChatflow.js:797:28)
+    at async createAndStreamInternalPrediction (/home/lq/projects/liw/Flowise3.0/packages/server/dist/controllers/internal-predictions/index.js:38:29)
+2025-06-12 11:06:38 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2025-06-12 11:06:39 [INFO]: ⬆️ POST /api/v1/node-load-method/chatGoogleGemini
+2025-06-12 11:07:32 [INFO]: 🖊 PUT /api/v1/chatflows/41313e33-ae4e-4338-92e9-fc1fc606d281
+2025-06-12 11:07:48 [INFO]: ⬆️ POST /api/v1/internal-prediction/41313e33-ae4e-4338-92e9-fc1fc606d281
+2025-06-12 11:07:55 [ERROR]: [server]: Error executing node llmAgentflow_0: Error in LLM node: No tool calls found in the response.
+2025-06-12 11:07:55 [ERROR]: [server]: Error: Error in LLM node: No tool calls found in the response.
+Error: Error in LLM node: No tool calls found in the response.
+    at executeAgentFlow (/home/lq/projects/liw/Flowise3.0/packages/server/dist/utils/buildAgentflow.js:1287:19)
+    at async utilBuildChatflow (/home/lq/projects/liw/Flowise3.0/packages/server/dist/utils/buildChatflow.js:797:28)
+    at async createAndStreamInternalPrediction (/home/lq/projects/liw/Flowise3.0/packages/server/dist/controllers/internal-predictions/index.js:38:29)
+2025-06-12 11:07:58 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2025-06-12 11:07:59 [INFO]: ⬆️ POST /api/v1/node-load-method/chatGoogleGemini
+2025-06-12 11:08:17 [INFO]: 🖊 PUT /api/v1/chatflows/41313e33-ae4e-4338-92e9-fc1fc606d281
+2025-06-12 11:08:25 [INFO]: ⬆️ POST /api/v1/internal-prediction/41313e33-ae4e-4338-92e9-fc1fc606d281
+2025-06-12 11:09:39 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2025-06-12 11:09:47 [INFO]: 🖊 PUT /api/v1/chatflows/41313e33-ae4e-4338-92e9-fc1fc606d281
+2025-06-12 11:09:53 [INFO]: ⬆️ POST /api/v1/internal-prediction/41313e33-ae4e-4338-92e9-fc1fc606d281
+2025-06-12 11:10:25 [INFO]: 🖊 PUT /api/v1/chatflows/41313e33-ae4e-4338-92e9-fc1fc606d281
+2025-06-12 11:10:29 [INFO]: ⬆️ POST /api/v1/internal-prediction/41313e33-ae4e-4338-92e9-fc1fc606d281
+2025-06-12 11:28:33 [INFO]: ⬆️ POST /api/v1/auth/refreshToken
+2025-06-12 11:39:11 [INFO]: 🖊 PUT /api/v1/chatflows/41313e33-ae4e-4338-92e9-fc1fc606d281
+2025-06-12 11:43:48 [INFO]: 🖊 PUT /api/v1/chatflows/41313e33-ae4e-4338-92e9-fc1fc606d281
+2025-06-12 11:46:36 [INFO]: ⬆️ POST /api/v1/internal-prediction/41313e33-ae4e-4338-92e9-fc1fc606d281
+2025-06-12 11:47:28 [INFO]: ❌ DELETE /api/v1/chatmessage/41313e33-ae4e-4338-92e9-fc1fc606d281?chatId=128ee9b8-6aa1-4263-9a72-691d89fa43d0&chatType=INTERNAL
+2025-06-12 11:47:28 [ERROR]: [server]: Error deleting file storage for chatflow 41313e33-ae4e-4338-92e9-fc1fc606d281, chatId 128ee9b8-6aa1-4263-9a72-691d89fa43d0
+2025-06-12 11:47:44 [INFO]: ⬆️ POST /api/v1/internal-prediction/41313e33-ae4e-4338-92e9-fc1fc606d281
+2025-06-12 11:53:24 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2025-06-12 11:53:25 [INFO]: ⬆️ POST /api/v1/node-load-method/chatGoogleGemini
+2025-06-12 11:54:17 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2025-06-12 11:54:42 [INFO]: 🖊 PUT /api/v1/chatflows/41313e33-ae4e-4338-92e9-fc1fc606d281
+2025-06-12 11:54:47 [INFO]: ❌ DELETE /api/v1/chatmessage/41313e33-ae4e-4338-92e9-fc1fc606d281?chatId=fdbc9b50-d2a0-4a51-bc18-12920cfb7957&chatType=INTERNAL
+2025-06-12 11:54:47 [ERROR]: [server]: Error deleting file storage for chatflow 41313e33-ae4e-4338-92e9-fc1fc606d281, chatId fdbc9b50-d2a0-4a51-bc18-12920cfb7957
+2025-06-12 11:55:02 [INFO]: ⬆️ POST /api/v1/internal-prediction/41313e33-ae4e-4338-92e9-fc1fc606d281
+2025-06-12 11:55:48 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2025-06-12 11:55:48 [INFO]: ⬆️ POST /api/v1/node-load-method/chatGoogleGemini
+2025-06-12 11:56:01 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2025-06-12 11:56:01 [INFO]: ⬆️ POST /api/v1/node-load-method/chatGoogleGemini
+2025-06-12 11:56:28 [INFO]: 🖊 PUT /api/v1/chatflows/41313e33-ae4e-4338-92e9-fc1fc606d281
+2025-06-12 11:56:33 [INFO]: ❌ DELETE /api/v1/chatmessage/41313e33-ae4e-4338-92e9-fc1fc606d281?chatId=34f9a8df-637e-48c0-a424-788dc1792a8a&chatType=INTERNAL
+2025-06-12 11:56:34 [ERROR]: [server]: Error deleting file storage for chatflow 41313e33-ae4e-4338-92e9-fc1fc606d281, chatId 34f9a8df-637e-48c0-a424-788dc1792a8a
+2025-06-12 11:56:41 [INFO]: ⬆️ POST /api/v1/internal-prediction/41313e33-ae4e-4338-92e9-fc1fc606d281
+2025-06-12 11:57:13 [INFO]: 🖊 PUT /api/v1/chatflows/41313e33-ae4e-4338-92e9-fc1fc606d281

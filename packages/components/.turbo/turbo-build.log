@@ -1,4 +1,9 @@
 
+
 > flowise-components@3.0.1 build /home/lq/projects/liw/Flowise3.0/packages/components
 > tsc && gulp
 
+[[90m10:15:07[39m] Requiring external module [35mts-node/register[39m
+[[90m10:15:10[39m] Using gulpfile [35m~/projects/liw/Flowise3.0/packages/components/gulpfile.ts[39m
+[[90m10:15:10[39m] Starting '[36mdefault[39m'...
+[[90m10:15:10[39m] Finished '[36mdefault[39m' after [35m449 ms[39m

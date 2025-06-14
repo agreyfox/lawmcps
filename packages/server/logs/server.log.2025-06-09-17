@@ -1,0 +1,288 @@
+2025-06-09 17:00:36 [INFO]: Starting Flowise...
+2025-06-09 17:00:36 [INFO]: 📦 [server]: Data Source initialized successfully
+2025-06-09 17:00:36 [INFO]: 🔄 [server]: Database migrations completed successfully
+2025-06-09 17:00:36 [INFO]: 🔐 [server]: Identity Manager initialized successfully
+2025-06-09 17:00:41 [INFO]: 🔧 [server]: Nodes pool initialized successfully
+2025-06-09 17:00:41 [INFO]: ⏹️ [server]: Abort controllers pool initialized successfully
+2025-06-09 17:00:41 [INFO]: 🔑 [server]: Encryption key initialized successfully
+2025-06-09 17:00:41 [INFO]: 🚦 [server]: Rate limiters initialized successfully
+2025-06-09 17:00:41 [INFO]: 💾 [server]: Cache pool initialized successfully
+2025-06-09 17:00:41 [INFO]: 📊 [server]: Usage cache manager initialized successfully
+2025-06-09 17:00:41 [INFO]: 📈 [server]: Telemetry initialized successfully
+2025-06-09 17:00:41 [INFO]: 🌊 [server]: SSE Streamer initialized successfully
+2025-06-09 17:00:41 [INFO]: 🎉 [server]: All initialization steps completed successfully!
+2025-06-09 17:00:41 [INFO]: ⚡️ [server]: Flowise Server is listening at :3003
+2025-06-09 17:00:45 [INFO]: ⬆️ POST /api/v1/node-load-method/customTool
+2025-06-09 17:00:45 [INFO]: ⬆️ POST /api/v1/node-load-method/customTool
+2025-06-09 17:00:45 [INFO]: ⬆️ POST /api/v1/node-load-method/customTool
+2025-06-09 17:00:56 [INFO]: ⬆️ POST /api/v1/node-load-method/customTool
+2025-06-09 17:00:56 [INFO]: ⬆️ POST /api/v1/node-load-method/customTool
+2025-06-09 17:00:56 [INFO]: ⬆️ POST /api/v1/node-load-method/customTool
+2025-06-09 17:01:01 [INFO]: ⬆️ POST /api/v1/internal-prediction/8b62eb5b-a36d-46e9-b26a-7cd3a064c7a1
+2025-06-09 17:01:20 [INFO]: ⬆️ POST /api/v1/internal-prediction/8b62eb5b-a36d-46e9-b26a-7cd3a064c7a1
+2025-06-09 17:01:22 [ERROR]: [server]: Error: Failed to parse tool arguments from chat model response. Text: "[]". SyntaxError: Unexpected token { in JSON at position 29
+
+Troubleshooting URL: https://js.langchain.com/docs/troubleshooting/errors/OUTPUT_PARSING_FAILURE/
+
+Error: Failed to parse tool arguments from chat model response. Text: "[]". SyntaxError: Unexpected token { in JSON at position 29
+
+Troubleshooting URL: https://js.langchain.com/docs/troubleshooting/errors/OUTPUT_PARSING_FAILURE/
+
+    at parseAIMessageToToolAction (/home/lq/projects/liw/Flowise3.0/packages/components/dist/src/agents.js:787:23)
+    at ToolCallingAgentOutputParser.parseResult (/home/lq/projects/liw/Flowise3.0/packages/components/dist/src/agents.js:816:20)
+    at ToolCallingAgentOutputParser._callWithConfig (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@langchain+core@0.3.37_openai@4.96.0_encoding@0.1.13_ws@8.18.0_bufferutil@4.0.8_utf-8-validate@6.0.4__zod@3.22.4_/node_modules/@langchain/core/dist/output_parsers/base.cjs:46:72)
+    at ToolCallingAgentOutputParser._callWithConfig (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@langchain+core@0.3.37_openai@4.96.0_encoding@0.1.13_ws@8.18.0_bufferutil@4.0.8_utf-8-validate@6.0.4__zod@3.22.4_/node_modules/@langchain/core/dist/runnables/base.cjs:223:34)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ToolCallingAgentOutputParser._streamIterator (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@langchain+core@0.3.37_openai@4.96.0_encoding@0.1.13_ws@8.18.0_bufferutil@4.0.8_utf-8-validate@6.0.4__zod@3.22.4_/node_modules/@langchain/core/dist/runnables/base.cjs:165:9)
+    at async ToolCallingAgentOutputParser.transform (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@langchain+core@0.3.37_openai@4.96.0_encoding@0.1.13_ws@8.18.0_bufferutil@4.0.8_utf-8-validate@6.0.4__zod@3.22.4_/node_modules/@langchain/core/dist/runnables/base.cjs:402:9)
+    at async RunnableSequence._streamIterator (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@langchain+core@0.3.37_openai@4.96.0_encoding@0.1.13_ws@8.18.0_bufferutil@4.0.8_utf-8-validate@6.0.4__zod@3.22.4_/node_modules/@langchain/core/dist/runnables/base.cjs:1349:30)
+2025-06-09 17:01:50 [INFO]: 🖊 PUT /api/v1/chatflows/8b62eb5b-a36d-46e9-b26a-7cd3a064c7a1
+2025-06-09 17:01:57 [INFO]: ⬆️ POST /api/v1/internal-prediction/8b62eb5b-a36d-46e9-b26a-7cd3a064c7a1
+2025-06-09 17:03:34 [INFO]: ⬆️ POST /api/v1/internal-prediction/8b62eb5b-a36d-46e9-b26a-7cd3a064c7a1
+2025-06-09 17:04:30 [INFO]: ⬆️ POST /api/v1/internal-prediction/8b62eb5b-a36d-46e9-b26a-7cd3a064c7a1
+2025-06-09 17:04:32 [INFO]: ⬆️ POST /api/v1/auth/refreshToken
+2025-06-09 17:04:32 [INFO]: ⬆️ POST /api/v1/auth/refreshToken
+2025-06-09 17:04:34 [INFO]: ❌ DELETE /api/v1/chatmessage/8b62eb5b-a36d-46e9-b26a-7cd3a064c7a1?chatId=20b10b9c-fb32-4db6-97d1-f71770ba788e&chatType=INTERNAL
+2025-06-09 17:04:34 [ERROR]: [server]: Error deleting file storage for chatflow 8b62eb5b-a36d-46e9-b26a-7cd3a064c7a1, chatId 20b10b9c-fb32-4db6-97d1-f71770ba788e
+2025-06-09 17:04:37 [INFO]: ⬆️ POST /api/v1/node-load-method/customTool
+2025-06-09 17:04:37 [INFO]: ⬆️ POST /api/v1/node-load-method/customTool
+2025-06-09 17:04:37 [INFO]: ⬆️ POST /api/v1/node-load-method/customTool
+2025-06-09 17:04:43 [INFO]: ⬆️ POST /api/v1/internal-prediction/8b62eb5b-a36d-46e9-b26a-7cd3a064c7a1
+2025-06-09 17:09:00 [ERROR]: [server]: Error: Failed to parse tool arguments from chat model response. Text: "[]". SyntaxError: Unexpected token { in JSON at position 29
+
+Troubleshooting URL: https://js.langchain.com/docs/troubleshooting/errors/OUTPUT_PARSING_FAILURE/
+
+Error: Failed to parse tool arguments from chat model response. Text: "[]". SyntaxError: Unexpected token { in JSON at position 29
+
+Troubleshooting URL: https://js.langchain.com/docs/troubleshooting/errors/OUTPUT_PARSING_FAILURE/
+
+    at parseAIMessageToToolAction (/home/lq/projects/liw/Flowise3.0/packages/components/dist/src/agents.js:787:23)
+    at ToolCallingAgentOutputParser.parseResult (/home/lq/projects/liw/Flowise3.0/packages/components/dist/src/agents.js:816:20)
+    at ToolCallingAgentOutputParser._callWithConfig (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@langchain+core@0.3.37_openai@4.96.0_encoding@0.1.13_ws@8.18.0_bufferutil@4.0.8_utf-8-validate@6.0.4__zod@3.22.4_/node_modules/@langchain/core/dist/output_parsers/base.cjs:46:72)
+    at ToolCallingAgentOutputParser._callWithConfig (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@langchain+core@0.3.37_openai@4.96.0_encoding@0.1.13_ws@8.18.0_bufferutil@4.0.8_utf-8-validate@6.0.4__zod@3.22.4_/node_modules/@langchain/core/dist/runnables/base.cjs:223:34)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ToolCallingAgentOutputParser._streamIterator (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@langchain+core@0.3.37_openai@4.96.0_encoding@0.1.13_ws@8.18.0_bufferutil@4.0.8_utf-8-validate@6.0.4__zod@3.22.4_/node_modules/@langchain/core/dist/runnables/base.cjs:165:9)
+    at async ToolCallingAgentOutputParser.transform (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@langchain+core@0.3.37_openai@4.96.0_encoding@0.1.13_ws@8.18.0_bufferutil@4.0.8_utf-8-validate@6.0.4__zod@3.22.4_/node_modules/@langchain/core/dist/runnables/base.cjs:402:9)
+    at async RunnableSequence._streamIterator (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@langchain+core@0.3.37_openai@4.96.0_encoding@0.1.13_ws@8.18.0_bufferutil@4.0.8_utf-8-validate@6.0.4__zod@3.22.4_/node_modules/@langchain/core/dist/runnables/base.cjs:1349:30)
+2025-06-09 17:09:00 [INFO]: 🖊 PUT /api/v1/chatflows/8b62eb5b-a36d-46e9-b26a-7cd3a064c7a1
+2025-06-09 17:09:13 [INFO]: ⬆️ POST /api/v1/internal-prediction/8b62eb5b-a36d-46e9-b26a-7cd3a064c7a1
+2025-06-09 17:09:52 [INFO]: ⬆️ POST /api/v1/internal-prediction/8b62eb5b-a36d-46e9-b26a-7cd3a064c7a1
+2025-06-09 17:10:32 [INFO]: ⬆️ POST /api/v1/internal-prediction/8b62eb5b-a36d-46e9-b26a-7cd3a064c7a1
+2025-06-09 17:13:42 [INFO]: Starting Flowise...
+2025-06-09 17:13:42 [INFO]: 📦 [server]: Data Source initialized successfully
+2025-06-09 17:13:42 [INFO]: 🔄 [server]: Database migrations completed successfully
+2025-06-09 17:13:42 [INFO]: 🔐 [server]: Identity Manager initialized successfully
+2025-06-09 17:13:45 [INFO]: 🔧 [server]: Nodes pool initialized successfully
+2025-06-09 17:13:45 [INFO]: ⏹️ [server]: Abort controllers pool initialized successfully
+2025-06-09 17:13:45 [INFO]: 🔑 [server]: Encryption key initialized successfully
+2025-06-09 17:13:45 [INFO]: 🚦 [server]: Rate limiters initialized successfully
+2025-06-09 17:13:45 [INFO]: 💾 [server]: Cache pool initialized successfully
+2025-06-09 17:13:45 [INFO]: 📊 [server]: Usage cache manager initialized successfully
+2025-06-09 17:13:45 [INFO]: 📈 [server]: Telemetry initialized successfully
+2025-06-09 17:13:45 [INFO]: 🌊 [server]: SSE Streamer initialized successfully
+2025-06-09 17:13:45 [INFO]: 🎉 [server]: All initialization steps completed successfully!
+2025-06-09 17:13:45 [INFO]: ⚡️ [server]: Flowise Server is listening at :3003
+2025-06-09 17:13:59 [INFO]: ⬆️ POST /api/v1/node-load-method/customTool
+2025-06-09 17:13:59 [INFO]: ⬆️ POST /api/v1/node-load-method/customTool
+2025-06-09 17:13:59 [INFO]: ⬆️ POST /api/v1/node-load-method/customTool
+2025-06-09 17:14:05 [INFO]: 🖊 PUT /api/v1/chatflows/8b62eb5b-a36d-46e9-b26a-7cd3a064c7a1
+2025-06-09 17:14:11 [INFO]: ⬆️ POST /api/v1/internal-prediction/8b62eb5b-a36d-46e9-b26a-7cd3a064c7a1
+2025-06-09 17:16:22 [ERROR]: [server]: Error: Failed to parse tool arguments from chat model response. Text: "[]". SyntaxError: Unexpected token { in JSON at position 29
+
+Troubleshooting URL: https://js.langchain.com/docs/troubleshooting/errors/OUTPUT_PARSING_FAILURE/
+
+Error: Failed to parse tool arguments from chat model response. Text: "[]". SyntaxError: Unexpected token { in JSON at position 29
+
+Troubleshooting URL: https://js.langchain.com/docs/troubleshooting/errors/OUTPUT_PARSING_FAILURE/
+
+    at parseAIMessageToToolAction (/home/lq/projects/liw/Flowise3.0/packages/components/dist/src/agents.js:787:23)
+    at ToolCallingAgentOutputParser.parseResult (/home/lq/projects/liw/Flowise3.0/packages/components/dist/src/agents.js:816:20)
+    at ToolCallingAgentOutputParser._callWithConfig (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@langchain+core@0.3.37_openai@4.96.0_encoding@0.1.13_ws@8.18.0_bufferutil@4.0.8_utf-8-validate@6.0.4__zod@3.22.4_/node_modules/@langchain/core/dist/output_parsers/base.cjs:46:72)
+    at ToolCallingAgentOutputParser._callWithConfig (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@langchain+core@0.3.37_openai@4.96.0_encoding@0.1.13_ws@8.18.0_bufferutil@4.0.8_utf-8-validate@6.0.4__zod@3.22.4_/node_modules/@langchain/core/dist/runnables/base.cjs:223:34)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ToolCallingAgentOutputParser._streamIterator (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@langchain+core@0.3.37_openai@4.96.0_encoding@0.1.13_ws@8.18.0_bufferutil@4.0.8_utf-8-validate@6.0.4__zod@3.22.4_/node_modules/@langchain/core/dist/runnables/base.cjs:165:9)
+    at async ToolCallingAgentOutputParser.transform (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@langchain+core@0.3.37_openai@4.96.0_encoding@0.1.13_ws@8.18.0_bufferutil@4.0.8_utf-8-validate@6.0.4__zod@3.22.4_/node_modules/@langchain/core/dist/runnables/base.cjs:402:9)
+    at async RunnableSequence._streamIterator (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@langchain+core@0.3.37_openai@4.96.0_encoding@0.1.13_ws@8.18.0_bufferutil@4.0.8_utf-8-validate@6.0.4__zod@3.22.4_/node_modules/@langchain/core/dist/runnables/base.cjs:1349:30)
+2025-06-09 17:20:27 [INFO]: 🖊 PUT /api/v1/chatflows/8b62eb5b-a36d-46e9-b26a-7cd3a064c7a1
+2025-06-09 17:20:37 [INFO]: ⬆️ POST /api/v1/internal-prediction/8b62eb5b-a36d-46e9-b26a-7cd3a064c7a1
+2025-06-09 17:21:41 [INFO]: 🖊 PUT /api/v1/chatflows/8b62eb5b-a36d-46e9-b26a-7cd3a064c7a1
+2025-06-09 17:21:52 [INFO]: ⬆️ POST /api/v1/internal-prediction/8b62eb5b-a36d-46e9-b26a-7cd3a064c7a1
+2025-06-09 17:22:16 [INFO]: 🖊 PUT /api/v1/chatflows/8b62eb5b-a36d-46e9-b26a-7cd3a064c7a1
+2025-06-09 17:22:25 [INFO]: ⬆️ POST /api/v1/internal-prediction/8b62eb5b-a36d-46e9-b26a-7cd3a064c7a1
+2025-06-09 17:22:38 [ERROR]: [server]: Error: 422 Failed to deserialize the JSON body into the target type: tools[0]: invalid type: string "{{customTool_0.data.instance}}", expected struct Tool at line 9 column 36
+Error: 422 Failed to deserialize the JSON body into the target type: tools[0]: invalid type: string "{{customTool_0.data.instance}}", expected struct Tool at line 9 column 36
+    at APIError.generate (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/openai@4.96.0_encoding@0.1.13_ws@8.18.0_bufferutil@4.0.8_utf-8-validate@6.0.4__zod@3.22.4/node_modules/openai/error.js:60:20)
+    at OpenAI.makeStatusError (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/openai@4.96.0_encoding@0.1.13_ws@8.18.0_bufferutil@4.0.8_utf-8-validate@6.0.4__zod@3.22.4/node_modules/openai/core.js:302:33)
+    at OpenAI.makeRequest (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/openai@4.96.0_encoding@0.1.13_ws@8.18.0_bufferutil@4.0.8_utf-8-validate@6.0.4__zod@3.22.4/node_modules/openai/core.js:346:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async /home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@langchain+openai@0.3.13_@langchain+core@0.3.37_openai@4.96.0_encoding@0.1.13_ws@8.18.0_3e7d0ad6beedde1e4cb64651d5d28791/node_modules/@langchain/openai/dist/chat_models.cjs:1558:29
+    at async RetryOperation._fn (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/p-retry@4.6.2/node_modules/p-retry/index.js:50:12)
+2025-06-09 17:23:06 [INFO]: 🖊 PUT /api/v1/chatflows/8b62eb5b-a36d-46e9-b26a-7cd3a064c7a1
+2025-06-09 17:23:23 [INFO]: 🖊 PUT /api/v1/chatflows/8b62eb5b-a36d-46e9-b26a-7cd3a064c7a1
+2025-06-09 17:23:31 [ERROR]: [server]: Error: 422 Failed to deserialize the JSON body into the target type: tools[0]: invalid type: string "{{customTool_0.data.instance}}", expected struct Tool at line 9 column 36
+Error: 422 Failed to deserialize the JSON body into the target type: tools[0]: invalid type: string "{{customTool_0.data.instance}}", expected struct Tool at line 9 column 36
+    at APIError.generate (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/openai@4.96.0_encoding@0.1.13_ws@8.18.0_bufferutil@4.0.8_utf-8-validate@6.0.4__zod@3.22.4/node_modules/openai/error.js:60:20)
+    at OpenAI.makeStatusError (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/openai@4.96.0_encoding@0.1.13_ws@8.18.0_bufferutil@4.0.8_utf-8-validate@6.0.4__zod@3.22.4/node_modules/openai/core.js:302:33)
+    at OpenAI.makeRequest (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/openai@4.96.0_encoding@0.1.13_ws@8.18.0_bufferutil@4.0.8_utf-8-validate@6.0.4__zod@3.22.4/node_modules/openai/core.js:346:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async /home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@langchain+openai@0.3.13_@langchain+core@0.3.37_openai@4.96.0_encoding@0.1.13_ws@8.18.0_3e7d0ad6beedde1e4cb64651d5d28791/node_modules/@langchain/openai/dist/chat_models.cjs:1558:29
+    at async RetryOperation._fn (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/p-retry@4.6.2/node_modules/p-retry/index.js:50:12)
+2025-06-09 17:23:31 [INFO]: ⬆️ POST /api/v1/internal-prediction/8b62eb5b-a36d-46e9-b26a-7cd3a064c7a1
+2025-06-09 17:23:51 [INFO]: 🖊 PUT /api/v1/chatflows/8b62eb5b-a36d-46e9-b26a-7cd3a064c7a1
+2025-06-09 17:23:57 [INFO]: ⬆️ POST /api/v1/internal-prediction/8b62eb5b-a36d-46e9-b26a-7cd3a064c7a1
+2025-06-09 17:24:41 [ERROR]: [server]: Error: 422 Failed to deserialize the JSON body into the target type: tools[0]: invalid type: string "{{customTool_0.data.instance}}", expected struct Tool at line 9 column 36
+Error: 422 Failed to deserialize the JSON body into the target type: tools[0]: invalid type: string "{{customTool_0.data.instance}}", expected struct Tool at line 9 column 36
+    at APIError.generate (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/openai@4.96.0_encoding@0.1.13_ws@8.18.0_bufferutil@4.0.8_utf-8-validate@6.0.4__zod@3.22.4/node_modules/openai/error.js:60:20)
+    at OpenAI.makeStatusError (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/openai@4.96.0_encoding@0.1.13_ws@8.18.0_bufferutil@4.0.8_utf-8-validate@6.0.4__zod@3.22.4/node_modules/openai/core.js:302:33)
+    at OpenAI.makeRequest (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/openai@4.96.0_encoding@0.1.13_ws@8.18.0_bufferutil@4.0.8_utf-8-validate@6.0.4__zod@3.22.4/node_modules/openai/core.js:346:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async /home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@langchain+openai@0.3.13_@langchain+core@0.3.37_openai@4.96.0_encoding@0.1.13_ws@8.18.0_3e7d0ad6beedde1e4cb64651d5d28791/node_modules/@langchain/openai/dist/chat_models.cjs:1558:29
+    at async RetryOperation._fn (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/p-retry@4.6.2/node_modules/p-retry/index.js:50:12)
+2025-06-09 17:25:50 [ERROR]: [server]: Error: 422 Failed to deserialize the JSON body into the target type: tools[0]: invalid type: string "{{customTool_0.data.instance}}", expected struct Tool at line 9 column 36
+Error: 422 Failed to deserialize the JSON body into the target type: tools[0]: invalid type: string "{{customTool_0.data.instance}}", expected struct Tool at line 9 column 36
+    at APIError.generate (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/openai@4.96.0_encoding@0.1.13_ws@8.18.0_bufferutil@4.0.8_utf-8-validate@6.0.4__zod@3.22.4/node_modules/openai/error.js:60:20)
+    at OpenAI.makeStatusError (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/openai@4.96.0_encoding@0.1.13_ws@8.18.0_bufferutil@4.0.8_utf-8-validate@6.0.4__zod@3.22.4/node_modules/openai/core.js:302:33)
+    at OpenAI.makeRequest (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/openai@4.96.0_encoding@0.1.13_ws@8.18.0_bufferutil@4.0.8_utf-8-validate@6.0.4__zod@3.22.4/node_modules/openai/core.js:346:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async /home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@langchain+openai@0.3.13_@langchain+core@0.3.37_openai@4.96.0_encoding@0.1.13_ws@8.18.0_3e7d0ad6beedde1e4cb64651d5d28791/node_modules/@langchain/openai/dist/chat_models.cjs:1558:29
+    at async RetryOperation._fn (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/p-retry@4.6.2/node_modules/p-retry/index.js:50:12)
+2025-06-09 17:25:53 [INFO]: 🖊 PUT /api/v1/chatflows/8b62eb5b-a36d-46e9-b26a-7cd3a064c7a1
+2025-06-09 17:26:00 [INFO]: ⬆️ POST /api/v1/internal-prediction/8b62eb5b-a36d-46e9-b26a-7cd3a064c7a1
+2025-06-09 17:26:13 [ERROR]: [server]: Error: 422 Failed to deserialize the JSON body into the target type: tools[0]: invalid type: string "{{customTool_0.data.instance}}", expected struct Tool at line 9 column 36
+Error: 422 Failed to deserialize the JSON body into the target type: tools[0]: invalid type: string "{{customTool_0.data.instance}}", expected struct Tool at line 9 column 36
+    at APIError.generate (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/openai@4.96.0_encoding@0.1.13_ws@8.18.0_bufferutil@4.0.8_utf-8-validate@6.0.4__zod@3.22.4/node_modules/openai/error.js:60:20)
+    at OpenAI.makeStatusError (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/openai@4.96.0_encoding@0.1.13_ws@8.18.0_bufferutil@4.0.8_utf-8-validate@6.0.4__zod@3.22.4/node_modules/openai/core.js:302:33)
+    at OpenAI.makeRequest (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/openai@4.96.0_encoding@0.1.13_ws@8.18.0_bufferutil@4.0.8_utf-8-validate@6.0.4__zod@3.22.4/node_modules/openai/core.js:346:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async /home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@langchain+openai@0.3.13_@langchain+core@0.3.37_openai@4.96.0_encoding@0.1.13_ws@8.18.0_3e7d0ad6beedde1e4cb64651d5d28791/node_modules/@langchain/openai/dist/chat_models.cjs:1558:29
+    at async RetryOperation._fn (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/p-retry@4.6.2/node_modules/p-retry/index.js:50:12)
+2025-06-09 17:26:30 [INFO]: 🖊 PUT /api/v1/chatflows/8b62eb5b-a36d-46e9-b26a-7cd3a064c7a1
+2025-06-09 17:26:38 [INFO]: ⬆️ POST /api/v1/node-load-method/groqChat
+2025-06-09 17:26:47 [INFO]: ⬆️ POST /api/v1/node-load-method/groqChat
+2025-06-09 17:26:52 [INFO]: 🖊 PUT /api/v1/chatflows/8b62eb5b-a36d-46e9-b26a-7cd3a064c7a1
+2025-06-09 17:26:58 [INFO]: ⬆️ POST /api/v1/internal-prediction/8b62eb5b-a36d-46e9-b26a-7cd3a064c7a1
+2025-06-09 17:27:00 [ERROR]: [server]: Error: 400 {"error":{"message":"'tools.0' : value must be an object","type":"invalid_request_error"}}
+Error: 400 {"error":{"message":"'tools.0' : value must be an object","type":"invalid_request_error"}}
+    at APIError.generate (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/groq-sdk@0.5.0_encoding@0.1.13/node_modules/groq-sdk/error.js:40:20)
+    at Groq.makeStatusError (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/groq-sdk@0.5.0_encoding@0.1.13/node_modules/groq-sdk/core.js:275:33)
+    at Groq.makeRequest (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/groq-sdk@0.5.0_encoding@0.1.13/node_modules/groq-sdk/core.js:318:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async RetryOperation._fn (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/p-retry@4.6.2/node_modules/p-retry/index.js:50:12)
+2025-06-09 17:27:53 [ERROR]: [server]: Error: 422 Failed to deserialize the JSON body into the target type: tools[0]: invalid type: string "{{customTool_0.data.instance}}", expected struct Tool at line 9 column 36
+Error: 422 Failed to deserialize the JSON body into the target type: tools[0]: invalid type: string "{{customTool_0.data.instance}}", expected struct Tool at line 9 column 36
+    at APIError.generate (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/openai@4.96.0_encoding@0.1.13_ws@8.18.0_bufferutil@4.0.8_utf-8-validate@6.0.4__zod@3.22.4/node_modules/openai/error.js:60:20)
+    at OpenAI.makeStatusError (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/openai@4.96.0_encoding@0.1.13_ws@8.18.0_bufferutil@4.0.8_utf-8-validate@6.0.4__zod@3.22.4/node_modules/openai/core.js:302:33)
+    at OpenAI.makeRequest (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/openai@4.96.0_encoding@0.1.13_ws@8.18.0_bufferutil@4.0.8_utf-8-validate@6.0.4__zod@3.22.4/node_modules/openai/core.js:346:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async /home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@langchain+openai@0.3.13_@langchain+core@0.3.37_openai@4.96.0_encoding@0.1.13_ws@8.18.0_3e7d0ad6beedde1e4cb64651d5d28791/node_modules/@langchain/openai/dist/chat_models.cjs:1558:29
+    at async RetryOperation._fn (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/p-retry@4.6.2/node_modules/p-retry/index.js:50:12)
+2025-06-09 17:31:00 [INFO]: ⬆️ POST /api/v1/node-load-method/chatGoogleGemini
+2025-06-09 17:31:07 [INFO]: 🖊 PUT /api/v1/chatflows/8b62eb5b-a36d-46e9-b26a-7cd3a064c7a1
+2025-06-09 17:32:01 [INFO]: Starting Flowise...
+2025-06-09 17:32:01 [INFO]: 📦 [server]: Data Source initialized successfully
+2025-06-09 17:32:01 [INFO]: 🔄 [server]: Database migrations completed successfully
+2025-06-09 17:32:01 [INFO]: 🔐 [server]: Identity Manager initialized successfully
+2025-06-09 17:32:09 [INFO]: 🔧 [server]: Nodes pool initialized successfully
+2025-06-09 17:32:09 [INFO]: ⏹️ [server]: Abort controllers pool initialized successfully
+2025-06-09 17:32:09 [INFO]: 🔑 [server]: Encryption key initialized successfully
+2025-06-09 17:32:09 [INFO]: 🚦 [server]: Rate limiters initialized successfully
+2025-06-09 17:32:09 [INFO]: 💾 [server]: Cache pool initialized successfully
+2025-06-09 17:32:09 [INFO]: 📊 [server]: Usage cache manager initialized successfully
+2025-06-09 17:32:09 [INFO]: 📈 [server]: Telemetry initialized successfully
+2025-06-09 17:32:09 [INFO]: 🌊 [server]: SSE Streamer initialized successfully
+2025-06-09 17:32:09 [INFO]: 🎉 [server]: All initialization steps completed successfully!
+2025-06-09 17:32:09 [INFO]: ⚡️ [server]: Flowise Server is listening at :3003
+2025-06-09 17:32:14 [INFO]: ⬆️ POST /api/v1/node-load-method/chatGoogleGemini
+2025-06-09 17:32:23 [INFO]: ⬆️ POST /api/v1/internal-prediction/8b62eb5b-a36d-46e9-b26a-7cd3a064c7a1
+2025-06-09 17:32:42 [INFO]: ⬆️ POST /api/v1/internal-prediction/8b62eb5b-a36d-46e9-b26a-7cd3a064c7a1
+2025-06-09 17:32:54 [INFO]: ⬆️ POST /api/v1/node-load-method/chatGoogleGemini
+2025-06-09 17:33:11 [INFO]: 🖊 PUT /api/v1/chatflows/8b62eb5b-a36d-46e9-b26a-7cd3a064c7a1
+2025-06-09 17:33:16 [INFO]: ❌ DELETE /api/v1/chatmessage/8b62eb5b-a36d-46e9-b26a-7cd3a064c7a1?chatId=1d20965a-b6e0-42c5-8b02-ca17ade9d2d8&chatType=INTERNAL
+2025-06-09 17:33:16 [ERROR]: [server]: Error deleting file storage for chatflow 8b62eb5b-a36d-46e9-b26a-7cd3a064c7a1, chatId 1d20965a-b6e0-42c5-8b02-ca17ade9d2d8
+2025-06-09 17:33:24 [INFO]: ⬆️ POST /api/v1/internal-prediction/8b62eb5b-a36d-46e9-b26a-7cd3a064c7a1
+2025-06-09 17:34:28 [INFO]: 🖊 PUT /api/v1/chatflows/8b62eb5b-a36d-46e9-b26a-7cd3a064c7a1
+2025-06-09 17:34:34 [INFO]: ❌ DELETE /api/v1/chatmessage/8b62eb5b-a36d-46e9-b26a-7cd3a064c7a1?chatId=5793ded0-9a4c-444f-8cfb-82f0a6ec0d18&chatType=INTERNAL
+2025-06-09 17:34:34 [ERROR]: [server]: Error deleting file storage for chatflow 8b62eb5b-a36d-46e9-b26a-7cd3a064c7a1, chatId 5793ded0-9a4c-444f-8cfb-82f0a6ec0d18
+2025-06-09 17:34:36 [INFO]: ⬆️ POST /api/v1/internal-prediction/8b62eb5b-a36d-46e9-b26a-7cd3a064c7a1
+2025-06-09 17:35:04 [INFO]: ⬆️ POST /api/v1/node-load-method/groqChat
+2025-06-09 17:35:11 [INFO]: ⬆️ POST /api/v1/node-load-method/groqChat
+2025-06-09 17:35:20 [INFO]: ⬆️ POST /api/v1/node-load-method/groqChat
+2025-06-09 17:35:34 [INFO]: ⬆️ POST /api/v1/node-load-method/groqChat
+2025-06-09 17:35:35 [INFO]: 🖊 PUT /api/v1/chatflows/8b62eb5b-a36d-46e9-b26a-7cd3a064c7a1
+2025-06-09 17:35:41 [INFO]: ⬆️ POST /api/v1/internal-prediction/8b62eb5b-a36d-46e9-b26a-7cd3a064c7a1
+2025-06-09 17:35:43 [ERROR]: [server]: Error: 400 {"error":{"message":"'tools.0' : value must be an object","type":"invalid_request_error"}}
+Error: 400 {"error":{"message":"'tools.0' : value must be an object","type":"invalid_request_error"}}
+    at APIError.generate (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/groq-sdk@0.5.0_encoding@0.1.13/node_modules/groq-sdk/error.js:40:20)
+    at Groq.makeStatusError (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/groq-sdk@0.5.0_encoding@0.1.13/node_modules/groq-sdk/core.js:275:33)
+    at Groq.makeRequest (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/groq-sdk@0.5.0_encoding@0.1.13/node_modules/groq-sdk/core.js:318:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async RetryOperation._fn (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/p-retry@4.6.2/node_modules/p-retry/index.js:50:12)
+2025-06-09 17:35:57 [INFO]: ⬆️ POST /api/v1/node-load-method/groqChat
+2025-06-09 17:35:59 [INFO]: 🖊 PUT /api/v1/chatflows/8b62eb5b-a36d-46e9-b26a-7cd3a064c7a1
+2025-06-09 17:36:03 [INFO]: ⬆️ POST /api/v1/internal-prediction/8b62eb5b-a36d-46e9-b26a-7cd3a064c7a1
+2025-06-09 17:36:04 [ERROR]: [server]: Error: 400 {"error":{"message":"'tools.0' : value must be an object","type":"invalid_request_error"}}
+Error: 400 {"error":{"message":"'tools.0' : value must be an object","type":"invalid_request_error"}}
+    at APIError.generate (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/groq-sdk@0.5.0_encoding@0.1.13/node_modules/groq-sdk/error.js:40:20)
+    at Groq.makeStatusError (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/groq-sdk@0.5.0_encoding@0.1.13/node_modules/groq-sdk/core.js:275:33)
+    at Groq.makeRequest (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/groq-sdk@0.5.0_encoding@0.1.13/node_modules/groq-sdk/core.js:318:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async RetryOperation._fn (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/p-retry@4.6.2/node_modules/p-retry/index.js:50:12)
+2025-06-09 17:36:13 [INFO]: ⬆️ POST /api/v1/node-load-method/groqChat
+2025-06-09 17:36:14 [INFO]: 🖊 PUT /api/v1/chatflows/8b62eb5b-a36d-46e9-b26a-7cd3a064c7a1
+2025-06-09 17:36:19 [INFO]: ⬆️ POST /api/v1/internal-prediction/8b62eb5b-a36d-46e9-b26a-7cd3a064c7a1
+2025-06-09 17:36:20 [ERROR]: [server]: Error: 400 {"error":{"message":"'tools.0' : value must be an object","type":"invalid_request_error"}}
+Error: 400 {"error":{"message":"'tools.0' : value must be an object","type":"invalid_request_error"}}
+    at APIError.generate (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/groq-sdk@0.5.0_encoding@0.1.13/node_modules/groq-sdk/error.js:40:20)
+    at Groq.makeStatusError (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/groq-sdk@0.5.0_encoding@0.1.13/node_modules/groq-sdk/core.js:275:33)
+    at Groq.makeRequest (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/groq-sdk@0.5.0_encoding@0.1.13/node_modules/groq-sdk/core.js:318:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async RetryOperation._fn (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/p-retry@4.6.2/node_modules/p-retry/index.js:50:12)
+2025-06-09 17:36:34 [INFO]: ⬆️ POST /api/v1/node-load-method/groqChat
+2025-06-09 17:36:35 [INFO]: 🖊 PUT /api/v1/chatflows/8b62eb5b-a36d-46e9-b26a-7cd3a064c7a1
+2025-06-09 17:36:38 [INFO]: ⬆️ POST /api/v1/internal-prediction/8b62eb5b-a36d-46e9-b26a-7cd3a064c7a1
+2025-06-09 17:36:40 [ERROR]: [server]: Error: 400 {"error":{"message":"'tools.0' : value must be an object","type":"invalid_request_error"}}
+Error: 400 {"error":{"message":"'tools.0' : value must be an object","type":"invalid_request_error"}}
+    at APIError.generate (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/groq-sdk@0.5.0_encoding@0.1.13/node_modules/groq-sdk/error.js:40:20)
+    at Groq.makeStatusError (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/groq-sdk@0.5.0_encoding@0.1.13/node_modules/groq-sdk/core.js:275:33)
+    at Groq.makeRequest (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/groq-sdk@0.5.0_encoding@0.1.13/node_modules/groq-sdk/core.js:318:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async RetryOperation._fn (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/p-retry@4.6.2/node_modules/p-retry/index.js:50:12)
+2025-06-09 17:37:28 [INFO]: 🖊 PUT /api/v1/chatflows/8b62eb5b-a36d-46e9-b26a-7cd3a064c7a1
+2025-06-09 17:37:32 [INFO]: ⬆️ POST /api/v1/internal-prediction/8b62eb5b-a36d-46e9-b26a-7cd3a064c7a1
+2025-06-09 17:38:21 [INFO]: 🖊 PUT /api/v1/chatflows/8b62eb5b-a36d-46e9-b26a-7cd3a064c7a1
+2025-06-09 17:38:25 [INFO]: 🖊 PUT /api/v1/chatflows/8b62eb5b-a36d-46e9-b26a-7cd3a064c7a1
+2025-06-09 17:38:30 [INFO]: ⬆️ POST /api/v1/internal-prediction/8b62eb5b-a36d-46e9-b26a-7cd3a064c7a1
+2025-06-09 17:38:38 [INFO]: 🖊 PUT /api/v1/chatflows/8b62eb5b-a36d-46e9-b26a-7cd3a064c7a1
+2025-06-09 17:38:41 [INFO]: ⬆️ POST /api/v1/internal-prediction/8b62eb5b-a36d-46e9-b26a-7cd3a064c7a1
+2025-06-09 17:38:53 [ERROR]: [server]: Error: 422 Failed to deserialize the JSON body into the target type: tools[0]: invalid type: string "{{customTool_0.data.instance}}", expected struct Tool at line 8 column 36
+Error: 422 Failed to deserialize the JSON body into the target type: tools[0]: invalid type: string "{{customTool_0.data.instance}}", expected struct Tool at line 8 column 36
+    at APIError.generate (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/openai@4.96.0_encoding@0.1.13_ws@8.18.0_bufferutil@4.0.8_utf-8-validate@6.0.4__zod@3.22.4/node_modules/openai/error.js:60:20)
+    at OpenAI.makeStatusError (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/openai@4.96.0_encoding@0.1.13_ws@8.18.0_bufferutil@4.0.8_utf-8-validate@6.0.4__zod@3.22.4/node_modules/openai/core.js:302:33)
+    at OpenAI.makeRequest (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/openai@4.96.0_encoding@0.1.13_ws@8.18.0_bufferutil@4.0.8_utf-8-validate@6.0.4__zod@3.22.4/node_modules/openai/core.js:346:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async /home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@langchain+openai@0.3.13_@langchain+core@0.3.37_openai@4.96.0_encoding@0.1.13_ws@8.18.0_3e7d0ad6beedde1e4cb64651d5d28791/node_modules/@langchain/openai/dist/chat_models.cjs:1558:29
+    at async RetryOperation._fn (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/p-retry@4.6.2/node_modules/p-retry/index.js:50:12)
+2025-06-09 17:39:41 [INFO]: ⬆️ POST /api/v1/node-load-method/groqChat
+2025-06-09 17:39:53 [INFO]: ⬆️ POST /api/v1/internal-prediction/233e1875-5daf-473b-85fb-211f579a5cf0
+2025-06-09 17:40:25 [ERROR]: [server]: Error: 422 Failed to deserialize the JSON body into the target type: tools[0]: invalid type: string "{{customTool_0.data.instance}}", expected struct Tool at line 8 column 36
+Error: 422 Failed to deserialize the JSON body into the target type: tools[0]: invalid type: string "{{customTool_0.data.instance}}", expected struct Tool at line 8 column 36
+    at APIError.generate (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/openai@4.96.0_encoding@0.1.13_ws@8.18.0_bufferutil@4.0.8_utf-8-validate@6.0.4__zod@3.22.4/node_modules/openai/error.js:60:20)
+    at OpenAI.makeStatusError (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/openai@4.96.0_encoding@0.1.13_ws@8.18.0_bufferutil@4.0.8_utf-8-validate@6.0.4__zod@3.22.4/node_modules/openai/core.js:302:33)
+    at OpenAI.makeRequest (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/openai@4.96.0_encoding@0.1.13_ws@8.18.0_bufferutil@4.0.8_utf-8-validate@6.0.4__zod@3.22.4/node_modules/openai/core.js:346:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async /home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@langchain+openai@0.3.13_@langchain+core@0.3.37_openai@4.96.0_encoding@0.1.13_ws@8.18.0_3e7d0ad6beedde1e4cb64651d5d28791/node_modules/@langchain/openai/dist/chat_models.cjs:1558:29
+    at async RetryOperation._fn (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/p-retry@4.6.2/node_modules/p-retry/index.js:50:12)
+2025-06-09 17:41:15 [INFO]: 🖊 PUT /api/v1/chatflows/233e1875-5daf-473b-85fb-211f579a5cf0
+2025-06-09 17:41:24 [INFO]: ⬆️ POST /api/v1/internal-prediction/233e1875-5daf-473b-85fb-211f579a5cf0
+2025-06-09 17:43:02 [INFO]: ⬆️ POST /api/v1/internal-prediction/233e1875-5daf-473b-85fb-211f579a5cf0
+2025-06-09 17:43:16 [INFO]: ❌ DELETE /api/v1/chatmessage/233e1875-5daf-473b-85fb-211f579a5cf0?chatId=a4ed3ab1-b887-47f4-a6c6-bb979c51caa3&chatType=INTERNAL
+2025-06-09 17:43:16 [ERROR]: [server]: Error deleting file storage for chatflow 233e1875-5daf-473b-85fb-211f579a5cf0, chatId a4ed3ab1-b887-47f4-a6c6-bb979c51caa3
+2025-06-09 17:43:20 [INFO]: ⬆️ POST /api/v1/internal-prediction/233e1875-5daf-473b-85fb-211f579a5cf0
+2025-06-09 17:43:40 [INFO]: ❌ DELETE /api/v1/chatmessage/233e1875-5daf-473b-85fb-211f579a5cf0?chatId=8cb80b0f-f51e-4d9b-a498-ce353924a069&chatType=INTERNAL
+2025-06-09 17:43:40 [ERROR]: [server]: Error deleting file storage for chatflow 233e1875-5daf-473b-85fb-211f579a5cf0, chatId 8cb80b0f-f51e-4d9b-a498-ce353924a069
+2025-06-09 17:43:50 [INFO]: ⬆️ POST /api/v1/internal-prediction/233e1875-5daf-473b-85fb-211f579a5cf0
+2025-06-09 17:45:08 [INFO]: 🖊 PUT /api/v1/chatflows/233e1875-5daf-473b-85fb-211f579a5cf0
+2025-06-09 17:45:21 [INFO]: ❌ DELETE /api/v1/chatmessage/233e1875-5daf-473b-85fb-211f579a5cf0?chatId=139408b9-e9e9-46c8-83bd-e4f545f87433&chatType=INTERNAL
+2025-06-09 17:45:21 [ERROR]: [server]: Error deleting file storage for chatflow 233e1875-5daf-473b-85fb-211f579a5cf0, chatId 139408b9-e9e9-46c8-83bd-e4f545f87433
+2025-06-09 17:45:25 [INFO]: ⬆️ POST /api/v1/internal-prediction/233e1875-5daf-473b-85fb-211f579a5cf0
+2025-06-09 17:47:48 [INFO]: ⬆️ POST /api/v1/internal-prediction/233e1875-5daf-473b-85fb-211f579a5cf0

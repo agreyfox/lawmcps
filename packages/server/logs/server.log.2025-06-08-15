@@ -1,0 +1,56 @@
+2025-06-08 15:05:33 [INFO]: Starting Flowise...
+2025-06-08 15:05:33 [INFO]: 📦 [server]: Data Source initialized successfully
+2025-06-08 15:05:33 [INFO]: 🔄 [server]: Database migrations completed successfully
+2025-06-08 15:05:33 [INFO]: 🔐 [server]: Identity Manager initialized successfully
+2025-06-08 15:05:37 [INFO]: 🔧 [server]: Nodes pool initialized successfully
+2025-06-08 15:05:37 [INFO]: ⏹️ [server]: Abort controllers pool initialized successfully
+2025-06-08 15:05:37 [INFO]: 🔑 [server]: Encryption key initialized successfully
+2025-06-08 15:05:37 [INFO]: 🚦 [server]: Rate limiters initialized successfully
+2025-06-08 15:05:37 [INFO]: 💾 [server]: Cache pool initialized successfully
+2025-06-08 15:05:37 [INFO]: 📊 [server]: Usage cache manager initialized successfully
+2025-06-08 15:05:37 [INFO]: 📈 [server]: Telemetry initialized successfully
+2025-06-08 15:05:37 [INFO]: 🌊 [server]: SSE Streamer initialized successfully
+2025-06-08 15:05:37 [INFO]: 🎉 [server]: All initialization steps completed successfully!
+2025-06-08 15:05:37 [INFO]: ⚡️ [server]: Flowise Server is listening at :3003
+2025-06-08 15:05:38 [INFO]: ⬆️ POST /api/v1/auth/refreshToken
+2025-06-08 15:05:38 [INFO]: ⬆️ POST /api/v1/auth/refreshToken
+2025-06-08 15:05:42 [INFO]: ❌ DELETE /api/v1/chatmessage/4f7a2e9a-7512-45a1-905e-c8c54d7f7ffa?chatId=df4a0f22-d203-489a-883d-c60f2be89b6c&chatType=INTERNAL
+2025-06-08 15:05:42 [ERROR]: [server]: Error deleting file storage for chatflow 4f7a2e9a-7512-45a1-905e-c8c54d7f7ffa, chatId df4a0f22-d203-489a-883d-c60f2be89b6c
+2025-06-08 15:05:59 [INFO]: ⬆️ POST /api/v1/internal-prediction/4f7a2e9a-7512-45a1-905e-c8c54d7f7ffa
+2025-06-08 15:06:21 [INFO]: 🖊 PUT /api/v1/chatflows/4f7a2e9a-7512-45a1-905e-c8c54d7f7ffa
+2025-06-08 15:06:25 [INFO]: ❌ DELETE /api/v1/chatmessage/4f7a2e9a-7512-45a1-905e-c8c54d7f7ffa?chatId=376d20ed-ae9c-41a5-9e63-af0fbc1d5e7f&chatType=INTERNAL
+2025-06-08 15:06:25 [ERROR]: [server]: Error deleting file storage for chatflow 4f7a2e9a-7512-45a1-905e-c8c54d7f7ffa, chatId 376d20ed-ae9c-41a5-9e63-af0fbc1d5e7f
+2025-06-08 15:06:40 [INFO]: ⬆️ POST /api/v1/internal-prediction/4f7a2e9a-7512-45a1-905e-c8c54d7f7ffa
+2025-06-08 15:07:12 [INFO]: 🖊 PUT /api/v1/chatflows/4f7a2e9a-7512-45a1-905e-c8c54d7f7ffa
+2025-06-08 15:07:22 [INFO]: ⬆️ POST /api/v1/internal-prediction/4f7a2e9a-7512-45a1-905e-c8c54d7f7ffa
+2025-06-08 15:11:27 [INFO]: Shutting down Flowise...
+2025-06-08 15:17:59 [INFO]: Starting Flowise...
+2025-06-08 15:17:59 [INFO]: 📦 [server]: Data Source initialized successfully
+2025-06-08 15:17:59 [INFO]: 🔄 [server]: Database migrations completed successfully
+2025-06-08 15:17:59 [INFO]: 🔐 [server]: Identity Manager initialized successfully
+2025-06-08 15:18:04 [INFO]: 🔧 [server]: Nodes pool initialized successfully
+2025-06-08 15:18:04 [INFO]: ⏹️ [server]: Abort controllers pool initialized successfully
+2025-06-08 15:18:04 [INFO]: 🔑 [server]: Encryption key initialized successfully
+2025-06-08 15:18:04 [INFO]: 🚦 [server]: Rate limiters initialized successfully
+2025-06-08 15:18:04 [INFO]: 💾 [server]: Cache pool initialized successfully
+2025-06-08 15:18:04 [INFO]: 📊 [server]: Usage cache manager initialized successfully
+2025-06-08 15:18:04 [INFO]: 📈 [server]: Telemetry initialized successfully
+2025-06-08 15:18:04 [INFO]: 🌊 [server]: SSE Streamer initialized successfully
+2025-06-08 15:18:04 [INFO]: 🎉 [server]: All initialization steps completed successfully!
+2025-06-08 15:18:04 [INFO]: ⚡️ [server]: Flowise Server is listening at :3003
+2025-06-08 15:18:12 [INFO]: ⬆️ POST /api/v1/node-load-method/chatGoogleGemini
+2025-06-08 15:18:17 [INFO]: ❌ DELETE /api/v1/chatmessage/4f7a2e9a-7512-45a1-905e-c8c54d7f7ffa?chatId=745b0be8-0fd3-4530-9d22-403b319e5e99&chatType=INTERNAL
+2025-06-08 15:18:17 [ERROR]: [server]: Error deleting file storage for chatflow 4f7a2e9a-7512-45a1-905e-c8c54d7f7ffa, chatId 745b0be8-0fd3-4530-9d22-403b319e5e99
+2025-06-08 15:18:25 [INFO]: ⬆️ POST /api/v1/internal-prediction/4f7a2e9a-7512-45a1-905e-c8c54d7f7ffa
+2025-06-08 15:19:10 [INFO]: ⬆️ POST /api/v1/internal-prediction/4f7a2e9a-7512-45a1-905e-c8c54d7f7ffa
+2025-06-08 15:24:30 [INFO]: ⬆️ POST /api/v1/node-load-method/customMCP
+2025-06-08 15:24:30 [INFO]: ⬆️ POST /api/v1/node-load-method/customTool
+2025-06-08 15:24:30 [INFO]: ⬆️ POST /api/v1/node-load-method/customTool
+2025-06-08 15:24:30 [INFO]: ⬆️ POST /api/v1/node-load-method/customTool
+2025-06-08 15:24:30 [INFO]: ⬆️ POST /api/v1/node-load-method/customTool
+2025-06-08 15:24:30 [INFO]: ⬆️ POST /api/v1/node-load-method/customTool
+2025-06-08 15:24:30 [INFO]: ⬆️ POST /api/v1/node-load-method/customTool
+2025-06-08 15:24:30 [INFO]: ⬆️ POST /api/v1/node-load-method/customTool
+2025-06-08 15:24:38 [INFO]: ❌ DELETE /api/v1/chatmessage/652cbcc0-6dff-421e-b8af-02d10bdc4b98?chatId=ea42f66b-aae0-46c7-a105-cf396223e124&chatType=INTERNAL
+2025-06-08 15:24:38 [ERROR]: [server]: Error deleting file storage for chatflow 652cbcc0-6dff-421e-b8af-02d10bdc4b98, chatId ea42f66b-aae0-46c7-a105-cf396223e124
+2025-06-08 15:25:09 [INFO]: ⬆️ POST /api/v1/internal-prediction/652cbcc0-6dff-421e-b8af-02d10bdc4b98

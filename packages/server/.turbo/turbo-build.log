@@ -1,0 +1,9 @@
+
+
+> flowise@3.0.1 build /home/lq/projects/liw/Flowise3.0/packages/server
+> tsc && rimraf dist/enterprise/emails && gulp
+
+[[90m12:58:06[39m] Requiring external module [35mts-node/register[39m
+[[90m12:58:11[39m] Using gulpfile [35m~/projects/liw/Flowise3.0/packages/server/gulpfile.ts[39m
+[[90m12:58:11[39m] Starting '[36mdefault[39m'...
+[[90m12:58:11[39m] Finished '[36mdefault[39m' after [35m67 ms[39m

@@ -1,0 +1,62 @@
+2025-06-06 13:22:20 [INFO]: Starting Flowise...
+2025-06-06 13:22:20 [INFO]: 📦 [server]: Data Source initialized successfully
+2025-06-06 13:22:21 [INFO]: 🔄 [server]: Database migrations completed successfully
+2025-06-06 13:22:21 [INFO]: 🔐 [server]: Identity Manager initialized successfully
+2025-06-06 13:22:24 [INFO]: 🔧 [server]: Nodes pool initialized successfully
+2025-06-06 13:22:24 [INFO]: ⏹️ [server]: Abort controllers pool initialized successfully
+2025-06-06 13:22:24 [INFO]: 🔑 [server]: Encryption key initialized successfully
+2025-06-06 13:22:24 [INFO]: 🚦 [server]: Rate limiters initialized successfully
+2025-06-06 13:22:24 [INFO]: 💾 [server]: Cache pool initialized successfully
+2025-06-06 13:22:24 [INFO]: 📊 [server]: Usage cache manager initialized successfully
+2025-06-06 13:22:24 [INFO]: 📈 [server]: Telemetry initialized successfully
+2025-06-06 13:22:24 [INFO]: 🌊 [server]: SSE Streamer initialized successfully
+2025-06-06 13:22:24 [INFO]: 🎉 [server]: All initialization steps completed successfully!
+2025-06-06 13:22:24 [ERROR]: uncaughtException:  listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1817:16)
+    at listenInCluster (node:net:1865:12)
+    at Server.listen (node:net:1953:7)
+    at Object.start (/home/lq/projects/liw/Flowise3.0/packages/server/dist/index.js:323:12)
+    at async Start.run (/home/lq/projects/liw/Flowise3.0/packages/server/dist/commands/start.js:37:9)
+    at async Start._run (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@oclif+core@4.0.7/node_modules/@oclif/core/lib/command.js:302:22)
+    at async Config.runCommand (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@oclif+core@4.0.7/node_modules/@oclif/core/lib/config/config.js:424:25)
+    at async Object.run (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@oclif+core@4.0.7/node_modules/@oclif/core/lib/main.js:94:16)
+2025-06-06 13:25:25 [INFO]: Starting Flowise...
+2025-06-06 13:25:25 [INFO]: 📦 [server]: Data Source initialized successfully
+2025-06-06 13:25:25 [INFO]: 🔄 [server]: Database migrations completed successfully
+2025-06-06 13:25:25 [INFO]: 🔐 [server]: Identity Manager initialized successfully
+2025-06-06 13:25:27 [INFO]: 🔧 [server]: Nodes pool initialized successfully
+2025-06-06 13:25:27 [INFO]: ⏹️ [server]: Abort controllers pool initialized successfully
+2025-06-06 13:25:27 [INFO]: 🔑 [server]: Encryption key initialized successfully
+2025-06-06 13:25:27 [INFO]: 🚦 [server]: Rate limiters initialized successfully
+2025-06-06 13:25:27 [INFO]: 💾 [server]: Cache pool initialized successfully
+2025-06-06 13:25:27 [INFO]: 📊 [server]: Usage cache manager initialized successfully
+2025-06-06 13:25:27 [INFO]: 📈 [server]: Telemetry initialized successfully
+2025-06-06 13:25:27 [INFO]: 🌊 [server]: SSE Streamer initialized successfully
+2025-06-06 13:25:27 [INFO]: 🎉 [server]: All initialization steps completed successfully!
+2025-06-06 13:25:27 [INFO]: ⚡️ [server]: Flowise Server is listening at :3003
+2025-06-06 13:25:39 [INFO]: ⬆️ POST /api/v1/auth/resolve
+2025-06-06 13:26:23 [INFO]: ⬆️ POST /api/v1/account/register
+2025-06-06 13:26:24 [INFO]: ⬆️ POST /api/v1/auth/login
+2025-06-06 13:27:13 [INFO]: ⬆️ POST /api/v1/node-load-method/customMCP
+2025-06-06 13:27:13 [INFO]: ⬆️ POST /api/v1/node-load-method/customTool
+2025-06-06 13:27:13 [INFO]: ⬆️ POST /api/v1/node-load-method/customTool
+2025-06-06 13:27:13 [INFO]: ⬆️ POST /api/v1/node-load-method/customTool
+2025-06-06 13:27:13 [INFO]: ⬆️ POST /api/v1/node-load-method/customTool
+2025-06-06 13:27:13 [INFO]: ⬆️ POST /api/v1/node-load-method/customTool
+2025-06-06 13:27:13 [INFO]: ⬆️ POST /api/v1/node-load-method/customTool
+2025-06-06 13:27:13 [INFO]: ⬆️ POST /api/v1/node-load-method/customTool
+2025-06-06 13:27:13 [INFO]: ⬆️ POST /api/v1/node-load-method/chatGoogleGemini
+2025-06-06 13:27:56 [INFO]: ⬆️ POST /api/v1/internal-prediction/652cbcc0-6dff-421e-b8af-02d10bdc4b98
+2025-06-06 13:27:56 [ERROR]: [server]: [315b13a3-df63-4eea-b191-ac57d35d74c9]: Cannot read properties of undefined (reading 'filePath')
+TypeError: Cannot read properties of undefined (reading 'filePath')
+    at buildFlow (/home/lq/projects/liw/Flowise3.0/packages/server/dist/utils/index.js:450:82)
+    at async executeFlow (/home/lq/projects/liw/Flowise3.0/packages/server/dist/utils/buildChatflow.js:331:28)
+    at async utilBuildChatflow (/home/lq/projects/liw/Flowise3.0/packages/server/dist/utils/buildChatflow.js:797:28)
+    at async createAndStreamInternalPrediction (/home/lq/projects/liw/Flowise3.0/packages/server/dist/controllers/internal-predictions/index.js:38:29)
+2025-06-06 13:27:56 [ERROR]: [server]: Error: TypeError: Cannot read properties of undefined (reading 'filePath')
+Error: TypeError: Cannot read properties of undefined (reading 'filePath')
+    at buildFlow (/home/lq/projects/liw/Flowise3.0/packages/server/dist/utils/index.js:549:19)
+    at async executeFlow (/home/lq/projects/liw/Flowise3.0/packages/server/dist/utils/buildChatflow.js:331:28)
+    at async utilBuildChatflow (/home/lq/projects/liw/Flowise3.0/packages/server/dist/utils/buildChatflow.js:797:28)
+    at async createAndStreamInternalPrediction (/home/lq/projects/liw/Flowise3.0/packages/server/dist/controllers/internal-predictions/index.js:38:29)

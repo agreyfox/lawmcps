@@ -1,0 +1,118 @@
+2025-06-11 23:07:10 [INFO]: 🖊 PUT /api/v1/chatflows/41313e33-ae4e-4338-92e9-fc1fc606d281
+2025-06-11 23:07:14 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2025-06-11 23:07:14 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2025-06-11 23:07:14 [INFO]: ⬆️ POST /api/v1/node-load-method/chatGoogleGemini
+2025-06-11 23:07:33 [INFO]: 🖊 PUT /api/v1/chatflows/41313e33-ae4e-4338-92e9-fc1fc606d281
+2025-06-11 23:07:42 [INFO]: ⬆️ POST /api/v1/internal-prediction/41313e33-ae4e-4338-92e9-fc1fc606d281
+2025-06-11 23:07:42 [ERROR]: [server]: Error executing node customFunctionAgentflow_0: SyntaxError: Unexpected token 'catch'
+2025-06-11 23:07:42 [ERROR]: [server]: Error: SyntaxError: Unexpected token 'catch'
+Error: SyntaxError: Unexpected token 'catch'
+    at executeAgentFlow (/home/lq/projects/liw/Flowise3.0/packages/server/dist/utils/buildAgentflow.js:1287:19)
+    at async utilBuildChatflow (/home/lq/projects/liw/Flowise3.0/packages/server/dist/utils/buildChatflow.js:797:28)
+    at async createAndStreamInternalPrediction (/home/lq/projects/liw/Flowise3.0/packages/server/dist/controllers/internal-predictions/index.js:38:29)
+2025-06-11 23:08:00 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2025-06-11 23:09:09 [INFO]: 🖊 PUT /api/v1/chatflows/41313e33-ae4e-4338-92e9-fc1fc606d281
+2025-06-11 23:09:17 [INFO]: ⬆️ POST /api/v1/internal-prediction/41313e33-ae4e-4338-92e9-fc1fc606d281
+2025-06-11 23:09:17 [ERROR]: [server]: Error executing node customFunctionAgentflow_0: SyntaxError: Unexpected end of input
+2025-06-11 23:09:17 [ERROR]: [server]: Error: SyntaxError: Unexpected end of input
+Error: SyntaxError: Unexpected end of input
+    at executeAgentFlow (/home/lq/projects/liw/Flowise3.0/packages/server/dist/utils/buildAgentflow.js:1287:19)
+    at async utilBuildChatflow (/home/lq/projects/liw/Flowise3.0/packages/server/dist/utils/buildChatflow.js:797:28)
+    at async createAndStreamInternalPrediction (/home/lq/projects/liw/Flowise3.0/packages/server/dist/controllers/internal-predictions/index.js:38:29)
+2025-06-11 23:11:03 [INFO]: ⬆️ POST /api/v1/node-custom-function
+2025-06-11 23:16:17 [INFO]: ⬆️ POST /api/v1/node-custom-function
+2025-06-11 23:17:56 [INFO]: ⬆️ POST /api/v1/node-custom-function
+2025-06-11 23:18:23 [INFO]: ⬆️ POST /api/v1/node-custom-function
+2025-06-11 23:18:44 [INFO]: ⬆️ POST /api/v1/node-custom-function
+2025-06-11 23:19:32 [INFO]: ⬆️ POST /api/v1/node-custom-function
+2025-06-11 23:23:08 [INFO]: ⬆️ POST /api/v1/node-custom-function
+2025-06-11 23:23:08 [INFO]: ⬆️ POST /api/v1/auth/refreshToken
+2025-06-11 23:23:08 [INFO]: ⬆️ POST /api/v1/node-custom-function
+2025-06-11 23:23:47 [INFO]: ⬆️ POST /api/v1/node-custom-function
+2025-06-11 23:24:00 [INFO]: 🖊 PUT /api/v1/chatflows/41313e33-ae4e-4338-92e9-fc1fc606d281
+2025-06-11 23:24:09 [INFO]: ⬆️ POST /api/v1/internal-prediction/41313e33-ae4e-4338-92e9-fc1fc606d281
+2025-06-11 23:24:09 [ERROR]: [server]: Error executing node customFunctionAgentflow_0: ReferenceError: $form is not defined
+2025-06-11 23:24:09 [ERROR]: [server]: Error: ReferenceError: $form is not defined
+Error: ReferenceError: $form is not defined
+    at executeAgentFlow (/home/lq/projects/liw/Flowise3.0/packages/server/dist/utils/buildAgentflow.js:1287:19)
+    at async utilBuildChatflow (/home/lq/projects/liw/Flowise3.0/packages/server/dist/utils/buildChatflow.js:797:28)
+    at async createAndStreamInternalPrediction (/home/lq/projects/liw/Flowise3.0/packages/server/dist/controllers/internal-predictions/index.js:38:29)
+2025-06-11 23:26:32 [INFO]: 🖊 PUT /api/v1/chatflows/41313e33-ae4e-4338-92e9-fc1fc606d281
+2025-06-11 23:26:41 [INFO]: ⬆️ POST /api/v1/internal-prediction/41313e33-ae4e-4338-92e9-fc1fc606d281
+2025-06-11 23:26:41 [ERROR]: [server]: Error executing node customFunctionAgentflow_0: ReferenceError: userInfo is not defined
+2025-06-11 23:26:41 [ERROR]: [server]: Error: ReferenceError: userInfo is not defined
+Error: ReferenceError: userInfo is not defined
+    at executeAgentFlow (/home/lq/projects/liw/Flowise3.0/packages/server/dist/utils/buildAgentflow.js:1287:19)
+    at async utilBuildChatflow (/home/lq/projects/liw/Flowise3.0/packages/server/dist/utils/buildChatflow.js:797:28)
+    at async createAndStreamInternalPrediction (/home/lq/projects/liw/Flowise3.0/packages/server/dist/controllers/internal-predictions/index.js:38:29)
+2025-06-11 23:27:25 [INFO]: 🖊 PUT /api/v1/chatflows/41313e33-ae4e-4338-92e9-fc1fc606d281
+2025-06-11 23:27:33 [INFO]: ⬆️ POST /api/v1/internal-prediction/41313e33-ae4e-4338-92e9-fc1fc606d281
+2025-06-11 23:27:33 [ERROR]: [server]: Error executing node customFunctionAgentflow_0: ReferenceError: userInfo is not defined
+2025-06-11 23:27:33 [ERROR]: [server]: Error: ReferenceError: userInfo is not defined
+Error: ReferenceError: userInfo is not defined
+    at executeAgentFlow (/home/lq/projects/liw/Flowise3.0/packages/server/dist/utils/buildAgentflow.js:1287:19)
+    at async utilBuildChatflow (/home/lq/projects/liw/Flowise3.0/packages/server/dist/utils/buildChatflow.js:797:28)
+    at async createAndStreamInternalPrediction (/home/lq/projects/liw/Flowise3.0/packages/server/dist/controllers/internal-predictions/index.js:38:29)
+2025-06-11 23:27:52 [INFO]: 🖊 PUT /api/v1/chatflows/41313e33-ae4e-4338-92e9-fc1fc606d281
+2025-06-11 23:28:00 [INFO]: ⬆️ POST /api/v1/internal-prediction/41313e33-ae4e-4338-92e9-fc1fc606d281
+2025-06-11 23:28:01 [ERROR]: [server]: Error executing node customFunctionAgentflow_0: ReferenceError: userInfo is not defined
+2025-06-11 23:28:01 [ERROR]: [server]: Error: ReferenceError: userInfo is not defined
+Error: ReferenceError: userInfo is not defined
+    at executeAgentFlow (/home/lq/projects/liw/Flowise3.0/packages/server/dist/utils/buildAgentflow.js:1287:19)
+    at async utilBuildChatflow (/home/lq/projects/liw/Flowise3.0/packages/server/dist/utils/buildChatflow.js:797:28)
+    at async createAndStreamInternalPrediction (/home/lq/projects/liw/Flowise3.0/packages/server/dist/controllers/internal-predictions/index.js:38:29)
+2025-06-11 23:28:35 [INFO]: 🖊 PUT /api/v1/chatflows/41313e33-ae4e-4338-92e9-fc1fc606d281
+2025-06-11 23:28:46 [INFO]: ⬆️ POST /api/v1/internal-prediction/41313e33-ae4e-4338-92e9-fc1fc606d281
+2025-06-11 23:28:46 [ERROR]: [server]: Error executing node customFunctionAgentflow_0: ReferenceError: userInfo is not defined
+2025-06-11 23:28:46 [ERROR]: [server]: Error: ReferenceError: userInfo is not defined
+Error: ReferenceError: userInfo is not defined
+    at executeAgentFlow (/home/lq/projects/liw/Flowise3.0/packages/server/dist/utils/buildAgentflow.js:1287:19)
+    at async utilBuildChatflow (/home/lq/projects/liw/Flowise3.0/packages/server/dist/utils/buildChatflow.js:797:28)
+    at async createAndStreamInternalPrediction (/home/lq/projects/liw/Flowise3.0/packages/server/dist/controllers/internal-predictions/index.js:38:29)
+2025-06-11 23:29:26 [INFO]: 🖊 PUT /api/v1/chatflows/41313e33-ae4e-4338-92e9-fc1fc606d281
+2025-06-11 23:29:34 [INFO]: ⬆️ POST /api/v1/internal-prediction/41313e33-ae4e-4338-92e9-fc1fc606d281
+2025-06-11 23:29:34 [ERROR]: [server]: Error executing node customFunctionAgentflow_0: ReferenceError: userTemplateInput is not defined
+2025-06-11 23:29:34 [ERROR]: [server]: Error: ReferenceError: userTemplateInput is not defined
+Error: ReferenceError: userTemplateInput is not defined
+    at executeAgentFlow (/home/lq/projects/liw/Flowise3.0/packages/server/dist/utils/buildAgentflow.js:1287:19)
+    at async utilBuildChatflow (/home/lq/projects/liw/Flowise3.0/packages/server/dist/utils/buildChatflow.js:797:28)
+    at async createAndStreamInternalPrediction (/home/lq/projects/liw/Flowise3.0/packages/server/dist/controllers/internal-predictions/index.js:38:29)
+2025-06-11 23:30:02 [INFO]: 🖊 PUT /api/v1/chatflows/41313e33-ae4e-4338-92e9-fc1fc606d281
+2025-06-11 23:30:26 [INFO]: 🖊 PUT /api/v1/chatflows/41313e33-ae4e-4338-92e9-fc1fc606d281
+2025-06-11 23:30:40 [INFO]: ⬆️ POST /api/v1/internal-prediction/41313e33-ae4e-4338-92e9-fc1fc606d281
+2025-06-11 23:30:40 [ERROR]: [server]: Error executing node customFunctionAgentflow_0: ReferenceError: userTemplateInput is not defined
+2025-06-11 23:30:40 [ERROR]: [server]: Error: ReferenceError: userTemplateInput is not defined
+Error: ReferenceError: userTemplateInput is not defined
+    at executeAgentFlow (/home/lq/projects/liw/Flowise3.0/packages/server/dist/utils/buildAgentflow.js:1287:19)
+    at async utilBuildChatflow (/home/lq/projects/liw/Flowise3.0/packages/server/dist/utils/buildChatflow.js:797:28)
+    at async createAndStreamInternalPrediction (/home/lq/projects/liw/Flowise3.0/packages/server/dist/controllers/internal-predictions/index.js:38:29)
+2025-06-11 23:31:38 [INFO]: ⬆️ POST /api/v1/internal-prediction/41313e33-ae4e-4338-92e9-fc1fc606d281
+2025-06-11 23:31:38 [ERROR]: [server]: Error executing node customFunctionAgentflow_0: ReferenceError: userTemplateInput is not defined
+2025-06-11 23:31:38 [ERROR]: [server]: Error: ReferenceError: userTemplateInput is not defined
+Error: ReferenceError: userTemplateInput is not defined
+    at executeAgentFlow (/home/lq/projects/liw/Flowise3.0/packages/server/dist/utils/buildAgentflow.js:1287:19)
+    at async utilBuildChatflow (/home/lq/projects/liw/Flowise3.0/packages/server/dist/utils/buildChatflow.js:797:28)
+    at async createAndStreamInternalPrediction (/home/lq/projects/liw/Flowise3.0/packages/server/dist/controllers/internal-predictions/index.js:38:29)
+2025-06-11 23:33:45 [INFO]: 🖊 PUT /api/v1/chatflows/41313e33-ae4e-4338-92e9-fc1fc606d281
+2025-06-11 23:34:21 [INFO]: 🖊 PUT /api/v1/chatflows/41313e33-ae4e-4338-92e9-fc1fc606d281
+2025-06-11 23:34:37 [INFO]: ⬆️ POST /api/v1/internal-prediction/41313e33-ae4e-4338-92e9-fc1fc606d281
+2025-06-11 23:34:38 [ERROR]: [server]: Error executing node customFunctionAgentflow_0: ReferenceError: userReq is not defined
+2025-06-11 23:34:38 [ERROR]: [server]: Error: ReferenceError: userReq is not defined
+Error: ReferenceError: userReq is not defined
+    at executeAgentFlow (/home/lq/projects/liw/Flowise3.0/packages/server/dist/utils/buildAgentflow.js:1287:19)
+    at async utilBuildChatflow (/home/lq/projects/liw/Flowise3.0/packages/server/dist/utils/buildChatflow.js:797:28)
+    at async createAndStreamInternalPrediction (/home/lq/projects/liw/Flowise3.0/packages/server/dist/controllers/internal-predictions/index.js:38:29)
+2025-06-11 23:35:06 [INFO]: 🖊 PUT /api/v1/chatflows/41313e33-ae4e-4338-92e9-fc1fc606d281
+2025-06-11 23:35:21 [INFO]: ⬆️ POST /api/v1/internal-prediction/41313e33-ae4e-4338-92e9-fc1fc606d281
+2025-06-11 23:35:21 [ERROR]: [server]: Error executing node customFunctionAgentflow_0: ReferenceError: $userReq is not defined
+2025-06-11 23:35:21 [ERROR]: [server]: Error: ReferenceError: $userReq is not defined
+Error: ReferenceError: $userReq is not defined
+    at executeAgentFlow (/home/lq/projects/liw/Flowise3.0/packages/server/dist/utils/buildAgentflow.js:1287:19)
+    at async utilBuildChatflow (/home/lq/projects/liw/Flowise3.0/packages/server/dist/utils/buildChatflow.js:797:28)
+    at async createAndStreamInternalPrediction (/home/lq/projects/liw/Flowise3.0/packages/server/dist/controllers/internal-predictions/index.js:38:29)
+2025-06-11 23:35:38 [INFO]: 🖊 PUT /api/v1/chatflows/41313e33-ae4e-4338-92e9-fc1fc606d281
+2025-06-11 23:35:50 [INFO]: ⬆️ POST /api/v1/internal-prediction/41313e33-ae4e-4338-92e9-fc1fc606d281
+2025-06-11 23:39:17 [INFO]: 🖊 PUT /api/v1/chatflows/41313e33-ae4e-4338-92e9-fc1fc606d281
+2025-06-11 23:39:38 [INFO]: ⬆️ POST /api/v1/internal-prediction/41313e33-ae4e-4338-92e9-fc1fc606d281
+2025-06-11 23:40:46 [INFO]: 🖊 PUT /api/v1/chatflows/41313e33-ae4e-4338-92e9-fc1fc606d281
+2025-06-11 23:40:54 [INFO]: ⬆️ POST /api/v1/internal-prediction/41313e33-ae4e-4338-92e9-fc1fc606d281

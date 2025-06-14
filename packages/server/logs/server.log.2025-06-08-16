@@ -1,0 +1,69 @@
+2025-06-08 16:39:36 [INFO]: ⬆️ POST /api/v1/auth/refreshToken
+2025-06-08 16:41:57 [INFO]: 🖊 PUT /api/v1/chatflows/652cbcc0-6dff-421e-b8af-02d10bdc4b98
+2025-06-08 16:42:09 [INFO]: Shutting down Flowise...
+2025-06-08 16:51:52 [INFO]: Starting Flowise...
+2025-06-08 16:51:52 [INFO]: 📦 [server]: Data Source initialized successfully
+2025-06-08 16:51:52 [INFO]: 🔄 [server]: Database migrations completed successfully
+2025-06-08 16:51:52 [INFO]: 🔐 [server]: Identity Manager initialized successfully
+2025-06-08 16:51:57 [INFO]: 🔧 [server]: Nodes pool initialized successfully
+2025-06-08 16:51:57 [INFO]: ⏹️ [server]: Abort controllers pool initialized successfully
+2025-06-08 16:51:57 [INFO]: 🔑 [server]: Encryption key initialized successfully
+2025-06-08 16:51:57 [INFO]: 🚦 [server]: Rate limiters initialized successfully
+2025-06-08 16:51:57 [INFO]: 💾 [server]: Cache pool initialized successfully
+2025-06-08 16:51:57 [INFO]: 📊 [server]: Usage cache manager initialized successfully
+2025-06-08 16:51:57 [INFO]: 📈 [server]: Telemetry initialized successfully
+2025-06-08 16:51:57 [INFO]: 🌊 [server]: SSE Streamer initialized successfully
+2025-06-08 16:51:57 [INFO]: 🎉 [server]: All initialization steps completed successfully!
+2025-06-08 16:51:57 [INFO]: ⚡️ [server]: Flowise Server is listening at :3003
+2025-06-08 16:52:23 [INFO]: ⬆️ POST /api/v1/internal-prediction/652cbcc0-6dff-421e-b8af-02d10bdc4b98
+2025-06-08 16:53:50 [INFO]: ⬆️ POST /api/v1/internal-prediction/652cbcc0-6dff-421e-b8af-02d10bdc4b98
+2025-06-08 16:54:14 [ERROR]: [server]: Error: Failed to parse tool arguments from chat model response. Text: "[]". SyntaxError: Unexpected token { in JSON at position 14
+
+Troubleshooting URL: https://js.langchain.com/docs/troubleshooting/errors/OUTPUT_PARSING_FAILURE/
+
+Error: Failed to parse tool arguments from chat model response. Text: "[]". SyntaxError: Unexpected token { in JSON at position 14
+
+Troubleshooting URL: https://js.langchain.com/docs/troubleshooting/errors/OUTPUT_PARSING_FAILURE/
+
+    at parseAIMessageToToolAction (/home/lq/projects/liw/Flowise3.0/packages/components/dist/src/agents.js:767:23)
+    at ToolCallingAgentOutputParser.parseResult (/home/lq/projects/liw/Flowise3.0/packages/components/dist/src/agents.js:796:20)
+    at ToolCallingAgentOutputParser._callWithConfig (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@langchain+core@0.3.37_openai@4.96.0_encoding@0.1.13_ws@8.18.0_bufferutil@4.0.8_utf-8-validate@6.0.4__zod@3.22.4_/node_modules/@langchain/core/dist/output_parsers/base.cjs:46:72)
+    at ToolCallingAgentOutputParser._callWithConfig (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@langchain+core@0.3.37_openai@4.96.0_encoding@0.1.13_ws@8.18.0_bufferutil@4.0.8_utf-8-validate@6.0.4__zod@3.22.4_/node_modules/@langchain/core/dist/runnables/base.cjs:223:34)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ToolCallingAgentOutputParser._streamIterator (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@langchain+core@0.3.37_openai@4.96.0_encoding@0.1.13_ws@8.18.0_bufferutil@4.0.8_utf-8-validate@6.0.4__zod@3.22.4_/node_modules/@langchain/core/dist/runnables/base.cjs:165:9)
+    at async ToolCallingAgentOutputParser.transform (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@langchain+core@0.3.37_openai@4.96.0_encoding@0.1.13_ws@8.18.0_bufferutil@4.0.8_utf-8-validate@6.0.4__zod@3.22.4_/node_modules/@langchain/core/dist/runnables/base.cjs:402:9)
+    at async RunnableSequence._streamIterator (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@langchain+core@0.3.37_openai@4.96.0_encoding@0.1.13_ws@8.18.0_bufferutil@4.0.8_utf-8-validate@6.0.4__zod@3.22.4_/node_modules/@langchain/core/dist/runnables/base.cjs:1349:30)
+2025-06-08 16:54:40 [INFO]: ⬆️ POST /api/v1/node-load-method/documentStoreVS
+2025-06-08 16:54:59 [INFO]: ⬆️ POST /api/v1/internal-prediction/e79b4ce2-4512-4d52-9ce1-9231c8a2035f
+2025-06-08 16:54:59 [ERROR]: [server]: [315b13a3-df63-4eea-b191-ac57d35d74c9]: Cannot read properties of null (reading 'name')
+TypeError: Cannot read properties of null (reading 'name')
+    at DocStore_VectorStores.init (/home/lq/projects/liw/Flowise3.0/packages/components/dist/nodes/vectorstores/DocumentStoreVS/DocStoreVector.js:94:46)
+    at async buildFlow (/home/lq/projects/liw/Flowise3.0/packages/server/dist/utils/index.js:494:36)
+    at async executeFlow (/home/lq/projects/liw/Flowise3.0/packages/server/dist/utils/buildChatflow.js:331:28)
+    at async utilBuildChatflow (/home/lq/projects/liw/Flowise3.0/packages/server/dist/utils/buildChatflow.js:797:28)
+    at async createAndStreamInternalPrediction (/home/lq/projects/liw/Flowise3.0/packages/server/dist/controllers/internal-predictions/index.js:38:29)
+2025-06-08 16:54:59 [ERROR]: [server]: Error: TypeError: Cannot read properties of null (reading 'name')
+Error: TypeError: Cannot read properties of null (reading 'name')
+    at buildFlow (/home/lq/projects/liw/Flowise3.0/packages/server/dist/utils/index.js:549:19)
+    at async executeFlow (/home/lq/projects/liw/Flowise3.0/packages/server/dist/utils/buildChatflow.js:331:28)
+    at async utilBuildChatflow (/home/lq/projects/liw/Flowise3.0/packages/server/dist/utils/buildChatflow.js:797:28)
+    at async createAndStreamInternalPrediction (/home/lq/projects/liw/Flowise3.0/packages/server/dist/controllers/internal-predictions/index.js:38:29)
+2025-06-08 16:55:10 [INFO]: 🖊 PUT /api/v1/chatflows/e79b4ce2-4512-4d52-9ce1-9231c8a2035f
+2025-06-08 16:55:13 [INFO]: ⬆️ POST /api/v1/internal-prediction/e79b4ce2-4512-4d52-9ce1-9231c8a2035f
+2025-06-08 16:55:13 [ERROR]: [server]: [315b13a3-df63-4eea-b191-ac57d35d74c9]: Cannot read properties of null (reading 'name')
+TypeError: Cannot read properties of null (reading 'name')
+    at DocStore_VectorStores.init (/home/lq/projects/liw/Flowise3.0/packages/components/dist/nodes/vectorstores/DocumentStoreVS/DocStoreVector.js:94:46)
+    at async buildFlow (/home/lq/projects/liw/Flowise3.0/packages/server/dist/utils/index.js:494:36)
+    at async executeFlow (/home/lq/projects/liw/Flowise3.0/packages/server/dist/utils/buildChatflow.js:331:28)
+    at async utilBuildChatflow (/home/lq/projects/liw/Flowise3.0/packages/server/dist/utils/buildChatflow.js:797:28)
+    at async createAndStreamInternalPrediction (/home/lq/projects/liw/Flowise3.0/packages/server/dist/controllers/internal-predictions/index.js:38:29)
+2025-06-08 16:55:13 [ERROR]: [server]: Error: TypeError: Cannot read properties of null (reading 'name')
+Error: TypeError: Cannot read properties of null (reading 'name')
+    at buildFlow (/home/lq/projects/liw/Flowise3.0/packages/server/dist/utils/index.js:549:19)
+    at async executeFlow (/home/lq/projects/liw/Flowise3.0/packages/server/dist/utils/buildChatflow.js:331:28)
+    at async utilBuildChatflow (/home/lq/projects/liw/Flowise3.0/packages/server/dist/utils/buildChatflow.js:797:28)
+    at async createAndStreamInternalPrediction (/home/lq/projects/liw/Flowise3.0/packages/server/dist/controllers/internal-predictions/index.js:38:29)
+2025-06-08 16:55:19 [INFO]: ⬆️ POST /api/v1/node-load-method/documentStoreVS
+2025-06-08 16:55:22 [INFO]: ⬆️ POST /api/v1/node-load-method/documentStoreVS
+2025-06-08 16:56:00 [INFO]: ⬆️ POST /api/v1/node-load-method/groqChat
+2025-06-08 16:57:38 [INFO]: ⬆️ POST /api/v1/node-load-method/chatGoogleGemini

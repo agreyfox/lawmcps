@@ -1,0 +1,19 @@
+2025-06-12 21:16:49 [INFO]: ⬆️ POST /api/v1/auth/login
+2025-06-12 21:20:25 [INFO]: ⬆️ POST /api/v1/prediction/41313e33-ae4e-4338-92e9-fc1fc606d281
+2025-06-12 21:20:25 [INFO]: [server]: Request originated from UNKNOWN ORIGIN
+2025-06-12 21:27:41 [INFO]: ⬆️ POST /api/v1/prediction/41313e33-ae4e-4338-92e9-fc1fc606d281
+2025-06-12 21:27:41 [INFO]: [server]: Request originated from UNKNOWN ORIGIN
+2025-06-12 21:36:25 [INFO]: 🖊 PUT /api/v1/chatflows/41313e33-ae4e-4338-92e9-fc1fc606d281
+2025-06-12 21:36:39 [INFO]: ❌ DELETE /api/v1/chatmessage/41313e33-ae4e-4338-92e9-fc1fc606d281?chatId=7832561b-4b36-4d57-9772-53b82426fd0a&chatType=INTERNAL
+2025-06-12 21:36:39 [ERROR]: [server]: Error deleting file storage for chatflow 41313e33-ae4e-4338-92e9-fc1fc606d281, chatId 7832561b-4b36-4d57-9772-53b82426fd0a
+2025-06-12 21:37:34 [INFO]: ⬆️ POST /api/v1/internal-prediction/41313e33-ae4e-4338-92e9-fc1fc606d281
+2025-06-12 21:37:34 [ERROR]: [server]: Error executing node customFunctionAgentflow_2: ReferenceError: $form is not defined
+2025-06-12 21:37:34 [ERROR]: [server]: Error: ReferenceError: $form is not defined
+Error: ReferenceError: $form is not defined
+    at executeAgentFlow (/home/lq/projects/liw/Flowise3.0/packages/server/dist/utils/buildAgentflow.js:1287:19)
+    at async utilBuildChatflow (/home/lq/projects/liw/Flowise3.0/packages/server/dist/utils/buildChatflow.js:797:28)
+    at async createAndStreamInternalPrediction (/home/lq/projects/liw/Flowise3.0/packages/server/dist/controllers/internal-predictions/index.js:38:29)
+2025-06-12 21:37:47 [INFO]: ⬆️ POST /api/v1/node-config
+2025-06-12 21:42:56 [INFO]: ⬆️ POST /api/v1/node-config
+2025-06-12 21:44:02 [INFO]: 🖊 PUT /api/v1/chatflows/41313e33-ae4e-4338-92e9-fc1fc606d281
+2025-06-12 21:44:11 [INFO]: ⬆️ POST /api/v1/internal-prediction/41313e33-ae4e-4338-92e9-fc1fc606d281

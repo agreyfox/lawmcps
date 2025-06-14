@@ -1,0 +1,64 @@
+2025-06-13 09:01:06 [INFO]: ⬆️ POST /api/v1/prediction/41313e33-ae4e-4338-92e9-fc1fc606d281
+2025-06-13 09:01:06 [INFO]: [server]: Request originated from UNKNOWN ORIGIN
+2025-06-13 09:12:35 [INFO]: 🖊 PUT /api/v1/chatflows/41313e33-ae4e-4338-92e9-fc1fc606d281
+2025-06-13 09:12:52 [INFO]: ⬆️ POST /api/v1/prediction/41313e33-ae4e-4338-92e9-fc1fc606d281
+2025-06-13 09:12:52 [INFO]: [server]: Request originated from UNKNOWN ORIGIN
+2025-06-13 09:14:02 [INFO]: ⬆️ POST /api/v1/prediction/41313e33-ae4e-4338-92e9-fc1fc606d281
+2025-06-13 09:14:02 [INFO]: [server]: Request originated from UNKNOWN ORIGIN
+2025-06-13 09:20:11 [INFO]: 🖊 PUT /api/v1/chatflows/41313e33-ae4e-4338-92e9-fc1fc606d281
+2025-06-13 09:20:21 [INFO]: ⬆️ POST /api/v1/prediction/41313e33-ae4e-4338-92e9-fc1fc606d281
+2025-06-13 09:20:21 [INFO]: [server]: Request originated from UNKNOWN ORIGIN
+2025-06-13 09:20:21 [ERROR]: [server]: Error executing node customFunctionAgentflow_2: ReferenceError: inputs is not defined
+2025-06-13 09:20:21 [ERROR]: [server]: Error: ReferenceError: inputs is not defined
+Error: ReferenceError: inputs is not defined
+    at executeAgentFlow (/home/lq/projects/liw/Flowise3.0/packages/server/dist/utils/buildAgentflow.js:1287:19)
+    at async utilBuildChatflow (/home/lq/projects/liw/Flowise3.0/packages/server/dist/utils/buildChatflow.js:797:28)
+    at async Object.buildChatflow (/home/lq/projects/liw/Flowise3.0/packages/server/dist/services/predictions/index.js:9:28)
+    at async createPrediction (/home/lq/projects/liw/Flowise3.0/packages/server/dist/controllers/predictions/index.js:86:37)
+2025-06-13 09:21:42 [INFO]: 🖊 PUT /api/v1/chatflows/41313e33-ae4e-4338-92e9-fc1fc606d281
+2025-06-13 09:21:49 [INFO]: ⬆️ POST /api/v1/prediction/41313e33-ae4e-4338-92e9-fc1fc606d281
+2025-06-13 09:21:49 [INFO]: [server]: Request originated from UNKNOWN ORIGIN
+2025-06-13 09:21:49 [ERROR]: [server]: Error executing node customFunctionAgentflow_2: ReferenceError: req is not defined
+2025-06-13 09:21:49 [ERROR]: [server]: Error: ReferenceError: req is not defined
+Error: ReferenceError: req is not defined
+    at executeAgentFlow (/home/lq/projects/liw/Flowise3.0/packages/server/dist/utils/buildAgentflow.js:1287:19)
+    at async utilBuildChatflow (/home/lq/projects/liw/Flowise3.0/packages/server/dist/utils/buildChatflow.js:797:28)
+    at async Object.buildChatflow (/home/lq/projects/liw/Flowise3.0/packages/server/dist/services/predictions/index.js:9:28)
+    at async createPrediction (/home/lq/projects/liw/Flowise3.0/packages/server/dist/controllers/predictions/index.js:86:37)
+2025-06-13 09:35:46 [INFO]: ⬆️ POST /api/v1/prediction/41313e33-ae4e-4338-92e9-fc1fc606d281
+2025-06-13 09:35:46 [INFO]: [server]: Request originated from UNKNOWN ORIGIN
+2025-06-13 09:35:46 [ERROR]: [server]: Error executing node customFunctionAgentflow_2: ReferenceError: req is not defined
+2025-06-13 09:35:46 [ERROR]: [server]: Error: ReferenceError: req is not defined
+Error: ReferenceError: req is not defined
+    at executeAgentFlow (/home/lq/projects/liw/Flowise3.0/packages/server/dist/utils/buildAgentflow.js:1287:19)
+    at async utilBuildChatflow (/home/lq/projects/liw/Flowise3.0/packages/server/dist/utils/buildChatflow.js:797:28)
+    at async Object.buildChatflow (/home/lq/projects/liw/Flowise3.0/packages/server/dist/services/predictions/index.js:9:28)
+    at async createPrediction (/home/lq/projects/liw/Flowise3.0/packages/server/dist/controllers/predictions/index.js:86:37)
+2025-06-13 09:36:01 [INFO]: 🖊 PUT /api/v1/chatflows/41313e33-ae4e-4338-92e9-fc1fc606d281
+2025-06-13 09:36:14 [INFO]: ⬆️ POST /api/v1/prediction/41313e33-ae4e-4338-92e9-fc1fc606d281
+2025-06-13 09:36:14 [INFO]: [server]: Request originated from UNKNOWN ORIGIN
+2025-06-13 09:36:14 [ERROR]: [server]: Error executing node customFunctionAgentflow_2: ReferenceError: inputs is not defined
+2025-06-13 09:36:14 [ERROR]: [server]: Error: ReferenceError: inputs is not defined
+Error: ReferenceError: inputs is not defined
+    at executeAgentFlow (/home/lq/projects/liw/Flowise3.0/packages/server/dist/utils/buildAgentflow.js:1287:19)
+    at async utilBuildChatflow (/home/lq/projects/liw/Flowise3.0/packages/server/dist/utils/buildChatflow.js:797:28)
+    at async Object.buildChatflow (/home/lq/projects/liw/Flowise3.0/packages/server/dist/services/predictions/index.js:9:28)
+    at async createPrediction (/home/lq/projects/liw/Flowise3.0/packages/server/dist/controllers/predictions/index.js:86:37)
+2025-06-13 09:43:02 [INFO]: ⬆️ POST /api/v1/prediction/41313e33-ae4e-4338-92e9-fc1fc606d281
+2025-06-13 09:43:02 [INFO]: [server]: Request originated from UNKNOWN ORIGIN
+2025-06-13 09:43:02 [ERROR]: [server]: Error executing node customFunctionAgentflow_2: ReferenceError: inputs is not defined
+2025-06-13 09:43:02 [ERROR]: [server]: Error: ReferenceError: inputs is not defined
+Error: ReferenceError: inputs is not defined
+    at executeAgentFlow (/home/lq/projects/liw/Flowise3.0/packages/server/dist/utils/buildAgentflow.js:1287:19)
+    at async utilBuildChatflow (/home/lq/projects/liw/Flowise3.0/packages/server/dist/utils/buildChatflow.js:797:28)
+    at async Object.buildChatflow (/home/lq/projects/liw/Flowise3.0/packages/server/dist/services/predictions/index.js:9:28)
+    at async createPrediction (/home/lq/projects/liw/Flowise3.0/packages/server/dist/controllers/predictions/index.js:86:37)
+2025-06-13 09:53:05 [INFO]: ⬆️ POST /api/v1/prediction/41313e33-ae4e-4338-92e9-fc1fc606d281
+2025-06-13 09:53:05 [INFO]: [server]: Request originated from UNKNOWN ORIGIN
+2025-06-13 09:53:05 [ERROR]: [server]: Error executing node customFunctionAgentflow_2: ReferenceError: inputs is not defined
+2025-06-13 09:53:05 [ERROR]: [server]: Error: ReferenceError: inputs is not defined
+Error: ReferenceError: inputs is not defined
+    at executeAgentFlow (/home/lq/projects/liw/Flowise3.0/packages/server/dist/utils/buildAgentflow.js:1287:19)
+    at async utilBuildChatflow (/home/lq/projects/liw/Flowise3.0/packages/server/dist/utils/buildChatflow.js:797:28)
+    at async Object.buildChatflow (/home/lq/projects/liw/Flowise3.0/packages/server/dist/services/predictions/index.js:9:28)
+    at async createPrediction (/home/lq/projects/liw/Flowise3.0/packages/server/dist/controllers/predictions/index.js:86:37)

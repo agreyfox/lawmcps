@@ -1,0 +1,122 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build-all",
+            "type": "shell",
+            "command": "bash",
+            "args": ["-c", "source ~/.nvm/nvm.sh && nvm use 18 && pnpm run build"],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared",
+                "showReuseMessage": true,
+                "clear": false
+            },
+            "problemMatcher": ["$tsc"]
+        },
+        {
+            "label": "build-components",
+            "type": "shell",
+            "command": "bash",
+            "args": ["-c", "source ~/.nvm/nvm.sh && nvm use 18 && pnpm run build --filter './packages/components'"],
+            "group": "build",
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared"
+            },
+            "problemMatcher": ["$tsc"]
+        },
+        {
+            "label": "build-server",
+            "type": "shell",
+            "command": "bash",
+            "args": ["-c", "source ~/.nvm/nvm.sh && nvm use 18 && pnpm run build --filter './packages/server'"],
+            "group": "build",
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared"
+            },
+            "problemMatcher": ["$tsc"],
+            "dependsOn": "build-components"
+        },
+        {
+            "label": "build-ui",
+            "type": "shell",
+            "command": "bash",
+            "args": ["-c", "source ~/.nvm/nvm.sh && nvm use 18 && pnpm run build --filter './packages/ui'"],
+            "group": "build",
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared"
+            },
+            "problemMatcher": ["$tsc"]
+        },
+        {
+            "label": "dev-server",
+            "type": "shell",
+            "command": "bash",
+            "args": ["-c", "source ~/.nvm/nvm.sh && nvm use 18 && pnpm run dev --filter './packages/server'"],
+            "group": "build",
+            "isBackground": true,
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "dedicated"
+            }
+        },
+        {
+            "label": "dev-ui",
+            "type": "shell",
+            "command": "bash",
+            "args": ["-c", "source ~/.nvm/nvm.sh && nvm use 18 && pnpm run dev --filter './packages/ui'"],
+            "group": "build",
+            "isBackground": true,
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "dedicated"
+            }
+        },
+        {
+            "label": "clean",
+            "type": "shell",
+            "command": "bash",
+            "args": ["-c", "source ~/.nvm/nvm.sh && nvm use 18 && pnpm run clean"],
+            "group": "build",
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared"
+            }
+        },
+        {
+            "label": "build-components-direct",
+            "type": "shell",
+            "command": "bash",
+            "args": ["-c", "source ~/.nvm/nvm.sh && nvm use 18 && cd packages/components && pnpm run build"],
+            "group": "build",
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared"
+            },
+            "problemMatcher": ["$tsc"]
+        }
+    ]
+}

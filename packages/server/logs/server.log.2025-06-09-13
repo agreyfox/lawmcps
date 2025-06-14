@@ -1,0 +1,74 @@
+2025-06-09 13:00:11 [INFO]: ⬆️ POST /api/v1/internal-prediction/652cbcc0-6dff-421e-b8af-02d10bdc4b98
+2025-06-09 13:03:26 [INFO]: ⬆️ POST /api/v1/internal-prediction/652cbcc0-6dff-421e-b8af-02d10bdc4b98
+2025-06-09 13:04:10 [ERROR]: [server]: Error: Failed to parse tool arguments from chat model response. Tool: "read_fileread_fileread_fileread_fileread_file", Text: "{"path":"/home/lq/projects/liw/lawmcp/lawdir/stock-2025-06-06.json"}{"path":"/home/lq/projects/liw/lawmcp/lawdir/stock-2025-06-05.json"}{"path":"/home/lq/projects/liw/lawmcp/lawdir/stock-2025-06-04.json"}{"path":"/home/lq/projects/liw/lawmcp/lawdir/stock-2025-06-03.json"}{"path":"/home/lq/projects/liw/lawmcp/lawdir/stock-2025-06-01.json"}", Error: Unexpected token { in JSON at position 68
+
+Troubleshooting URL: https://js.langchain.com/docs/troubleshooting/errors/OUTPUT_PARSING_FAILURE/
+
+Error: Failed to parse tool arguments from chat model response. Tool: "read_fileread_fileread_fileread_fileread_file", Text: "{"path":"/home/lq/projects/liw/lawmcp/lawdir/stock-2025-06-06.json"}{"path":"/home/lq/projects/liw/lawmcp/lawdir/stock-2025-06-05.json"}{"path":"/home/lq/projects/liw/lawmcp/lawdir/stock-2025-06-04.json"}{"path":"/home/lq/projects/liw/lawmcp/lawdir/stock-2025-06-03.json"}{"path":"/home/lq/projects/liw/lawmcp/lawdir/stock-2025-06-01.json"}", Error: Unexpected token { in JSON at position 68
+
+Troubleshooting URL: https://js.langchain.com/docs/troubleshooting/errors/OUTPUT_PARSING_FAILURE/
+
+    at parseAIMessageToToolAction (/home/lq/projects/liw/Flowise3.0/packages/components/dist/src/agents.js:787:23)
+    at ToolCallingAgentOutputParser.parseResult (/home/lq/projects/liw/Flowise3.0/packages/components/dist/src/agents.js:819:20)
+    at ToolCallingAgentOutputParser._callWithConfig (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@langchain+core@0.3.37_openai@4.96.0_encoding@0.1.13_ws@8.18.0_bufferutil@4.0.8_utf-8-validate@6.0.4__zod@3.22.4_/node_modules/@langchain/core/dist/output_parsers/base.cjs:46:72)
+    at ToolCallingAgentOutputParser._callWithConfig (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@langchain+core@0.3.37_openai@4.96.0_encoding@0.1.13_ws@8.18.0_bufferutil@4.0.8_utf-8-validate@6.0.4__zod@3.22.4_/node_modules/@langchain/core/dist/runnables/base.cjs:223:34)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ToolCallingAgentOutputParser._streamIterator (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@langchain+core@0.3.37_openai@4.96.0_encoding@0.1.13_ws@8.18.0_bufferutil@4.0.8_utf-8-validate@6.0.4__zod@3.22.4_/node_modules/@langchain/core/dist/runnables/base.cjs:165:9)
+    at async ToolCallingAgentOutputParser.transform (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@langchain+core@0.3.37_openai@4.96.0_encoding@0.1.13_ws@8.18.0_bufferutil@4.0.8_utf-8-validate@6.0.4__zod@3.22.4_/node_modules/@langchain/core/dist/runnables/base.cjs:402:9)
+    at async RunnableSequence._streamIterator (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@langchain+core@0.3.37_openai@4.96.0_encoding@0.1.13_ws@8.18.0_bufferutil@4.0.8_utf-8-validate@6.0.4__zod@3.22.4_/node_modules/@langchain/core/dist/runnables/base.cjs:1349:30)
+2025-06-09 13:04:45 [INFO]: ⬆️ POST /api/v1/node-load-method/customMCP
+2025-06-09 13:04:45 [INFO]: ⬆️ POST /api/v1/node-load-method/customTool
+2025-06-09 13:04:45 [INFO]: ⬆️ POST /api/v1/node-load-method/customTool
+2025-06-09 13:04:45 [INFO]: ⬆️ POST /api/v1/node-load-method/customTool
+2025-06-09 13:04:45 [INFO]: ⬆️ POST /api/v1/node-load-method/customTool
+2025-06-09 13:04:45 [INFO]: ⬆️ POST /api/v1/node-load-method/customTool
+2025-06-09 13:04:45 [INFO]: ⬆️ POST /api/v1/node-load-method/customTool
+2025-06-09 13:04:45 [INFO]: ⬆️ POST /api/v1/node-load-method/customTool
+2025-06-09 13:04:52 [INFO]: ⬆️ POST /api/v1/internal-prediction/652cbcc0-6dff-421e-b8af-02d10bdc4b98
+2025-06-09 13:05:07 [ERROR]: [server]: Error: Failed to parse tool arguments from chat model response. Tool: "read_fileread_fileread_fileread_fileread_file", Text: "{"path":"/home/lq/projects/liw/lawmcp/lawdir/stock-2025-06-02.json"}{"path":"/home/lq/projects/liw/lawmcp/lawdir/stock-2025-06-03.json"}{"path":"/home/lq/projects/liw/lawmcp/lawdir/stock-2025-06-04.json"}{"path":"/home/lq/projects/liw/lawmcp/lawdir/stock-2025-06-05.json"}{"path":"/home/lq/projects/liw/lawmcp/lawdir/stock-2025-06-06.json"}", Error: Unexpected token { in JSON at position 68
+
+Troubleshooting URL: https://js.langchain.com/docs/troubleshooting/errors/OUTPUT_PARSING_FAILURE/
+
+Error: Failed to parse tool arguments from chat model response. Tool: "read_fileread_fileread_fileread_fileread_file", Text: "{"path":"/home/lq/projects/liw/lawmcp/lawdir/stock-2025-06-02.json"}{"path":"/home/lq/projects/liw/lawmcp/lawdir/stock-2025-06-03.json"}{"path":"/home/lq/projects/liw/lawmcp/lawdir/stock-2025-06-04.json"}{"path":"/home/lq/projects/liw/lawmcp/lawdir/stock-2025-06-05.json"}{"path":"/home/lq/projects/liw/lawmcp/lawdir/stock-2025-06-06.json"}", Error: Unexpected token { in JSON at position 68
+
+Troubleshooting URL: https://js.langchain.com/docs/troubleshooting/errors/OUTPUT_PARSING_FAILURE/
+
+    at parseAIMessageToToolAction (/home/lq/projects/liw/Flowise3.0/packages/components/dist/src/agents.js:787:23)
+    at ToolCallingAgentOutputParser.parseResult (/home/lq/projects/liw/Flowise3.0/packages/components/dist/src/agents.js:819:20)
+    at ToolCallingAgentOutputParser._callWithConfig (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@langchain+core@0.3.37_openai@4.96.0_encoding@0.1.13_ws@8.18.0_bufferutil@4.0.8_utf-8-validate@6.0.4__zod@3.22.4_/node_modules/@langchain/core/dist/output_parsers/base.cjs:46:72)
+    at ToolCallingAgentOutputParser._callWithConfig (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@langchain+core@0.3.37_openai@4.96.0_encoding@0.1.13_ws@8.18.0_bufferutil@4.0.8_utf-8-validate@6.0.4__zod@3.22.4_/node_modules/@langchain/core/dist/runnables/base.cjs:223:34)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ToolCallingAgentOutputParser._streamIterator (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@langchain+core@0.3.37_openai@4.96.0_encoding@0.1.13_ws@8.18.0_bufferutil@4.0.8_utf-8-validate@6.0.4__zod@3.22.4_/node_modules/@langchain/core/dist/runnables/base.cjs:165:9)
+    at async ToolCallingAgentOutputParser.transform (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@langchain+core@0.3.37_openai@4.96.0_encoding@0.1.13_ws@8.18.0_bufferutil@4.0.8_utf-8-validate@6.0.4__zod@3.22.4_/node_modules/@langchain/core/dist/runnables/base.cjs:402:9)
+    at async RunnableSequence._streamIterator (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@langchain+core@0.3.37_openai@4.96.0_encoding@0.1.13_ws@8.18.0_bufferutil@4.0.8_utf-8-validate@6.0.4__zod@3.22.4_/node_modules/@langchain/core/dist/runnables/base.cjs:1349:30)
+2025-06-09 13:06:05 [INFO]: 🖊 PUT /api/v1/chatflows/652cbcc0-6dff-421e-b8af-02d10bdc4b98
+2025-06-09 13:06:15 [INFO]: ⬆️ POST /api/v1/node-load-method/customMCP
+2025-06-09 13:06:28 [INFO]: 🖊 PUT /api/v1/chatflows/652cbcc0-6dff-421e-b8af-02d10bdc4b98
+2025-06-09 13:06:29 [INFO]: ⬆️ POST /api/v1/node-load-method/customMCP
+2025-06-09 13:08:02 [INFO]: ⬆️ POST /api/v1/internal-prediction/652cbcc0-6dff-421e-b8af-02d10bdc4b98
+2025-06-09 13:09:20 [INFO]: ❌ DELETE /api/v1/chatmessage/652cbcc0-6dff-421e-b8af-02d10bdc4b98?chatId=3a5e5671-3846-40f7-91bc-8e860f74f3dd&chatType=INTERNAL
+2025-06-09 13:09:20 [ERROR]: [server]: Error deleting file storage for chatflow 652cbcc0-6dff-421e-b8af-02d10bdc4b98, chatId 3a5e5671-3846-40f7-91bc-8e860f74f3dd
+2025-06-09 13:09:49 [INFO]: ⬆️ POST /api/v1/internal-prediction/652cbcc0-6dff-421e-b8af-02d10bdc4b98
+2025-06-09 13:20:02 [INFO]: ⬆️ POST /api/v1/internal-prediction/652cbcc0-6dff-421e-b8af-02d10bdc4b98
+2025-06-09 13:23:05 [INFO]: ⬆️ POST /api/v1/internal-prediction/652cbcc0-6dff-421e-b8af-02d10bdc4b98
+2025-06-09 13:56:09 [INFO]: ⬆️ POST /api/v1/internal-prediction/652cbcc0-6dff-421e-b8af-02d10bdc4b98
+2025-06-09 13:57:10 [INFO]: ⬆️ POST /api/v1/internal-prediction/652cbcc0-6dff-421e-b8af-02d10bdc4b98
+2025-06-09 13:57:14 [INFO]: ⬆️ POST /api/v1/auth/refreshToken
+2025-06-09 13:57:14 [INFO]: 🖊 PUT /api/v1/chatflows/652cbcc0-6dff-421e-b8af-02d10bdc4b98
+2025-06-09 13:57:26 [INFO]: ⬆️ POST /api/v1/internal-prediction/652cbcc0-6dff-421e-b8af-02d10bdc4b98
+2025-06-09 13:57:58 [ERROR]: [server]: Error: Failed to parse tool arguments from chat model response. Tool: "get_stock_profileget_stock_daily_dataget_stock_15m", Text: "{"code":"丽人丽妆"}{"code":"605136","count":5}{"code":"605136","count":20}", Error: Unexpected token { in JSON at position 15
+
+Troubleshooting URL: https://js.langchain.com/docs/troubleshooting/errors/OUTPUT_PARSING_FAILURE/
+
+Error: Failed to parse tool arguments from chat model response. Tool: "get_stock_profileget_stock_daily_dataget_stock_15m", Text: "{"code":"丽人丽妆"}{"code":"605136","count":5}{"code":"605136","count":20}", Error: Unexpected token { in JSON at position 15
+
+Troubleshooting URL: https://js.langchain.com/docs/troubleshooting/errors/OUTPUT_PARSING_FAILURE/
+
+    at parseAIMessageToToolAction (/home/lq/projects/liw/Flowise3.0/packages/components/dist/src/agents.js:787:23)
+    at ToolCallingAgentOutputParser.parseResult (/home/lq/projects/liw/Flowise3.0/packages/components/dist/src/agents.js:819:20)
+    at ToolCallingAgentOutputParser._callWithConfig (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@langchain+core@0.3.37_openai@4.96.0_encoding@0.1.13_ws@8.18.0_bufferutil@4.0.8_utf-8-validate@6.0.4__zod@3.22.4_/node_modules/@langchain/core/dist/output_parsers/base.cjs:46:72)
+    at ToolCallingAgentOutputParser._callWithConfig (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@langchain+core@0.3.37_openai@4.96.0_encoding@0.1.13_ws@8.18.0_bufferutil@4.0.8_utf-8-validate@6.0.4__zod@3.22.4_/node_modules/@langchain/core/dist/runnables/base.cjs:223:34)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ToolCallingAgentOutputParser._streamIterator (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@langchain+core@0.3.37_openai@4.96.0_encoding@0.1.13_ws@8.18.0_bufferutil@4.0.8_utf-8-validate@6.0.4__zod@3.22.4_/node_modules/@langchain/core/dist/runnables/base.cjs:165:9)
+    at async ToolCallingAgentOutputParser.transform (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@langchain+core@0.3.37_openai@4.96.0_encoding@0.1.13_ws@8.18.0_bufferutil@4.0.8_utf-8-validate@6.0.4__zod@3.22.4_/node_modules/@langchain/core/dist/runnables/base.cjs:402:9)
+    at async RunnableSequence._streamIterator (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@langchain+core@0.3.37_openai@4.96.0_encoding@0.1.13_ws@8.18.0_bufferutil@4.0.8_utf-8-validate@6.0.4__zod@3.22.4_/node_modules/@langchain/core/dist/runnables/base.cjs:1349:30)

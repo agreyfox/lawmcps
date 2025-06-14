@@ -1,0 +1,168 @@
+2025-06-06 16:00:37 [ERROR]: [server]: Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:streamGenerateContent?alt=sse: fetch failed
+TypeError: fetch failed
+    at node:internal/deps/undici/undici:12618:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async makeRequest (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@google+generative-ai@0.24.0/node_modules/@google/generative-ai/dist/index.js:397:20)
+    at async generateContentStream (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@google+generative-ai@0.24.0/node_modules/@google/generative-ai/dist/index.js:862:22)
+    at async /home/lq/projects/liw/Flowise3.0/packages/components/dist/nodes/chatmodels/ChatGoogleGenerativeAI/FlowiseChatGoogleGenerativeAI.js:204:32
+    at async RetryOperation._fn (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/p-retry@4.6.2/node_modules/p-retry/index.js:50:12)
+2025-06-06 16:01:30 [INFO]: Shutting down Flowise...
+2025-06-06 16:01:46 [INFO]: Starting Flowise...
+2025-06-06 16:01:46 [INFO]: 📦 [server]: Data Source initialized successfully
+2025-06-06 16:01:46 [INFO]: 🔄 [server]: Database migrations completed successfully
+2025-06-06 16:01:46 [INFO]: 🔐 [server]: Identity Manager initialized successfully
+2025-06-06 16:01:48 [INFO]: 🔧 [server]: Nodes pool initialized successfully
+2025-06-06 16:01:48 [INFO]: ⏹️ [server]: Abort controllers pool initialized successfully
+2025-06-06 16:01:48 [INFO]: 🔑 [server]: Encryption key initialized successfully
+2025-06-06 16:01:48 [INFO]: 🚦 [server]: Rate limiters initialized successfully
+2025-06-06 16:01:48 [INFO]: 💾 [server]: Cache pool initialized successfully
+2025-06-06 16:01:48 [INFO]: 📊 [server]: Usage cache manager initialized successfully
+2025-06-06 16:01:48 [INFO]: 📈 [server]: Telemetry initialized successfully
+2025-06-06 16:01:48 [INFO]: 🌊 [server]: SSE Streamer initialized successfully
+2025-06-06 16:01:48 [INFO]: 🎉 [server]: All initialization steps completed successfully!
+2025-06-06 16:01:48 [INFO]: ⚡️ [server]: Flowise Server is listening at :3003
+2025-06-06 16:01:59 [INFO]: ⬆️ POST /api/v1/internal-prediction/4f7a2e9a-7512-45a1-905e-c8c54d7f7ffa
+2025-06-06 16:01:59 [INFO]: ⬆️ POST /api/v1/internal-prediction/4f7a2e9a-7512-45a1-905e-c8c54d7f7ffa
+2025-06-06 16:02:02 [INFO]: ⬆️ POST /api/v1/node-load-method/chatGoogleGenerativeAI
+2025-06-06 16:02:11 [INFO]: ⬆️ POST /api/v1/internal-prediction/4f7a2e9a-7512-45a1-905e-c8c54d7f7ffa
+2025-06-06 16:02:50 [INFO]: ⬆️ POST /api/v1/node-load-method/chatGoogleGenerativeAI
+2025-06-06 16:02:52 [INFO]: 🖊 PUT /api/v1/chatflows/4f7a2e9a-7512-45a1-905e-c8c54d7f7ffa
+2025-06-06 16:02:58 [INFO]: ⬆️ POST /api/v1/internal-prediction/4f7a2e9a-7512-45a1-905e-c8c54d7f7ffa
+2025-06-06 16:04:41 [ERROR]: [server]: Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:streamGenerateContent?alt=sse: fetch failed
+TypeError: fetch failed
+    at node:internal/deps/undici/undici:12618:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async makeRequest (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@google+generative-ai@0.24.0/node_modules/@google/generative-ai/dist/index.js:397:20)
+    at async generateContentStream (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@google+generative-ai@0.24.0/node_modules/@google/generative-ai/dist/index.js:862:22)
+    at async /home/lq/projects/liw/Flowise3.0/packages/components/dist/nodes/chatmodels/ChatGoogleGenerativeAI/FlowiseChatGoogleGenerativeAI.js:204:32
+    at async RetryOperation._fn (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/p-retry@4.6.2/node_modules/p-retry/index.js:50:12)
+2025-06-06 16:04:43 [ERROR]: [server]: Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:streamGenerateContent?alt=sse: fetch failed
+TypeError: fetch failed
+    at node:internal/deps/undici/undici:12618:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async makeRequest (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@google+generative-ai@0.24.0/node_modules/@google/generative-ai/dist/index.js:397:20)
+    at async generateContentStream (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@google+generative-ai@0.24.0/node_modules/@google/generative-ai/dist/index.js:862:22)
+    at async /home/lq/projects/liw/Flowise3.0/packages/components/dist/nodes/chatmodels/ChatGoogleGenerativeAI/FlowiseChatGoogleGenerativeAI.js:204:32
+    at async RetryOperation._fn (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/p-retry@4.6.2/node_modules/p-retry/index.js:50:12)
+2025-06-06 16:04:54 [ERROR]: [server]: Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:streamGenerateContent?alt=sse: fetch failed
+TypeError: fetch failed
+    at node:internal/deps/undici/undici:12618:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async makeRequest (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@google+generative-ai@0.24.0/node_modules/@google/generative-ai/dist/index.js:397:20)
+    at async generateContentStream (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@google+generative-ai@0.24.0/node_modules/@google/generative-ai/dist/index.js:862:22)
+    at async /home/lq/projects/liw/Flowise3.0/packages/components/dist/nodes/chatmodels/ChatGoogleGenerativeAI/FlowiseChatGoogleGenerativeAI.js:204:32
+    at async RetryOperation._fn (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/p-retry@4.6.2/node_modules/p-retry/index.js:50:12)
+2025-06-06 16:05:19 [INFO]: 🖊 PUT /api/v1/chatflows/4f7a2e9a-7512-45a1-905e-c8c54d7f7ffa
+2025-06-06 16:05:23 [INFO]: ⬆️ POST /api/v1/internal-prediction/4f7a2e9a-7512-45a1-905e-c8c54d7f7ffa
+2025-06-06 16:05:33 [ERROR]: [server]: Error: fetch failed
+TypeError: fetch failed
+    at node:internal/deps/undici/undici:12618:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async streamingRequest (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@huggingface+inference@2.6.4/node_modules/@huggingface/inference/dist/index.js:328:20)
+    at async textGenerationStream (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@huggingface+inference@2.6.4/node_modules/@huggingface/inference/dist/index.js:726:3)
+    at async HuggingFaceInference._streamResponseChunks (/home/lq/projects/liw/Flowise3.0/packages/components/dist/nodes/chatmodels/ChatHuggingFace/core.js:86:26)
+    at async HuggingFaceInference._streamIterator (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@langchain+core@0.3.37_openai@4.96.0_encoding@0.1.13_ws@8.18.0_bufferutil@4.0.8_utf-8-validate@6.0.4__zod@3.22.4_/node_modules/@langchain/core/dist/language_models/llms.cjs:66:34)
+    at async HuggingFaceInference.transform (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@langchain+core@0.3.37_openai@4.96.0_encoding@0.1.13_ws@8.18.0_bufferutil@4.0.8_utf-8-validate@6.0.4__zod@3.22.4_/node_modules/@langchain/core/dist/runnables/base.cjs:402:9)
+    at async RunnableBinding.transform (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@langchain+core@0.3.37_openai@4.96.0_encoding@0.1.13_ws@8.18.0_bufferutil@4.0.8_utf-8-validate@6.0.4__zod@3.22.4_/node_modules/@langchain/core/dist/runnables/base.cjs:912:9)
+    at async ChatConversationalAgentOutputParserWithRetries.transform (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@langchain+core@0.3.37_openai@4.96.0_encoding@0.1.13_ws@8.18.0_bufferutil@4.0.8_utf-8-validate@6.0.4__zod@3.22.4_/node_modules/@langchain/core/dist/runnables/base.cjs:391:26)
+    at async RunnableSequence._streamIterator (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@langchain+core@0.3.37_openai@4.96.0_encoding@0.1.13_ws@8.18.0_bufferutil@4.0.8_utf-8-validate@6.0.4__zod@3.22.4_/node_modules/@langchain/core/dist/runnables/base.cjs:1349:30)
+2025-06-06 16:05:39 [ERROR]: [server]: Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:streamGenerateContent?alt=sse: fetch failed
+TypeError: fetch failed
+    at node:internal/deps/undici/undici:12618:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async makeRequest (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@google+generative-ai@0.24.0/node_modules/@google/generative-ai/dist/index.js:397:20)
+    at async generateContentStream (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@google+generative-ai@0.24.0/node_modules/@google/generative-ai/dist/index.js:862:22)
+    at async /home/lq/projects/liw/Flowise3.0/packages/components/dist/nodes/chatmodels/ChatGoogleGenerativeAI/FlowiseChatGoogleGenerativeAI.js:204:32
+    at async RetryOperation._fn (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/p-retry@4.6.2/node_modules/p-retry/index.js:50:12)
+2025-06-06 16:05:55 [INFO]: ⬆️ POST /api/v1/node-load-method/chatPerplexity
+2025-06-06 16:06:06 [INFO]: ⬆️ POST /api/v1/node-load-method/groqChat
+2025-06-06 16:06:23 [INFO]: ⬆️ POST /api/v1/node-load-method/groqChat
+2025-06-06 16:06:39 [INFO]: 🖊 PUT /api/v1/chatflows/4f7a2e9a-7512-45a1-905e-c8c54d7f7ffa
+2025-06-06 16:06:42 [INFO]: ⬆️ POST /api/v1/internal-prediction/4f7a2e9a-7512-45a1-905e-c8c54d7f7ffa
+2025-06-06 16:07:16 [INFO]: 🖊 PUT /api/v1/chatflows/4f7a2e9a-7512-45a1-905e-c8c54d7f7ffa
+2025-06-06 16:07:20 [INFO]: ⬆️ POST /api/v1/internal-prediction/4f7a2e9a-7512-45a1-905e-c8c54d7f7ffa
+2025-06-06 16:07:33 [INFO]: ⬆️ POST /api/v1/internal-prediction/19e4069c-6f98-4f25-95d6-23d4e5f95e60
+2025-06-06 16:08:18 [ERROR]: [server]: Error: Connection error.
+Error: Connection error.
+    at Groq.makeRequest (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/groq-sdk@0.5.0_encoding@0.1.13/node_modules/groq-sdk/core.js:304:19)
+    at async RetryOperation._fn (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/p-retry@4.6.2/node_modules/p-retry/index.js:50:12)
+2025-06-06 16:08:38 [INFO]: Shutting down Flowise...
+2025-06-06 16:08:54 [INFO]: Starting Flowise...
+2025-06-06 16:08:54 [INFO]: 📦 [server]: Data Source initialized successfully
+2025-06-06 16:08:55 [INFO]: 🔄 [server]: Database migrations completed successfully
+2025-06-06 16:08:55 [INFO]: 🔐 [server]: Identity Manager initialized successfully
+2025-06-06 16:08:59 [INFO]: 🔧 [server]: Nodes pool initialized successfully
+2025-06-06 16:08:59 [INFO]: ⏹️ [server]: Abort controllers pool initialized successfully
+2025-06-06 16:08:59 [INFO]: 🔑 [server]: Encryption key initialized successfully
+2025-06-06 16:08:59 [INFO]: 🚦 [server]: Rate limiters initialized successfully
+2025-06-06 16:08:59 [INFO]: 💾 [server]: Cache pool initialized successfully
+2025-06-06 16:08:59 [INFO]: 📊 [server]: Usage cache manager initialized successfully
+2025-06-06 16:08:59 [INFO]: 📈 [server]: Telemetry initialized successfully
+2025-06-06 16:08:59 [INFO]: 🌊 [server]: SSE Streamer initialized successfully
+2025-06-06 16:08:59 [INFO]: 🎉 [server]: All initialization steps completed successfully!
+2025-06-06 16:08:59 [INFO]: ⚡️ [server]: Flowise Server is listening at :3003
+2025-06-06 16:08:59 [INFO]: ⬆️ POST /api/v1/internal-prediction/19e4069c-6f98-4f25-95d6-23d4e5f95e60
+2025-06-06 16:09:10 [INFO]: ⬆️ POST /api/v1/node-load-method/groqChat
+2025-06-06 16:09:14 [INFO]: ⬆️ POST /api/v1/internal-prediction/4f7a2e9a-7512-45a1-905e-c8c54d7f7ffa
+2025-06-06 16:09:21 [ERROR]: [server]: Error: Failed to parse. Text: "<think>
+Alright, so the user sent "hello." I need to respond according to the instructions. The instructions mention two JSON formats. Option 1 is for using a tool, like getting the current date. Option 2 is for a direct, conversational response.
+
+The user's message is just a greeting, so I think Option 2 is the way to go. I'll create a JSON object with "action" as "Final Answer" and the "action_input" as a friendly response. 
+
+I need to make sure the JSON is valid, so I'll use proper syntax with quotes and line breaks if necessary. Since the response is short, I can keep it on a single line.
+
+I should avoid any markdown except for the JSON code snippet, so I'll wrap it in triple backticks as specified. 
+
+So, the response will be a JSON object with a welcoming message. That should meet all the requirements.
+</think>
+
+```json
+{{
+    "action": "Final Answer",
+    "action_input": "Hello! How can I assist you today?"
+}}
+```". Error: SyntaxError: Unexpected token < in JSON at position 0
+
+Troubleshooting URL: https://js.langchain.com/docs/troubleshooting/errors/OUTPUT_PARSING_FAILURE/
+
+Error: Failed to parse. Text: "<think>
+Alright, so the user sent "hello." I need to respond according to the instructions. The instructions mention two JSON formats. Option 1 is for using a tool, like getting the current date. Option 2 is for a direct, conversational response.
+
+The user's message is just a greeting, so I think Option 2 is the way to go. I'll create a JSON object with "action" as "Final Answer" and the "action_input" as a friendly response. 
+
+I need to make sure the JSON is valid, so I'll use proper syntax with quotes and line breaks if necessary. Since the response is short, I can keep it on a single line.
+
+I should avoid any markdown except for the JSON code snippet, so I'll wrap it in triple backticks as specified. 
+
+So, the response will be a JSON object with a welcoming message. That should meet all the requirements.
+</think>
+
+```json
+{{
+    "action": "Final Answer",
+    "action_input": "Hello! How can I assist you today?"
+}}
+```". Error: SyntaxError: Unexpected token < in JSON at position 0
+
+Troubleshooting URL: https://js.langchain.com/docs/troubleshooting/errors/OUTPUT_PARSING_FAILURE/
+
+    at ChatConversationalAgentOutputParser.parse (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/langchain@0.3.6_5752715d6f809392225bab5ea08e3a76/node_modules/langchain/dist/agents/chat_convo/outputParser.cjs:62:19)
+    at OutputFixingParser.parse (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/langchain@0.3.6_5752715d6f809392225bab5ea08e3a76/node_modules/langchain/dist/output_parsers/fix.cjs:84:40)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ChatConversationalAgentOutputParserWithRetries._callWithConfig (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@langchain+core@0.3.37_openai@4.96.0_encoding@0.1.13_ws@8.18.0_bufferutil@4.0.8_utf-8-validate@6.0.4__zod@3.22.4_/node_modules/@langchain/core/dist/runnables/base.cjs:224:22)
+    at async ChatConversationalAgentOutputParserWithRetries._streamIterator (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@langchain+core@0.3.37_openai@4.96.0_encoding@0.1.13_ws@8.18.0_bufferutil@4.0.8_utf-8-validate@6.0.4__zod@3.22.4_/node_modules/@langchain/core/dist/runnables/base.cjs:165:9)
+    at async ChatConversationalAgentOutputParserWithRetries.transform (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@langchain+core@0.3.37_openai@4.96.0_encoding@0.1.13_ws@8.18.0_bufferutil@4.0.8_utf-8-validate@6.0.4__zod@3.22.4_/node_modules/@langchain/core/dist/runnables/base.cjs:402:9)
+    at async RunnableSequence._streamIterator (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@langchain+core@0.3.37_openai@4.96.0_encoding@0.1.13_ws@8.18.0_bufferutil@4.0.8_utf-8-validate@6.0.4__zod@3.22.4_/node_modules/@langchain/core/dist/runnables/base.cjs:1349:30)
+2025-06-06 16:09:38 [INFO]: ⬆️ POST /api/v1/node-load-method/chatGoogleGenerativeAI
+2025-06-06 16:09:43 [INFO]: ⬆️ POST /api/v1/node-load-method/chatGoogleGenerativeAI
+2025-06-06 16:09:48 [INFO]: 🖊 PUT /api/v1/chatflows/4f7a2e9a-7512-45a1-905e-c8c54d7f7ffa
+2025-06-06 16:09:50 [INFO]: ⬆️ POST /api/v1/internal-prediction/4f7a2e9a-7512-45a1-905e-c8c54d7f7ffa
+2025-06-06 16:12:37 [ERROR]: [server]: Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:streamGenerateContent?alt=sse: fetch failed
+TypeError: fetch failed
+    at node:internal/deps/undici/undici:12618:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async makeRequest (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@google+generative-ai@0.24.0/node_modules/@google/generative-ai/dist/index.js:397:20)
+    at async generateContentStream (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@google+generative-ai@0.24.0/node_modules/@google/generative-ai/dist/index.js:862:22)
+    at async /home/lq/projects/liw/Flowise3.0/packages/components/dist/nodes/chatmodels/ChatGoogleGenerativeAI/FlowiseChatGoogleGenerativeAI.js:204:32
+    at async RetryOperation._fn (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/p-retry@4.6.2/node_modules/p-retry/index.js:50:12)
+2025-06-06 16:33:48 [INFO]: Shutting down Flowise...

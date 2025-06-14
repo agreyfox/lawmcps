@@ -3,6 +3,7 @@
     "version": "3.0.1",
     "private": true,
     "homepage": "https://flowiseai.com",
+    "packageManager": "pnpm@10.11.1",
     "workspaces": [
         "packages/*",
         "flowise",
@@ -47,6 +48,7 @@
         "eslint-plugin-react": "^7.26.1",
         "eslint-plugin-react-hooks": "^4.6.0",
         "eslint-plugin-unused-imports": "^2.0.0",
+        "global-agent": "^3.0.0",
         "husky": "^8.0.1",
         "kill-port": "^2.0.1",
         "lint-staged": "^13.0.3",
@@ -54,7 +56,7 @@
         "pretty-quick": "^3.1.3",
         "rimraf": "^3.0.2",
         "run-script-os": "^1.1.6",
-        "turbo": "1.10.16",
+        "turbo": "2.5.4",
         "typescript": "^5.4.5"
     },
     "pnpm": {
@@ -118,12 +120,5 @@
                 }
             ]
         ]
-    },
-    "dependencies": {
-        "@codemirror/state": "^6.5.2",
-        "@codemirror/view": "^6.26.3",
-        "@uiw/codemirror-theme-sublime": "^4.21.21",
-        "@uiw/react-codemirror": "^4.21.24",
-        "zod": "3.22.4"
     }
 }

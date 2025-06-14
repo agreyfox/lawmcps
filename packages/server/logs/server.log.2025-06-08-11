@@ -1,0 +1,225 @@
+2025-06-08 11:00:36 [INFO]: Starting Flowise...
+2025-06-08 11:00:36 [INFO]: 📦 [server]: Data Source initialized successfully
+2025-06-08 11:00:36 [INFO]: 🔄 [server]: Database migrations completed successfully
+2025-06-08 11:00:36 [INFO]: 🔐 [server]: Identity Manager initialized successfully
+2025-06-08 11:00:38 [ERROR]: ❌ [server]: Error during initDatabase with file /home/lq/projects/liw/Flowise3.0/packages/server/node_modules/flowise-components/dist/nodes/chatmodels/ChatGoogleGemini.original.backup/ChatGoogleGemini/ChatGoogleGemini.js: Cannot find module '../../../src/utils'
+Require stack:
+- /home/lq/projects/liw/Flowise3.0/packages/components/dist/nodes/chatmodels/ChatGoogleGemini.original.backup/ChatGoogleGemini/ChatGoogleGemini.js
+- /home/lq/projects/liw/Flowise3.0/packages/server/dist/NodesPool.js
+- /home/lq/projects/liw/Flowise3.0/packages/server/dist/index.js
+- /home/lq/projects/liw/Flowise3.0/packages/server/dist/commands/start.js
+- /home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@oclif+core@4.0.7/node_modules/@oclif/core/lib/module-loader.js
+- /home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@oclif+core@4.0.7/node_modules/@oclif/core/lib/help/index.js
+- /home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@oclif+core@4.0.7/node_modules/@oclif/core/lib/errors/handle.js
+- /home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@oclif+core@4.0.7/node_modules/@oclif/core/lib/errors/index.js
+- /home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@oclif+core@4.0.7/node_modules/@oclif/core/lib/config/config.js
+- /home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@oclif+core@4.0.7/node_modules/@oclif/core/lib/config/index.js
+- /home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@oclif+core@4.0.7/node_modules/@oclif/core/lib/command.js
+- /home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@oclif+core@4.0.7/node_modules/@oclif/core/lib/index.js
+- /home/lq/projects/liw/Flowise3.0/packages/server/bin/run
+Error: Cannot find module '../../../src/utils'
+Require stack:
+- /home/lq/projects/liw/Flowise3.0/packages/components/dist/nodes/chatmodels/ChatGoogleGemini.original.backup/ChatGoogleGemini/ChatGoogleGemini.js
+- /home/lq/projects/liw/Flowise3.0/packages/server/dist/NodesPool.js
+- /home/lq/projects/liw/Flowise3.0/packages/server/dist/index.js
+- /home/lq/projects/liw/Flowise3.0/packages/server/dist/commands/start.js
+- /home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@oclif+core@4.0.7/node_modules/@oclif/core/lib/module-loader.js
+- /home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@oclif+core@4.0.7/node_modules/@oclif/core/lib/help/index.js
+- /home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@oclif+core@4.0.7/node_modules/@oclif/core/lib/errors/handle.js
+- /home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@oclif+core@4.0.7/node_modules/@oclif/core/lib/errors/index.js
+- /home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@oclif+core@4.0.7/node_modules/@oclif/core/lib/config/config.js
+- /home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@oclif+core@4.0.7/node_modules/@oclif/core/lib/config/index.js
+- /home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@oclif+core@4.0.7/node_modules/@oclif/core/lib/command.js
+- /home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@oclif+core@4.0.7/node_modules/@oclif/core/lib/index.js
+- /home/lq/projects/liw/Flowise3.0/packages/server/bin/run
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1140:15)
+    at Module._load (node:internal/modules/cjs/loader:981:27)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/lq/projects/liw/Flowise3.0/packages/components/dist/nodes/chatmodels/ChatGoogleGemini.original.backup/ChatGoogleGemini/ChatGoogleGemini.js:10:17)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at /home/lq/projects/liw/Flowise3.0/packages/server/dist/NodesPool.js:36:46
+    at Array.map (<anonymous>)
+    at NodesPool.initializeNodes (/home/lq/projects/liw/Flowise3.0/packages/server/dist/NodesPool.js:33:38)
+    at async NodesPool.initialize (/home/lq/projects/liw/Flowise3.0/packages/server/dist/NodesPool.js:22:9)
+    at async App.initDatabase (/home/lq/projects/liw/Flowise3.0/packages/server/dist/index.js:115:13)
+2025-06-08 11:00:38 [ERROR]: ❌ [server]: Error during initDatabase with file /home/lq/projects/liw/Flowise3.0/packages/server/node_modules/flowise-components/dist/nodes/chatmodels/ChatGoogleGemini_backup_20250606_173454/ChatGoogleGemini.js: Unexpected token ','
+/home/lq/projects/liw/Flowise3.0/packages/components/dist/nodes/chatmodels/ChatGoogleGemini_backup_20250606_173454/ChatGoogleGemini.js:809
+    if(, apiKey) {
+       ^
+
+SyntaxError: Unexpected token ','
+    at internalCompileFunction (node:internal/vm:76:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1283:20)
+    at Module._compile (node:internal/modules/cjs/loader:1328:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at /home/lq/projects/liw/Flowise3.0/packages/server/dist/NodesPool.js:36:46
+    at Array.map (<anonymous>)
+    at NodesPool.initializeNodes (/home/lq/projects/liw/Flowise3.0/packages/server/dist/NodesPool.js:33:38)
+    at async NodesPool.initialize (/home/lq/projects/liw/Flowise3.0/packages/server/dist/NodesPool.js:22:9)
+    at async App.initDatabase (/home/lq/projects/liw/Flowise3.0/packages/server/dist/index.js:115:13)
+    at async Object.start (/home/lq/projects/liw/Flowise3.0/packages/server/dist/index.js:352:5)
+    at async Start.run (/home/lq/projects/liw/Flowise3.0/packages/server/dist/commands/start.js:37:9)
+    at async Start._run (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@oclif+core@4.0.7/node_modules/@oclif/core/lib/command.js:302:22)
+2025-06-08 11:00:44 [INFO]: 🔧 [server]: Nodes pool initialized successfully
+2025-06-08 11:00:44 [INFO]: ⏹️ [server]: Abort controllers pool initialized successfully
+2025-06-08 11:00:44 [INFO]: 🔑 [server]: Encryption key initialized successfully
+2025-06-08 11:00:44 [INFO]: 🚦 [server]: Rate limiters initialized successfully
+2025-06-08 11:00:44 [INFO]: 💾 [server]: Cache pool initialized successfully
+2025-06-08 11:00:44 [INFO]: 📊 [server]: Usage cache manager initialized successfully
+2025-06-08 11:00:44 [INFO]: 📈 [server]: Telemetry initialized successfully
+2025-06-08 11:00:44 [INFO]: 🌊 [server]: SSE Streamer initialized successfully
+2025-06-08 11:00:44 [INFO]: 🎉 [server]: All initialization steps completed successfully!
+2025-06-08 11:00:44 [INFO]: ⚡️ [server]: Flowise Server is listening at :3003
+2025-06-08 11:03:20 [INFO]: Shutting down Flowise...
+2025-06-08 11:03:34 [INFO]: Starting Flowise...
+2025-06-08 11:03:34 [INFO]: 📦 [server]: Data Source initialized successfully
+2025-06-08 11:03:34 [INFO]: 🔄 [server]: Database migrations completed successfully
+2025-06-08 11:03:34 [INFO]: 🔐 [server]: Identity Manager initialized successfully
+2025-06-08 11:03:36 [INFO]: 🔧 [server]: Nodes pool initialized successfully
+2025-06-08 11:03:36 [INFO]: ⏹️ [server]: Abort controllers pool initialized successfully
+2025-06-08 11:03:36 [INFO]: 🔑 [server]: Encryption key initialized successfully
+2025-06-08 11:03:36 [INFO]: 🚦 [server]: Rate limiters initialized successfully
+2025-06-08 11:03:36 [INFO]: 💾 [server]: Cache pool initialized successfully
+2025-06-08 11:03:36 [INFO]: 📊 [server]: Usage cache manager initialized successfully
+2025-06-08 11:03:36 [INFO]: 📈 [server]: Telemetry initialized successfully
+2025-06-08 11:03:36 [INFO]: 🌊 [server]: SSE Streamer initialized successfully
+2025-06-08 11:03:36 [INFO]: 🎉 [server]: All initialization steps completed successfully!
+2025-06-08 11:03:36 [INFO]: ⚡️ [server]: Flowise Server is listening at :3003
+2025-06-08 11:03:43 [INFO]: ⬆️ POST /api/v1/auth/resolve
+2025-06-08 11:03:47 [INFO]: ⬆️ POST /api/v1/auth/login
+2025-06-08 11:03:47 [INFO]: ⬆️ POST /api/v1/auth/resolve
+2025-06-08 11:03:51 [INFO]: ⬆️ POST /api/v1/auth/login
+2025-06-08 11:04:06 [INFO]: ⬆️ POST /api/v1/internal-prediction/19e4069c-6f98-4f25-95d6-23d4e5f95e60
+2025-06-08 11:05:07 [INFO]: ⬆️ POST /api/v1/node-load-method/chatGoogleGenerativeAI
+2025-06-08 11:05:21 [INFO]: ⬆️ POST /api/v1/node-load-method/chatGoogleGemini
+2025-06-08 11:05:53 [INFO]: 🖊 PUT /api/v1/chatflows/4f7a2e9a-7512-45a1-905e-c8c54d7f7ffa
+2025-06-08 11:05:56 [INFO]: ⬆️ POST /api/v1/internal-prediction/4f7a2e9a-7512-45a1-905e-c8c54d7f7ffa
+2025-06-08 11:06:14 [INFO]: ⬆️ POST /api/v1/auth/resolve
+2025-06-08 11:06:23 [INFO]: ⬆️ POST /api/v1/internal-prediction/4f7a2e9a-7512-45a1-905e-c8c54d7f7ffa
+2025-06-08 11:06:58 [INFO]: ⬆️ POST /api/v1/internal-prediction/4f7a2e9a-7512-45a1-905e-c8c54d7f7ffa
+2025-06-08 11:12:31 [INFO]: Shutting down Flowise...
+2025-06-08 11:14:06 [INFO]: Starting Flowise...
+2025-06-08 11:14:06 [INFO]: 📦 [server]: Data Source initialized successfully
+2025-06-08 11:14:06 [INFO]: 🔄 [server]: Database migrations completed successfully
+2025-06-08 11:14:06 [INFO]: 🔐 [server]: Identity Manager initialized successfully
+2025-06-08 11:14:08 [INFO]: 🔧 [server]: Nodes pool initialized successfully
+2025-06-08 11:14:08 [INFO]: ⏹️ [server]: Abort controllers pool initialized successfully
+2025-06-08 11:14:08 [INFO]: 🔑 [server]: Encryption key initialized successfully
+2025-06-08 11:14:08 [INFO]: 🚦 [server]: Rate limiters initialized successfully
+2025-06-08 11:14:08 [INFO]: 💾 [server]: Cache pool initialized successfully
+2025-06-08 11:14:08 [INFO]: 📊 [server]: Usage cache manager initialized successfully
+2025-06-08 11:14:08 [INFO]: 📈 [server]: Telemetry initialized successfully
+2025-06-08 11:14:08 [INFO]: 🌊 [server]: SSE Streamer initialized successfully
+2025-06-08 11:14:08 [INFO]: 🎉 [server]: All initialization steps completed successfully!
+2025-06-08 11:14:08 [INFO]: ⚡️ [server]: Flowise Server is listening at :3003
+2025-06-08 11:14:14 [INFO]: ⬆️ POST /api/v1/node-load-method/chatGoogleGemini
+2025-06-08 11:14:27 [INFO]: ⬆️ POST /api/v1/node-load-method/chatGoogleGemini
+2025-06-08 11:14:36 [INFO]: ❌ DELETE /api/v1/chatmessage/4f7a2e9a-7512-45a1-905e-c8c54d7f7ffa?chatId=4c259b56-4b81-4f3d-9ae0-31a54820fd2d&chatType=INTERNAL
+2025-06-08 11:14:36 [ERROR]: [server]: Error deleting file storage for chatflow 4f7a2e9a-7512-45a1-905e-c8c54d7f7ffa, chatId 4c259b56-4b81-4f3d-9ae0-31a54820fd2d
+2025-06-08 11:14:48 [INFO]: ⬆️ POST /api/v1/internal-prediction/4f7a2e9a-7512-45a1-905e-c8c54d7f7ffa
+2025-06-08 11:14:54 [INFO]: 🖊 PUT /api/v1/chatflows/4f7a2e9a-7512-45a1-905e-c8c54d7f7ffa
+2025-06-08 11:14:59 [INFO]: ⬆️ POST /api/v1/node-load-method/customMCP
+2025-06-08 11:14:59 [INFO]: ⬆️ POST /api/v1/node-load-method/customTool
+2025-06-08 11:14:59 [INFO]: ⬆️ POST /api/v1/node-load-method/customTool
+2025-06-08 11:14:59 [INFO]: ⬆️ POST /api/v1/node-load-method/customTool
+2025-06-08 11:14:59 [INFO]: ⬆️ POST /api/v1/node-load-method/customTool
+2025-06-08 11:14:59 [INFO]: ⬆️ POST /api/v1/node-load-method/customTool
+2025-06-08 11:14:59 [INFO]: ⬆️ POST /api/v1/node-load-method/customTool
+2025-06-08 11:14:59 [INFO]: ⬆️ POST /api/v1/node-load-method/customTool
+2025-06-08 11:15:49 [INFO]: ⬆️ POST /api/v1/internal-prediction/652cbcc0-6dff-421e-b8af-02d10bdc4b98
+2025-06-08 11:16:02 [ERROR]: [server]: Error: Failed to parse tool arguments from chat model response. Text: "[]". SyntaxError: Unexpected token { in JSON at position 15
+
+Troubleshooting URL: https://js.langchain.com/docs/troubleshooting/errors/OUTPUT_PARSING_FAILURE/
+
+Error: Failed to parse tool arguments from chat model response. Text: "[]". SyntaxError: Unexpected token { in JSON at position 15
+
+Troubleshooting URL: https://js.langchain.com/docs/troubleshooting/errors/OUTPUT_PARSING_FAILURE/
+
+    at parseAIMessageToToolAction (/home/lq/projects/liw/Flowise3.0/packages/components/dist/src/agents.js:767:23)
+    at ToolCallingAgentOutputParser.parseResult (/home/lq/projects/liw/Flowise3.0/packages/components/dist/src/agents.js:796:20)
+    at ToolCallingAgentOutputParser._callWithConfig (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@langchain+core@0.3.37_openai@4.96.0_encoding@0.1.13_ws@8.18.0_bufferutil@4.0.8_utf-8-validate@6.0.4__zod@3.22.4_/node_modules/@langchain/core/dist/output_parsers/base.cjs:46:72)
+    at ToolCallingAgentOutputParser._callWithConfig (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@langchain+core@0.3.37_openai@4.96.0_encoding@0.1.13_ws@8.18.0_bufferutil@4.0.8_utf-8-validate@6.0.4__zod@3.22.4_/node_modules/@langchain/core/dist/runnables/base.cjs:223:34)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ToolCallingAgentOutputParser._streamIterator (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@langchain+core@0.3.37_openai@4.96.0_encoding@0.1.13_ws@8.18.0_bufferutil@4.0.8_utf-8-validate@6.0.4__zod@3.22.4_/node_modules/@langchain/core/dist/runnables/base.cjs:165:9)
+    at async ToolCallingAgentOutputParser.transform (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@langchain+core@0.3.37_openai@4.96.0_encoding@0.1.13_ws@8.18.0_bufferutil@4.0.8_utf-8-validate@6.0.4__zod@3.22.4_/node_modules/@langchain/core/dist/runnables/base.cjs:402:9)
+    at async RunnableSequence._streamIterator (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@langchain+core@0.3.37_openai@4.96.0_encoding@0.1.13_ws@8.18.0_bufferutil@4.0.8_utf-8-validate@6.0.4__zod@3.22.4_/node_modules/@langchain/core/dist/runnables/base.cjs:1349:30)
+2025-06-08 11:18:59 [INFO]: ⬆️ POST /api/v1/internal-prediction/652cbcc0-6dff-421e-b8af-02d10bdc4b98
+2025-06-08 11:20:31 [INFO]: ⬆️ POST /api/v1/node-load-method/groqChat
+2025-06-08 11:22:31 [INFO]: ⬆️ POST /api/v1/internal-prediction/c4feaae2-a264-4b2f-834f-3b7f98ad8bd9
+2025-06-08 11:24:05 [INFO]: ⬆️ POST /api/v1/node-load-method/groqChat
+2025-06-08 11:24:24 [ERROR]: [server]: Error: 413 {"error":{"message":"Request too large for model `qwen-qwq-32b` in organization `org_01j732905qf0taw4cr5x1yjnn5` service tier `on_demand` on tokens per minute (TPM): Limit 6000, Requested 33908, please reduce your message size and try again. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing","type":"tokens","code":"rate_limit_exceeded"}}
+Error: 413 {"error":{"message":"Request too large for model `qwen-qwq-32b` in organization `org_01j732905qf0taw4cr5x1yjnn5` service tier `on_demand` on tokens per minute (TPM): Limit 6000, Requested 33908, please reduce your message size and try again. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing","type":"tokens","code":"rate_limit_exceeded"}}
+    at APIError.generate (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/groq-sdk@0.5.0_encoding@0.1.13/node_modules/groq-sdk/error.js:63:16)
+    at Groq.makeStatusError (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/groq-sdk@0.5.0_encoding@0.1.13/node_modules/groq-sdk/core.js:275:33)
+    at Groq.makeRequest (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/groq-sdk@0.5.0_encoding@0.1.13/node_modules/groq-sdk/core.js:318:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async RetryOperation._fn (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/p-retry@4.6.2/node_modules/p-retry/index.js:50:12)
+2025-06-08 11:25:00 [INFO]: ⬆️ POST /api/v1/node-load-method/groqChat
+2025-06-08 11:26:01 [INFO]: ⬆️ POST /api/v1/internal-prediction/233e1875-5daf-473b-85fb-211f579a5cf0
+2025-06-08 11:26:50 [INFO]: ⬆️ POST /api/v1/node-load-method/customTool
+2025-06-08 11:26:50 [INFO]: ⬆️ POST /api/v1/node-load-method/customTool
+2025-06-08 11:26:50 [INFO]: ⬆️ POST /api/v1/node-load-method/customTool
+2025-06-08 11:26:50 [INFO]: ⬆️ POST /api/v1/node-load-method/chatGoogleGemini
+2025-06-08 11:26:55 [INFO]: ⬆️ POST /api/v1/node-load-method/chatGoogleGemini
+2025-06-08 11:27:07 [INFO]: ❌ DELETE /api/v1/chatmessage/8b62eb5b-a36d-46e9-b26a-7cd3a064c7a1?chatId=628aff26-4ab9-4458-8c52-efecbe63dd26&chatType=INTERNAL
+2025-06-08 11:27:07 [ERROR]: [server]: Error deleting file storage for chatflow 8b62eb5b-a36d-46e9-b26a-7cd3a064c7a1, chatId 628aff26-4ab9-4458-8c52-efecbe63dd26
+2025-06-08 11:27:11 [INFO]: ⬆️ POST /api/v1/internal-prediction/8b62eb5b-a36d-46e9-b26a-7cd3a064c7a1
+2025-06-08 11:31:16 [INFO]: ⬆️ POST /api/v1/internal-prediction/8b62eb5b-a36d-46e9-b26a-7cd3a064c7a1
+2025-06-08 11:32:00 [INFO]: 🖊 PUT /api/v1/tools/ad1279a5-8d15-468b-af3f-2e2d3bdf424b
+2025-06-08 11:32:01 [INFO]: ⬆️ POST /api/v1/node-load-method/customTool
+2025-06-08 11:32:06 [INFO]: 🖊 PUT /api/v1/chatflows/8b62eb5b-a36d-46e9-b26a-7cd3a064c7a1
+2025-06-08 11:32:13 [INFO]: ⬆️ POST /api/v1/internal-prediction/8b62eb5b-a36d-46e9-b26a-7cd3a064c7a1
+2025-06-08 11:32:53 [INFO]: 🖊 PUT /api/v1/tools/ad1279a5-8d15-468b-af3f-2e2d3bdf424b
+2025-06-08 11:32:53 [INFO]: ⬆️ POST /api/v1/node-load-method/customTool
+2025-06-08 11:33:11 [INFO]: 🖊 PUT /api/v1/chatflows/8b62eb5b-a36d-46e9-b26a-7cd3a064c7a1
+2025-06-08 11:33:16 [INFO]: ❌ DELETE /api/v1/chatmessage/8b62eb5b-a36d-46e9-b26a-7cd3a064c7a1?chatId=9b3652d0-126e-45a8-965a-91b93a23a51c&chatType=INTERNAL
+2025-06-08 11:33:16 [ERROR]: [server]: Error deleting file storage for chatflow 8b62eb5b-a36d-46e9-b26a-7cd3a064c7a1, chatId 9b3652d0-126e-45a8-965a-91b93a23a51c
+2025-06-08 11:33:20 [INFO]: ⬆️ POST /api/v1/internal-prediction/8b62eb5b-a36d-46e9-b26a-7cd3a064c7a1
+2025-06-08 11:35:15 [INFO]: 🖊 PUT /api/v1/tools/ad1279a5-8d15-468b-af3f-2e2d3bdf424b
+2025-06-08 11:35:15 [INFO]: ⬆️ POST /api/v1/node-load-method/customTool
+2025-06-08 11:35:17 [INFO]: 🖊 PUT /api/v1/chatflows/8b62eb5b-a36d-46e9-b26a-7cd3a064c7a1
+2025-06-08 11:35:23 [INFO]: ❌ DELETE /api/v1/chatmessage/8b62eb5b-a36d-46e9-b26a-7cd3a064c7a1?chatId=9b3652d0-126e-45a8-965a-91b93a23a51c&chatType=INTERNAL
+2025-06-08 11:35:23 [ERROR]: [server]: Error deleting file storage for chatflow 8b62eb5b-a36d-46e9-b26a-7cd3a064c7a1, chatId 9b3652d0-126e-45a8-965a-91b93a23a51c
+2025-06-08 11:35:25 [INFO]: ⬆️ POST /api/v1/internal-prediction/8b62eb5b-a36d-46e9-b26a-7cd3a064c7a1
+2025-06-08 11:35:47 [INFO]: ❌ DELETE /api/v1/chatmessage/8b62eb5b-a36d-46e9-b26a-7cd3a064c7a1?chatId=9b3652d0-126e-45a8-965a-91b93a23a51c&chatType=INTERNAL
+2025-06-08 11:35:47 [ERROR]: [server]: Error deleting file storage for chatflow 8b62eb5b-a36d-46e9-b26a-7cd3a064c7a1, chatId 9b3652d0-126e-45a8-965a-91b93a23a51c
+2025-06-08 11:38:20 [INFO]: 🖊 PUT /api/v1/tools/c05d6c7c-1377-473d-bce7-ffbd9aaa1781
+2025-06-08 11:38:21 [INFO]: ⬆️ POST /api/v1/node-load-method/customTool
+2025-06-08 11:38:36 [INFO]: ⬆️ POST /api/v1/node-load-method/customTool
+2025-06-08 11:38:56 [INFO]: ⬆️ POST /api/v1/node-load-method/customTool
+2025-06-08 11:39:02 [INFO]: 🖊 PUT /api/v1/chatflows/8b62eb5b-a36d-46e9-b26a-7cd3a064c7a1
+2025-06-08 11:39:11 [INFO]: ⬆️ POST /api/v1/internal-prediction/8b62eb5b-a36d-46e9-b26a-7cd3a064c7a1
+2025-06-08 11:42:56 [INFO]: Shutting down Flowise...
+2025-06-08 11:52:17 [INFO]: Starting Flowise...
+2025-06-08 11:52:17 [INFO]: 📦 [server]: Data Source initialized successfully
+2025-06-08 11:52:17 [INFO]: 🔄 [server]: Database migrations completed successfully
+2025-06-08 11:52:17 [INFO]: 🔐 [server]: Identity Manager initialized successfully
+2025-06-08 11:52:24 [INFO]: 🔧 [server]: Nodes pool initialized successfully
+2025-06-08 11:52:24 [INFO]: ⏹️ [server]: Abort controllers pool initialized successfully
+2025-06-08 11:52:24 [INFO]: 🔑 [server]: Encryption key initialized successfully
+2025-06-08 11:52:25 [INFO]: 🚦 [server]: Rate limiters initialized successfully
+2025-06-08 11:52:25 [INFO]: 💾 [server]: Cache pool initialized successfully
+2025-06-08 11:52:25 [INFO]: 📊 [server]: Usage cache manager initialized successfully
+2025-06-08 11:52:25 [INFO]: 📈 [server]: Telemetry initialized successfully
+2025-06-08 11:52:25 [INFO]: 🌊 [server]: SSE Streamer initialized successfully
+2025-06-08 11:52:25 [INFO]: 🎉 [server]: All initialization steps completed successfully!
+2025-06-08 11:52:25 [INFO]: ⚡️ [server]: Flowise Server is listening at :3003
+2025-06-08 11:52:48 [INFO]: ⬆️ POST /api/v1/node-load-method/customTool
+2025-06-08 11:52:48 [INFO]: ⬆️ POST /api/v1/node-load-method/customTool
+2025-06-08 11:52:48 [INFO]: ⬆️ POST /api/v1/node-load-method/chatGoogleGemini
+2025-06-08 11:52:48 [INFO]: ⬆️ POST /api/v1/node-load-method/customTool
+2025-06-08 11:53:00 [INFO]: ⬆️ POST /api/v1/node-load-method/chatGoogleGemini
+2025-06-08 11:53:41 [INFO]: 🖊 PUT /api/v1/chatflows/4f7a2e9a-7512-45a1-905e-c8c54d7f7ffa
+2025-06-08 11:54:21 [INFO]: ⬆️ POST /api/v1/node-load-method/chatGoogleGemini
+2025-06-08 11:57:02 [INFO]: 🖊 PUT /api/v1/chatflows/4f7a2e9a-7512-45a1-905e-c8c54d7f7ffa
+2025-06-08 11:57:18 [INFO]: ⬆️ POST /api/v1/internal-prediction/4f7a2e9a-7512-45a1-905e-c8c54d7f7ffa

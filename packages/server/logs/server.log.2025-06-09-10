@@ -1,0 +1,26 @@
+2025-06-09 10:05:34 [INFO]: Starting Flowise...
+2025-06-09 10:05:34 [INFO]: 📦 [server]: Data Source initialized successfully
+2025-06-09 10:05:34 [INFO]: 🔄 [server]: Database migrations completed successfully
+2025-06-09 10:05:34 [INFO]: 🔐 [server]: Identity Manager initialized successfully
+2025-06-09 10:05:39 [INFO]: 🔧 [server]: Nodes pool initialized successfully
+2025-06-09 10:05:39 [INFO]: ⏹️ [server]: Abort controllers pool initialized successfully
+2025-06-09 10:05:39 [INFO]: 🔑 [server]: Encryption key initialized successfully
+2025-06-09 10:05:39 [INFO]: 🚦 [server]: Rate limiters initialized successfully
+2025-06-09 10:05:39 [INFO]: 💾 [server]: Cache pool initialized successfully
+2025-06-09 10:05:39 [INFO]: 📊 [server]: Usage cache manager initialized successfully
+2025-06-09 10:05:39 [INFO]: 📈 [server]: Telemetry initialized successfully
+2025-06-09 10:05:39 [INFO]: 🌊 [server]: SSE Streamer initialized successfully
+2025-06-09 10:05:39 [INFO]: 🎉 [server]: All initialization steps completed successfully!
+2025-06-09 10:05:40 [INFO]: ⚡️ [server]: Flowise Server is listening at :3003
+2025-06-09 10:06:00 [INFO]: 🖊 PUT /api/v1/chatflows/652cbcc0-6dff-421e-b8af-02d10bdc4b98
+2025-06-09 10:06:09 [INFO]: ❌ DELETE /api/v1/chatmessage/652cbcc0-6dff-421e-b8af-02d10bdc4b98?chatId=2b14dab5-26f5-4365-bd9b-fde40dce6c83&chatType=INTERNAL
+2025-06-09 10:06:09 [ERROR]: [server]: Error deleting file storage for chatflow 652cbcc0-6dff-421e-b8af-02d10bdc4b98, chatId 2b14dab5-26f5-4365-bd9b-fde40dce6c83
+2025-06-09 10:06:56 [INFO]: ⬆️ POST /api/v1/internal-prediction/652cbcc0-6dff-421e-b8af-02d10bdc4b98
+2025-06-09 10:15:09 [INFO]: ❌ DELETE /api/v1/chatmessage/652cbcc0-6dff-421e-b8af-02d10bdc4b98?chatId=2b14dab5-26f5-4365-bd9b-fde40dce6c83&chatType=INTERNAL
+2025-06-09 10:15:09 [ERROR]: [server]: Error deleting file storage for chatflow 652cbcc0-6dff-421e-b8af-02d10bdc4b98, chatId 2b14dab5-26f5-4365-bd9b-fde40dce6c83
+2025-06-09 10:15:32 [INFO]: ⬆️ POST /api/v1/internal-prediction/652cbcc0-6dff-421e-b8af-02d10bdc4b98
+2025-06-09 10:17:43 [INFO]: ❌ DELETE /api/v1/chatmessage/652cbcc0-6dff-421e-b8af-02d10bdc4b98?chatId=2b14dab5-26f5-4365-bd9b-fde40dce6c83&chatType=INTERNAL
+2025-06-09 10:17:43 [ERROR]: [server]: Error deleting file storage for chatflow 652cbcc0-6dff-421e-b8af-02d10bdc4b98, chatId 2b14dab5-26f5-4365-bd9b-fde40dce6c83
+2025-06-09 10:20:05 [INFO]: ⬆️ POST /api/v1/internal-prediction/652cbcc0-6dff-421e-b8af-02d10bdc4b98
+2025-06-09 10:27:20 [INFO]: ⬆️ POST /api/v1/internal-prediction/652cbcc0-6dff-421e-b8af-02d10bdc4b98
+2025-06-09 10:32:14 [INFO]: 🖊 PUT /api/v1/chatflows/652cbcc0-6dff-421e-b8af-02d10bdc4b98

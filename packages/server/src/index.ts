@@ -1,3 +1,37 @@
+// ===================================================================
+// =                     PROXY BOOTSTRAPPER                          =
+// =   This block must be at the very top of the entry file to ensure  =
+// =   all subsequent HTTP/HTTPS requests are intercepted.             =
+// =================================D==================================
+
+// We use dotenv to load environment variables from the .env file in this directory
+import dotenv from 'dotenv';
+dotenv.config();
+
+// Check if any proxy environment variable is set
+const hasProxy = process.env.GLOBAL_AGENT_HTTP_PROXY || 
+                 process.env.GLOBAL_AGENT_HTTPS_PROXY || 
+                 process.env.HTTP_PROXY || 
+                 process.env.HTTPS_PROXY;
+
+if (hasProxy) {
+    console.log('Proxy environment variable detected. Attempting to bootstrap global-agent...');
+    try {
+        // Dynamically import and bootstrap global-agent
+        // This ensures that it's only required if a proxy is actually configured.
+        require('global-agent/bootstrap');
+        console.log('global-agent bootstrapped successfully.');
+    } catch (error) {
+        console.error('Failed to bootstrap global-agent. Proxy will not be used.', error);
+    }
+} else {
+    console.log('No proxy environment variable detected. Skipping proxy bootstrap.');
+}
+
+// ===================================================================
+// =                  END OF PROXY BOOTSTRAPPER                      =
+// ===================================================================
+
 import express, { Request, Response } from 'express'
 import path from 'path'
 import cors from 'cors'
@@ -81,39 +115,49 @@ export class App {
         // Initialize database
         try {
             await this.AppDataSource.initialize()
-            logger.info('📦 [server]: Data Source is initializing...')
+            logger.info('📦 [server]: Data Source initialized successfully')
 
             // Run Migrations Scripts
             await this.AppDataSource.runMigrations({ transaction: 'each' })
+            logger.info('🔄 [server]: Database migrations completed successfully')
 
             // Initialize Identity Manager
             this.identityManager = await IdentityManager.getInstance()
+            logger.info('🔐 [server]: Identity Manager initialized successfully')
 
             // Initialize nodes pool
             this.nodesPool = new NodesPool()
             await this.nodesPool.initialize()
+            logger.info('🔧 [server]: Nodes pool initialized successfully')
 
             // Initialize abort controllers pool
             this.abortControllerPool = new AbortControllerPool()
+            logger.info('⏹️ [server]: Abort controllers pool initialized successfully')
 
             // Initialize encryption key
             await getEncryptionKey()
+            logger.info('🔑 [server]: Encryption key initialized successfully')
 
             // Initialize Rate Limit
             this.rateLimiterManager = RateLimiterManager.getInstance()
             await this.rateLimiterManager.initializeRateLimiters(await getDataSource().getRepository(ChatFlow).find())
+            logger.info('🚦 [server]: Rate limiters initialized successfully')
 
             // Initialize cache pool
             this.cachePool = new CachePool()
+            logger.info('💾 [server]: Cache pool initialized successfully')
 
             // Initialize usage cache manager
             this.usageCacheManager = await UsageCacheManager.getInstance()
+            logger.info('📊 [server]: Usage cache manager initialized successfully')
 
             // Initialize telemetry
             this.telemetry = new Telemetry()
+            logger.info('📈 [server]: Telemetry initialized successfully')
 
             // Initialize SSE Streamer
             this.sseStreamer = new SSEStreamer()
+            logger.info('🌊 [server]: SSE Streamer initialized successfully')
 
             // Init Queues
             if (process.env.MODE === MODE.QUEUE) {
@@ -127,14 +171,16 @@ export class App {
                     usageCacheManager: this.usageCacheManager
                 })
                 logger.info('✅ [Queue]: All queues setup successfully')
+
                 this.redisSubscriber = new RedisEventSubscriber(this.sseStreamer)
                 await this.redisSubscriber.connect()
+                logger.info('🔗 [server]: Redis event subscriber connected successfully')
             }
 
             // TODO: Remove this by end of 2025
             await migrateApiKeysFromJsonToDb(this.AppDataSource, this.identityManager.getPlatformType())
 
-            logger.info('📦 [server]: Data Source has been initialized!')
+            logger.info('🎉 [server]: All initialization steps completed successfully!')
         } catch (error) {
             logger.error('❌ [server]: Error during Data Source initialization:', error)
         }

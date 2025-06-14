@@ -1,0 +1,23 @@
+2025-06-09 08:37:54 [INFO]: ⬆️ POST /api/v1/auth/refreshToken
+2025-06-09 08:38:02 [INFO]: 🖊 PUT /api/v1/chatflows/652cbcc0-6dff-421e-b8af-02d10bdc4b98
+2025-06-09 08:39:39 [INFO]: ⬆️ POST /api/v1/internal-prediction/652cbcc0-6dff-421e-b8af-02d10bdc4b98
+2025-06-09 08:39:41 [ERROR]: [server]: Error: 400 "Duplicate function definition provided: requests_get"
+Error: 400 "Duplicate function definition provided: requests_get"
+    at APIError.generate (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/openai@4.96.0_encoding@0.1.13_ws@8.18.0_bufferutil@4.0.8_utf-8-validate@6.0.4__zod@3.22.4/node_modules/openai/error.js:45:20)
+    at OpenAI.makeStatusError (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/openai@4.96.0_encoding@0.1.13_ws@8.18.0_bufferutil@4.0.8_utf-8-validate@6.0.4__zod@3.22.4/node_modules/openai/core.js:302:33)
+    at OpenAI.makeRequest (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/openai@4.96.0_encoding@0.1.13_ws@8.18.0_bufferutil@4.0.8_utf-8-validate@6.0.4__zod@3.22.4/node_modules/openai/core.js:346:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async /home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@langchain+openai@0.3.13_@langchain+core@0.3.37_openai@4.96.0_encoding@0.1.13_ws@8.18.0_3e7d0ad6beedde1e4cb64651d5d28791/node_modules/@langchain/openai/dist/chat_models.cjs:1558:29
+    at async RetryOperation._fn (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/p-retry@4.6.2/node_modules/p-retry/index.js:50:12)
+2025-06-09 08:40:07 [INFO]: 🖊 PUT /api/v1/chatflows/652cbcc0-6dff-421e-b8af-02d10bdc4b98
+2025-06-09 08:41:01 [INFO]: ⬆️ POST /api/v1/internal-prediction/652cbcc0-6dff-421e-b8af-02d10bdc4b98
+2025-06-09 08:44:54 [INFO]: 🖊 PUT /api/v1/chatflows/652cbcc0-6dff-421e-b8af-02d10bdc4b98
+2025-06-09 08:44:59 [INFO]: ❌ DELETE /api/v1/chatmessage/652cbcc0-6dff-421e-b8af-02d10bdc4b98?chatId=71d3fdbf-c61c-4be3-9ba5-02d95a8dc18c&chatType=INTERNAL
+2025-06-09 08:44:59 [ERROR]: [server]: Error deleting file storage for chatflow 652cbcc0-6dff-421e-b8af-02d10bdc4b98, chatId 71d3fdbf-c61c-4be3-9ba5-02d95a8dc18c
+2025-06-09 08:45:57 [INFO]: ⬆️ POST /api/v1/internal-prediction/652cbcc0-6dff-421e-b8af-02d10bdc4b98
+2025-06-09 08:49:00 [INFO]: ⬆️ POST /api/v1/internal-prediction/652cbcc0-6dff-421e-b8af-02d10bdc4b98
+2025-06-09 08:56:47 [INFO]: 🖊 PUT /api/v1/chatflows/652cbcc0-6dff-421e-b8af-02d10bdc4b98
+2025-06-09 08:56:53 [INFO]: ❌ DELETE /api/v1/chatmessage/652cbcc0-6dff-421e-b8af-02d10bdc4b98?chatId=71d3fdbf-c61c-4be3-9ba5-02d95a8dc18c&chatType=INTERNAL
+2025-06-09 08:56:53 [ERROR]: [server]: Error deleting file storage for chatflow 652cbcc0-6dff-421e-b8af-02d10bdc4b98, chatId 71d3fdbf-c61c-4be3-9ba5-02d95a8dc18c
+2025-06-09 08:57:52 [INFO]: 🖊 PUT /api/v1/chatflows/652cbcc0-6dff-421e-b8af-02d10bdc4b98
+2025-06-09 08:58:36 [INFO]: ⬆️ POST /api/v1/internal-prediction/652cbcc0-6dff-421e-b8af-02d10bdc4b98

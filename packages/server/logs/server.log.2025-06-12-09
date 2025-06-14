@@ -1,0 +1,50 @@
+2025-06-12 09:19:20 [INFO]: 🖊 PUT /api/v1/chatflows/41313e33-ae4e-4338-92e9-fc1fc606d281
+2025-06-12 09:19:20 [INFO]: ⬆️ POST /api/v1/auth/refreshToken
+2025-06-12 09:19:22 [INFO]: ⬆️ POST /api/v1/auth/resolve
+2025-06-12 09:19:27 [INFO]: ⬆️ POST /api/v1/auth/login
+2025-06-12 09:19:31 [INFO]: ⬆️ POST /api/v1/node-load-method/customMCP
+2025-06-12 09:19:31 [INFO]: ⬆️ POST /api/v1/node-load-method/customTool
+2025-06-12 09:19:31 [INFO]: ⬆️ POST /api/v1/node-load-method/customTool
+2025-06-12 09:19:31 [INFO]: ⬆️ POST /api/v1/node-load-method/customTool
+2025-06-12 09:19:31 [INFO]: ⬆️ POST /api/v1/node-load-method/customTool
+2025-06-12 09:19:31 [INFO]: ⬆️ POST /api/v1/node-load-method/customTool
+2025-06-12 09:19:31 [INFO]: ⬆️ POST /api/v1/node-load-method/customTool
+2025-06-12 09:19:31 [INFO]: ⬆️ POST /api/v1/node-load-method/customTool
+2025-06-12 09:19:47 [INFO]: ❌ DELETE /api/v1/chatmessage/652cbcc0-6dff-421e-b8af-02d10bdc4b98?chatId=9bbebe71-2c0d-4a60-89ee-5b8ab162c78d&chatType=INTERNAL
+2025-06-12 09:19:47 [ERROR]: [server]: Error deleting file storage for chatflow 652cbcc0-6dff-421e-b8af-02d10bdc4b98, chatId 9bbebe71-2c0d-4a60-89ee-5b8ab162c78d
+2025-06-12 09:20:39 [INFO]: ⬆️ POST /api/v1/internal-prediction/652cbcc0-6dff-421e-b8af-02d10bdc4b98
+2025-06-12 09:33:22 [INFO]: ⬆️ POST /api/v1/internal-prediction/652cbcc0-6dff-421e-b8af-02d10bdc4b98
+2025-06-12 09:36:20 [INFO]: ⬆️ POST /api/v1/internal-prediction/652cbcc0-6dff-421e-b8af-02d10bdc4b98
+2025-06-12 09:47:13 [INFO]: ⬆️ POST /api/v1/internal-prediction/652cbcc0-6dff-421e-b8af-02d10bdc4b98
+2025-06-12 09:50:30 [INFO]: ⬆️ POST /api/v1/internal-prediction/652cbcc0-6dff-421e-b8af-02d10bdc4b98
+2025-06-12 09:50:48 [INFO]: ⬆️ POST /api/v1/internal-prediction/652cbcc0-6dff-421e-b8af-02d10bdc4b98
+2025-06-12 09:51:09 [ERROR]: [server]: Error: Failed to parse tool arguments from chat model response. Text: "[]". SyntaxError: Unexpected token { in JSON at position 28
+
+Troubleshooting URL: https://js.langchain.com/docs/troubleshooting/errors/OUTPUT_PARSING_FAILURE/
+
+Error: Failed to parse tool arguments from chat model response. Text: "[]". SyntaxError: Unexpected token { in JSON at position 28
+
+Troubleshooting URL: https://js.langchain.com/docs/troubleshooting/errors/OUTPUT_PARSING_FAILURE/
+
+    at parseAIMessageToToolAction (/home/lq/projects/liw/Flowise3.0/packages/components/dist/src/agents.js:813:23)
+    at ToolCallingAgentOutputParser.parseResult (/home/lq/projects/liw/Flowise3.0/packages/components/dist/src/agents.js:847:20)
+    at ToolCallingAgentOutputParser._callWithConfig (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@langchain+core@0.3.37_openai@4.96.0_encoding@0.1.13_ws@8.18.0_bufferutil@4.0.8_utf-8-validate@6.0.4__zod@3.22.4_/node_modules/@langchain/core/dist/output_parsers/base.cjs:46:72)
+    at ToolCallingAgentOutputParser._callWithConfig (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@langchain+core@0.3.37_openai@4.96.0_encoding@0.1.13_ws@8.18.0_bufferutil@4.0.8_utf-8-validate@6.0.4__zod@3.22.4_/node_modules/@langchain/core/dist/runnables/base.cjs:223:34)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ToolCallingAgentOutputParser._streamIterator (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@langchain+core@0.3.37_openai@4.96.0_encoding@0.1.13_ws@8.18.0_bufferutil@4.0.8_utf-8-validate@6.0.4__zod@3.22.4_/node_modules/@langchain/core/dist/runnables/base.cjs:165:9)
+    at async ToolCallingAgentOutputParser.transform (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@langchain+core@0.3.37_openai@4.96.0_encoding@0.1.13_ws@8.18.0_bufferutil@4.0.8_utf-8-validate@6.0.4__zod@3.22.4_/node_modules/@langchain/core/dist/runnables/base.cjs:402:9)
+    at async RunnableSequence._streamIterator (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@langchain+core@0.3.37_openai@4.96.0_encoding@0.1.13_ws@8.18.0_bufferutil@4.0.8_utf-8-validate@6.0.4__zod@3.22.4_/node_modules/@langchain/core/dist/runnables/base.cjs:1349:30)
+2025-06-12 09:51:57 [INFO]: ❌ DELETE /api/v1/chatmessage/652cbcc0-6dff-421e-b8af-02d10bdc4b98?chatId=9bbebe71-2c0d-4a60-89ee-5b8ab162c78d&chatType=INTERNAL
+2025-06-12 09:51:57 [ERROR]: [server]: Error deleting file storage for chatflow 652cbcc0-6dff-421e-b8af-02d10bdc4b98, chatId 9bbebe71-2c0d-4a60-89ee-5b8ab162c78d
+2025-06-12 09:53:09 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2025-06-12 09:53:09 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2025-06-12 09:53:09 [INFO]: ⬆️ POST /api/v1/node-load-method/chatGoogleGemini
+2025-06-12 09:54:09 [INFO]: 🖊 PUT /api/v1/chatflows/41313e33-ae4e-4338-92e9-fc1fc606d281
+2025-06-12 09:54:10 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2025-06-12 09:56:52 [INFO]: ⬆️ POST /api/v1/node-custom-function
+2025-06-12 09:57:01 [INFO]: 🖊 PUT /api/v1/chatflows/41313e33-ae4e-4338-92e9-fc1fc606d281
+2025-06-12 09:57:03 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2025-06-12 09:57:03 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2025-06-12 09:57:03 [INFO]: ⬆️ POST /api/v1/node-load-method/chatGoogleGemini
+2025-06-12 09:57:52 [INFO]: 🖊 PUT /api/v1/chatflows/41313e33-ae4e-4338-92e9-fc1fc606d281
+2025-06-12 09:58:01 [INFO]: ⬆️ POST /api/v1/internal-prediction/41313e33-ae4e-4338-92e9-fc1fc606d281

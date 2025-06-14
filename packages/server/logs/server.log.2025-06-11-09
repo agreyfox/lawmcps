@@ -1,0 +1,170 @@
+2025-06-11 09:02:02 [INFO]: ⬆️ POST /api/v1/internal-prediction/41313e33-ae4e-4338-92e9-fc1fc606d281
+2025-06-11 09:02:02 [ERROR]: [server]: Error executing node httpAgentflow_1: AxiosError: Request failed with status code 404
+2025-06-11 09:02:02 [ERROR]: [server]: Error: AxiosError: Request failed with status code 404
+Error: AxiosError: Request failed with status code 404
+    at executeAgentFlow (/home/lq/projects/liw/Flowise3.0/packages/server/dist/utils/buildAgentflow.js:1287:19)
+    at async utilBuildChatflow (/home/lq/projects/liw/Flowise3.0/packages/server/dist/utils/buildChatflow.js:797:28)
+    at async createAndStreamInternalPrediction (/home/lq/projects/liw/Flowise3.0/packages/server/dist/controllers/internal-predictions/index.js:38:29)
+2025-06-11 09:03:37 [INFO]: 🖊 PUT /api/v1/chatflows/41313e33-ae4e-4338-92e9-fc1fc606d281
+2025-06-11 09:03:45 [INFO]: ⬆️ POST /api/v1/internal-prediction/41313e33-ae4e-4338-92e9-fc1fc606d281
+2025-06-11 09:03:45 [ERROR]: [server]: Error executing node httpAgentflow_1: AxiosError: Request failed with status code 404
+2025-06-11 09:03:45 [ERROR]: [server]: Error: AxiosError: Request failed with status code 404
+Error: AxiosError: Request failed with status code 404
+    at executeAgentFlow (/home/lq/projects/liw/Flowise3.0/packages/server/dist/utils/buildAgentflow.js:1287:19)
+    at async utilBuildChatflow (/home/lq/projects/liw/Flowise3.0/packages/server/dist/utils/buildChatflow.js:797:28)
+    at async createAndStreamInternalPrediction (/home/lq/projects/liw/Flowise3.0/packages/server/dist/controllers/internal-predictions/index.js:38:29)
+2025-06-11 09:04:27 [INFO]: ⬆️ POST /api/v1/internal-prediction/41313e33-ae4e-4338-92e9-fc1fc606d281
+2025-06-11 09:04:27 [ERROR]: [server]: Error executing node httpAgentflow_1: AxiosError: Request failed with status code 404
+2025-06-11 09:04:27 [ERROR]: [server]: Error: AxiosError: Request failed with status code 404
+Error: AxiosError: Request failed with status code 404
+    at executeAgentFlow (/home/lq/projects/liw/Flowise3.0/packages/server/dist/utils/buildAgentflow.js:1287:19)
+    at async utilBuildChatflow (/home/lq/projects/liw/Flowise3.0/packages/server/dist/utils/buildChatflow.js:797:28)
+    at async createAndStreamInternalPrediction (/home/lq/projects/liw/Flowise3.0/packages/server/dist/controllers/internal-predictions/index.js:38:29)
+2025-06-11 09:04:30 [INFO]: ⬆️ POST /api/v1/internal-prediction/41313e33-ae4e-4338-92e9-fc1fc606d281
+2025-06-11 09:04:30 [ERROR]: [server]: Error executing node httpAgentflow_1: AxiosError: Request failed with status code 404
+2025-06-11 09:04:30 [ERROR]: [server]: Error: AxiosError: Request failed with status code 404
+Error: AxiosError: Request failed with status code 404
+    at executeAgentFlow (/home/lq/projects/liw/Flowise3.0/packages/server/dist/utils/buildAgentflow.js:1287:19)
+    at async utilBuildChatflow (/home/lq/projects/liw/Flowise3.0/packages/server/dist/utils/buildChatflow.js:797:28)
+    at async createAndStreamInternalPrediction (/home/lq/projects/liw/Flowise3.0/packages/server/dist/controllers/internal-predictions/index.js:38:29)
+2025-06-11 09:13:38 [INFO]: 🖊 PUT /api/v1/chatflows/41313e33-ae4e-4338-92e9-fc1fc606d281
+2025-06-11 09:15:32 [INFO]: ⬆️ POST /api/v1/chatflows
+2025-06-11 09:15:59 [INFO]: ⬆️ POST /api/v1/internal-prediction/84f879b3-2ea4-4b0a-a0ce-63c952f813bb
+2025-06-11 09:15:59 [ERROR]: [server]: Error executing node conditionAgentAgentflow_0: Error in Condition Agent node: The OPENAI_API_KEY environment variable is missing or empty; either provide it, or instantiate the OpenAI client with an apiKey option, like new OpenAI({ apiKey: 'My API Key' }).
+2025-06-11 09:15:59 [ERROR]: [server]: Error: Error in Condition Agent node: The OPENAI_API_KEY environment variable is missing or empty; either provide it, or instantiate the OpenAI client with an apiKey option, like new OpenAI({ apiKey: 'My API Key' }).
+Error: Error in Condition Agent node: The OPENAI_API_KEY environment variable is missing or empty; either provide it, or instantiate the OpenAI client with an apiKey option, like new OpenAI({ apiKey: 'My API Key' }).
+    at executeAgentFlow (/home/lq/projects/liw/Flowise3.0/packages/server/dist/utils/buildAgentflow.js:1287:19)
+    at async utilBuildChatflow (/home/lq/projects/liw/Flowise3.0/packages/server/dist/utils/buildChatflow.js:797:28)
+    at async createAndStreamInternalPrediction (/home/lq/projects/liw/Flowise3.0/packages/server/dist/controllers/internal-predictions/index.js:38:29)
+2025-06-11 09:16:04 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2025-06-11 09:16:05 [INFO]: ⬆️ POST /api/v1/node-load-method/chatOpenAI
+2025-06-11 09:16:15 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2025-06-11 09:16:33 [INFO]: ⬆️ POST /api/v1/internal-prediction/84f879b3-2ea4-4b0a-a0ce-63c952f813bb
+2025-06-11 09:16:34 [ERROR]: [server]: Error executing node conditionAgentAgentflow_0: Error in Condition Agent node: The OPENAI_API_KEY environment variable is missing or empty; either provide it, or instantiate the OpenAI client with an apiKey option, like new OpenAI({ apiKey: 'My API Key' }).
+2025-06-11 09:16:34 [ERROR]: [server]: Error: Error in Condition Agent node: The OPENAI_API_KEY environment variable is missing or empty; either provide it, or instantiate the OpenAI client with an apiKey option, like new OpenAI({ apiKey: 'My API Key' }).
+Error: Error in Condition Agent node: The OPENAI_API_KEY environment variable is missing or empty; either provide it, or instantiate the OpenAI client with an apiKey option, like new OpenAI({ apiKey: 'My API Key' }).
+    at executeAgentFlow (/home/lq/projects/liw/Flowise3.0/packages/server/dist/utils/buildAgentflow.js:1287:19)
+    at async utilBuildChatflow (/home/lq/projects/liw/Flowise3.0/packages/server/dist/utils/buildChatflow.js:797:28)
+    at async createAndStreamInternalPrediction (/home/lq/projects/liw/Flowise3.0/packages/server/dist/controllers/internal-predictions/index.js:38:29)
+2025-06-11 09:16:56 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2025-06-11 09:16:57 [INFO]: ⬆️ POST /api/v1/node-load-method/chatOpenAI
+2025-06-11 09:17:30 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2025-06-11 09:17:31 [INFO]: ⬆️ POST /api/v1/node-load-method/chatGoogleGemini
+2025-06-11 09:17:39 [INFO]: 🖊 PUT /api/v1/chatflows/84f879b3-2ea4-4b0a-a0ce-63c952f813bb
+2025-06-11 09:17:45 [INFO]: ⬆️ POST /api/v1/internal-prediction/84f879b3-2ea4-4b0a-a0ce-63c952f813bb
+2025-06-11 09:17:53 [ERROR]: [server]: Error executing node llmAgentflow_0: Error in LLM node: The OPENAI_API_KEY environment variable is missing or empty; either provide it, or instantiate the OpenAI client with an apiKey option, like new OpenAI({ apiKey: 'My API Key' }).
+2025-06-11 09:17:53 [ERROR]: [server]: Error: Error in LLM node: The OPENAI_API_KEY environment variable is missing or empty; either provide it, or instantiate the OpenAI client with an apiKey option, like new OpenAI({ apiKey: 'My API Key' }).
+Error: Error in LLM node: The OPENAI_API_KEY environment variable is missing or empty; either provide it, or instantiate the OpenAI client with an apiKey option, like new OpenAI({ apiKey: 'My API Key' }).
+    at executeAgentFlow (/home/lq/projects/liw/Flowise3.0/packages/server/dist/utils/buildAgentflow.js:1287:19)
+    at async utilBuildChatflow (/home/lq/projects/liw/Flowise3.0/packages/server/dist/utils/buildChatflow.js:797:28)
+    at async createAndStreamInternalPrediction (/home/lq/projects/liw/Flowise3.0/packages/server/dist/controllers/internal-predictions/index.js:38:29)
+2025-06-11 09:19:18 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2025-06-11 09:19:19 [INFO]: ⬆️ POST /api/v1/node-load-method/chatGoogleGemini
+2025-06-11 09:20:18 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2025-06-11 09:20:30 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2025-06-11 09:20:30 [INFO]: ⬆️ POST /api/v1/node-load-method/chatGoogleGemini
+2025-06-11 09:20:45 [INFO]: ⬆️ POST /api/v1/internal-prediction/84f879b3-2ea4-4b0a-a0ce-63c952f813bb
+2025-06-11 09:20:47 [ERROR]: [server]: Error executing node llmAgentflow_0: Error in LLM node: The OPENAI_API_KEY environment variable is missing or empty; either provide it, or instantiate the OpenAI client with an apiKey option, like new OpenAI({ apiKey: 'My API Key' }).
+2025-06-11 09:20:47 [ERROR]: [server]: Error: Error in LLM node: The OPENAI_API_KEY environment variable is missing or empty; either provide it, or instantiate the OpenAI client with an apiKey option, like new OpenAI({ apiKey: 'My API Key' }).
+Error: Error in LLM node: The OPENAI_API_KEY environment variable is missing or empty; either provide it, or instantiate the OpenAI client with an apiKey option, like new OpenAI({ apiKey: 'My API Key' }).
+    at executeAgentFlow (/home/lq/projects/liw/Flowise3.0/packages/server/dist/utils/buildAgentflow.js:1287:19)
+    at async utilBuildChatflow (/home/lq/projects/liw/Flowise3.0/packages/server/dist/utils/buildChatflow.js:797:28)
+    at async createAndStreamInternalPrediction (/home/lq/projects/liw/Flowise3.0/packages/server/dist/controllers/internal-predictions/index.js:38:29)
+2025-06-11 09:21:59 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2025-06-11 09:21:59 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2025-06-11 09:21:59 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2025-06-11 09:22:00 [INFO]: ⬆️ POST /api/v1/node-load-method/chatOpenAI
+2025-06-11 09:22:09 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2025-06-11 09:22:09 [INFO]: ⬆️ POST /api/v1/node-load-method/chatGoogleGemini
+2025-06-11 09:22:30 [INFO]: 🖊 PUT /api/v1/chatflows/84f879b3-2ea4-4b0a-a0ce-63c952f813bb
+2025-06-11 09:22:40 [INFO]: ⬆️ POST /api/v1/internal-prediction/84f879b3-2ea4-4b0a-a0ce-63c952f813bb
+2025-06-11 09:22:44 [ERROR]: [server]: Error executing node retrieverAgentflow_0: docStoreVectorInstance.invoke is not a function
+2025-06-11 09:22:44 [ERROR]: [server]: Error: docStoreVectorInstance.invoke is not a function
+Error: docStoreVectorInstance.invoke is not a function
+    at executeAgentFlow (/home/lq/projects/liw/Flowise3.0/packages/server/dist/utils/buildAgentflow.js:1287:19)
+    at async utilBuildChatflow (/home/lq/projects/liw/Flowise3.0/packages/server/dist/utils/buildChatflow.js:797:28)
+    at async createAndStreamInternalPrediction (/home/lq/projects/liw/Flowise3.0/packages/server/dist/controllers/internal-predictions/index.js:38:29)
+2025-06-11 09:22:56 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2025-06-11 09:22:56 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2025-06-11 09:22:56 [INFO]: ⬆️ POST /api/v1/node-load-method/chatGoogleGemini
+2025-06-11 09:23:11 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2025-06-11 09:23:11 [INFO]: ⬆️ POST /api/v1/node-load-method/retrieverAgentflow
+2025-06-11 09:27:29 [INFO]: ⬆️ POST /api/v1/chatflows
+2025-06-11 09:27:45 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2025-06-11 09:27:45 [INFO]: ⬆️ POST /api/v1/node-load-method/chatOpenAI
+2025-06-11 09:27:55 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2025-06-11 09:27:56 [INFO]: ⬆️ POST /api/v1/node-load-method/chatGoogleGemini
+2025-06-11 09:28:03 [INFO]: ⬆️ POST /api/v1/node-load-method/chatGoogleGemini
+2025-06-11 09:28:07 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2025-06-11 09:28:08 [INFO]: ⬆️ POST /api/v1/node-load-method/chatGoogleGemini
+2025-06-11 09:28:20 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2025-06-11 09:28:21 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2025-06-11 09:28:21 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2025-06-11 09:28:21 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2025-06-11 09:28:21 [INFO]: ⬆️ POST /api/v1/node-load-method/chatGoogleGenerativeAI
+2025-06-11 09:28:26 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2025-06-11 09:28:27 [INFO]: ⬆️ POST /api/v1/node-load-method/chatGoogleGemini
+2025-06-11 09:28:33 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2025-06-11 09:28:33 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2025-06-11 09:28:33 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2025-06-11 09:28:33 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2025-06-11 09:28:34 [INFO]: ⬆️ POST /api/v1/node-load-method/chatGoogleGenerativeAI
+2025-06-11 09:28:38 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2025-06-11 09:28:39 [INFO]: ⬆️ POST /api/v1/node-load-method/chatGoogleGemini
+2025-06-11 09:28:45 [INFO]: 🖊 PUT /api/v1/chatflows/5186d5dc-e4a8-4110-8b88-cc7c1f89eaa0
+2025-06-11 09:28:47 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2025-06-11 09:28:47 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2025-06-11 09:28:47 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2025-06-11 09:28:48 [INFO]: ⬆️ POST /api/v1/node-load-method/chatGoogleGemini
+2025-06-11 09:28:55 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2025-06-11 09:29:01 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2025-06-11 09:29:02 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2025-06-11 09:29:02 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2025-06-11 09:29:02 [INFO]: ⬆️ POST /api/v1/node-load-method/chatGoogleGemini
+2025-06-11 09:29:09 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2025-06-11 09:29:09 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2025-06-11 09:29:09 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2025-06-11 09:29:09 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2025-06-11 09:29:10 [INFO]: ⬆️ POST /api/v1/node-load-method/chatGoogleGemini
+2025-06-11 09:29:15 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2025-06-11 09:29:31 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2025-06-11 09:29:32 [INFO]: ⬆️ POST /api/v1/node-load-method/chatGoogleGenerativeAI
+2025-06-11 09:29:35 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2025-06-11 09:29:35 [INFO]: ⬆️ POST /api/v1/node-load-method/chatGoogleGemini
+2025-06-11 09:29:57 [INFO]: 🖊 PUT /api/v1/chatflows/5186d5dc-e4a8-4110-8b88-cc7c1f89eaa0
+2025-06-11 09:32:40 [INFO]: ⬆️ POST /api/v1/internal-prediction/5186d5dc-e4a8-4110-8b88-cc7c1f89eaa0
+2025-06-11 09:33:02 [ERROR]: [server]: Error executing node agentAgentflow_0: Error in Agent node: Brave API key not set. Please pass it in or set it as an environment variable named "BRAVE_SEARCH_API_KEY".
+2025-06-11 09:33:02 [ERROR]: [server]: Error: Error in Agent node: Brave API key not set. Please pass it in or set it as an environment variable named "BRAVE_SEARCH_API_KEY".
+Error: Error in Agent node: Brave API key not set. Please pass it in or set it as an environment variable named "BRAVE_SEARCH_API_KEY".
+    at executeAgentFlow (/home/lq/projects/liw/Flowise3.0/packages/server/dist/utils/buildAgentflow.js:1287:19)
+    at async utilBuildChatflow (/home/lq/projects/liw/Flowise3.0/packages/server/dist/utils/buildChatflow.js:797:28)
+    at async createAndStreamInternalPrediction (/home/lq/projects/liw/Flowise3.0/packages/server/dist/controllers/internal-predictions/index.js:38:29)
+2025-06-11 09:38:47 [INFO]: ⬆️ POST /api/v1/node-load-method/customMCP
+2025-06-11 09:38:47 [INFO]: ⬆️ POST /api/v1/node-load-method/customTool
+2025-06-11 09:38:47 [INFO]: ⬆️ POST /api/v1/node-load-method/customTool
+2025-06-11 09:38:47 [INFO]: ⬆️ POST /api/v1/node-load-method/customTool
+2025-06-11 09:38:47 [INFO]: ⬆️ POST /api/v1/node-load-method/customTool
+2025-06-11 09:38:47 [INFO]: ⬆️ POST /api/v1/node-load-method/customTool
+2025-06-11 09:38:47 [INFO]: ⬆️ POST /api/v1/node-load-method/customTool
+2025-06-11 09:38:47 [INFO]: ⬆️ POST /api/v1/node-load-method/customTool
+2025-06-11 09:39:07 [INFO]: ⬆️ POST /api/v1/internal-prediction/652cbcc0-6dff-421e-b8af-02d10bdc4b98
+2025-06-11 09:39:18 [ERROR]: [server]: Error: Failed to parse tool arguments from chat model response. Text: "[]". SyntaxError: Unexpected token { in JSON at position 19
+
+Troubleshooting URL: https://js.langchain.com/docs/troubleshooting/errors/OUTPUT_PARSING_FAILURE/
+
+Error: Failed to parse tool arguments from chat model response. Text: "[]". SyntaxError: Unexpected token { in JSON at position 19
+
+Troubleshooting URL: https://js.langchain.com/docs/troubleshooting/errors/OUTPUT_PARSING_FAILURE/
+
+    at parseAIMessageToToolAction (/home/lq/projects/liw/Flowise3.0/packages/components/dist/src/agents.js:813:23)
+    at ToolCallingAgentOutputParser.parseResult (/home/lq/projects/liw/Flowise3.0/packages/components/dist/src/agents.js:847:20)
+    at ToolCallingAgentOutputParser._callWithConfig (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@langchain+core@0.3.37_openai@4.96.0_encoding@0.1.13_ws@8.18.0_bufferutil@4.0.8_utf-8-validate@6.0.4__zod@3.22.4_/node_modules/@langchain/core/dist/output_parsers/base.cjs:46:72)
+    at ToolCallingAgentOutputParser._callWithConfig (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@langchain+core@0.3.37_openai@4.96.0_encoding@0.1.13_ws@8.18.0_bufferutil@4.0.8_utf-8-validate@6.0.4__zod@3.22.4_/node_modules/@langchain/core/dist/runnables/base.cjs:223:34)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ToolCallingAgentOutputParser._streamIterator (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@langchain+core@0.3.37_openai@4.96.0_encoding@0.1.13_ws@8.18.0_bufferutil@4.0.8_utf-8-validate@6.0.4__zod@3.22.4_/node_modules/@langchain/core/dist/runnables/base.cjs:165:9)
+    at async ToolCallingAgentOutputParser.transform (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@langchain+core@0.3.37_openai@4.96.0_encoding@0.1.13_ws@8.18.0_bufferutil@4.0.8_utf-8-validate@6.0.4__zod@3.22.4_/node_modules/@langchain/core/dist/runnables/base.cjs:402:9)
+    at async RunnableSequence._streamIterator (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@langchain+core@0.3.37_openai@4.96.0_encoding@0.1.13_ws@8.18.0_bufferutil@4.0.8_utf-8-validate@6.0.4__zod@3.22.4_/node_modules/@langchain/core/dist/runnables/base.cjs:1349:30)
+2025-06-11 09:47:21 [INFO]: ⬆️ POST /api/v1/auth/refreshToken
+2025-06-11 09:47:21 [INFO]: ⬆️ POST /api/v1/auth/refreshToken
+2025-06-11 09:47:30 [INFO]: ⬆️ POST /api/v1/internal-prediction/652cbcc0-6dff-421e-b8af-02d10bdc4b98
+2025-06-11 09:48:56 [INFO]: ⬆️ POST /api/v1/internal-prediction/652cbcc0-6dff-421e-b8af-02d10bdc4b98

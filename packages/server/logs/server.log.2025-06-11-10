@@ -1,0 +1,147 @@
+2025-06-11 10:23:20 [INFO]: ❌ DELETE /api/v1/chatmessage/652cbcc0-6dff-421e-b8af-02d10bdc4b98?chatId=9bbebe71-2c0d-4a60-89ee-5b8ab162c78d&chatType=INTERNAL
+2025-06-11 10:23:20 [ERROR]: [server]: Error deleting file storage for chatflow 652cbcc0-6dff-421e-b8af-02d10bdc4b98, chatId 9bbebe71-2c0d-4a60-89ee-5b8ab162c78d
+2025-06-11 10:23:34 [INFO]: ⬆️ POST /api/v1/internal-prediction/652cbcc0-6dff-421e-b8af-02d10bdc4b98
+2025-06-11 10:25:32 [INFO]: ⬆️ POST /api/v1/internal-prediction/652cbcc0-6dff-421e-b8af-02d10bdc4b98
+2025-06-11 10:25:54 [ERROR]: [server]: Error: Failed to parse tool arguments from chat model response. Text: "[]". SyntaxError: Unexpected token { in JSON at position 28
+
+Troubleshooting URL: https://js.langchain.com/docs/troubleshooting/errors/OUTPUT_PARSING_FAILURE/
+
+Error: Failed to parse tool arguments from chat model response. Text: "[]". SyntaxError: Unexpected token { in JSON at position 28
+
+Troubleshooting URL: https://js.langchain.com/docs/troubleshooting/errors/OUTPUT_PARSING_FAILURE/
+
+    at parseAIMessageToToolAction (/home/lq/projects/liw/Flowise3.0/packages/components/dist/src/agents.js:813:23)
+    at ToolCallingAgentOutputParser.parseResult (/home/lq/projects/liw/Flowise3.0/packages/components/dist/src/agents.js:847:20)
+    at ToolCallingAgentOutputParser._callWithConfig (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@langchain+core@0.3.37_openai@4.96.0_encoding@0.1.13_ws@8.18.0_bufferutil@4.0.8_utf-8-validate@6.0.4__zod@3.22.4_/node_modules/@langchain/core/dist/output_parsers/base.cjs:46:72)
+    at ToolCallingAgentOutputParser._callWithConfig (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@langchain+core@0.3.37_openai@4.96.0_encoding@0.1.13_ws@8.18.0_bufferutil@4.0.8_utf-8-validate@6.0.4__zod@3.22.4_/node_modules/@langchain/core/dist/runnables/base.cjs:223:34)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ToolCallingAgentOutputParser._streamIterator (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@langchain+core@0.3.37_openai@4.96.0_encoding@0.1.13_ws@8.18.0_bufferutil@4.0.8_utf-8-validate@6.0.4__zod@3.22.4_/node_modules/@langchain/core/dist/runnables/base.cjs:165:9)
+    at async ToolCallingAgentOutputParser.transform (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@langchain+core@0.3.37_openai@4.96.0_encoding@0.1.13_ws@8.18.0_bufferutil@4.0.8_utf-8-validate@6.0.4__zod@3.22.4_/node_modules/@langchain/core/dist/runnables/base.cjs:402:9)
+    at async RunnableSequence._streamIterator (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@langchain+core@0.3.37_openai@4.96.0_encoding@0.1.13_ws@8.18.0_bufferutil@4.0.8_utf-8-validate@6.0.4__zod@3.22.4_/node_modules/@langchain/core/dist/runnables/base.cjs:1349:30)
+2025-06-11 10:32:08 [INFO]: ⬆️ POST /api/v1/internal-prediction/652cbcc0-6dff-421e-b8af-02d10bdc4b98
+2025-06-11 10:37:53 [INFO]: 🖊 PUT /api/v1/chatflows/652cbcc0-6dff-421e-b8af-02d10bdc4b98
+2025-06-11 10:39:46 [INFO]: ⬆️ POST /api/v1/internal-prediction/5186d5dc-e4a8-4110-8b88-cc7c1f89eaa0
+2025-06-11 10:40:23 [ERROR]: [server]: Error executing node agentAgentflow_0: Error in Agent node: Brave API key not set. Please pass it in or set it as an environment variable named "BRAVE_SEARCH_API_KEY".
+2025-06-11 10:40:23 [ERROR]: [server]: Error: Error in Agent node: Brave API key not set. Please pass it in or set it as an environment variable named "BRAVE_SEARCH_API_KEY".
+Error: Error in Agent node: Brave API key not set. Please pass it in or set it as an environment variable named "BRAVE_SEARCH_API_KEY".
+    at executeAgentFlow (/home/lq/projects/liw/Flowise3.0/packages/server/dist/utils/buildAgentflow.js:1287:19)
+    at async utilBuildChatflow (/home/lq/projects/liw/Flowise3.0/packages/server/dist/utils/buildChatflow.js:797:28)
+    at async createAndStreamInternalPrediction (/home/lq/projects/liw/Flowise3.0/packages/server/dist/controllers/internal-predictions/index.js:38:29)
+2025-06-11 10:40:30 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2025-06-11 10:40:30 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2025-06-11 10:40:30 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2025-06-11 10:40:31 [INFO]: ⬆️ POST /api/v1/node-load-method/chatGoogleGemini
+2025-06-11 10:40:45 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2025-06-11 10:40:57 [INFO]: 🖊 PUT /api/v1/chatflows/5186d5dc-e4a8-4110-8b88-cc7c1f89eaa0
+2025-06-11 10:42:09 [INFO]: ⬆️ POST /api/v1/internal-prediction/5186d5dc-e4a8-4110-8b88-cc7c1f89eaa0
+2025-06-11 10:42:15 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2025-06-11 10:42:16 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2025-06-11 10:42:16 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2025-06-11 10:42:16 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2025-06-11 10:42:16 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2025-06-11 10:42:16 [INFO]: ⬆️ POST /api/v1/node-load-method/chatGoogleGemini
+2025-06-11 10:42:25 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2025-06-11 10:42:32 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2025-06-11 10:42:34 [INFO]: ⬆️ POST /api/v1/node-load-method/loopAgentflow
+2025-06-11 10:42:36 [INFO]: ⬆️ POST /api/v1/node-load-method/loopAgentflow
+2025-06-11 10:42:36 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2025-06-11 10:42:37 [INFO]: ⬆️ POST /api/v1/node-load-method/chatGoogleGemini
+2025-06-11 10:42:45 [INFO]: 🖊 PUT /api/v1/chatflows/5186d5dc-e4a8-4110-8b88-cc7c1f89eaa0
+2025-06-11 10:43:47 [INFO]: ⬆️ POST /api/v1/internal-prediction/5186d5dc-e4a8-4110-8b88-cc7c1f89eaa0
+2025-06-11 10:44:03 [ERROR]: [server]: Error executing node agentAgentflow_1: Error in Agent node: Brave API key not set. Please pass it in or set it as an environment variable named "BRAVE_SEARCH_API_KEY".
+2025-06-11 10:44:03 [ERROR]: [server]: Error: Error in Agent node: Brave API key not set. Please pass it in or set it as an environment variable named "BRAVE_SEARCH_API_KEY".
+Error: Error in Agent node: Brave API key not set. Please pass it in or set it as an environment variable named "BRAVE_SEARCH_API_KEY".
+    at executeAgentFlow (/home/lq/projects/liw/Flowise3.0/packages/server/dist/utils/buildAgentflow.js:1287:19)
+    at async utilBuildChatflow (/home/lq/projects/liw/Flowise3.0/packages/server/dist/utils/buildChatflow.js:797:28)
+    at async createAndStreamInternalPrediction (/home/lq/projects/liw/Flowise3.0/packages/server/dist/controllers/internal-predictions/index.js:38:29)
+2025-06-11 10:44:30 [ERROR]: [server]: Error executing node agentAgentflow_1: Error in Agent node: Streaming finished without producing any chunks.
+2025-06-11 10:44:30 [ERROR]: [server]: Error: Error in Agent node: Streaming finished without producing any chunks.
+Error: Error in Agent node: Streaming finished without producing any chunks.
+    at executeAgentFlow (/home/lq/projects/liw/Flowise3.0/packages/server/dist/utils/buildAgentflow.js:1287:19)
+    at async utilBuildChatflow (/home/lq/projects/liw/Flowise3.0/packages/server/dist/utils/buildChatflow.js:797:28)
+    at async createAndStreamInternalPrediction (/home/lq/projects/liw/Flowise3.0/packages/server/dist/controllers/internal-predictions/index.js:38:29)
+2025-06-11 10:44:43 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2025-06-11 10:44:43 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2025-06-11 10:44:43 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2025-06-11 10:44:44 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2025-06-11 10:44:44 [INFO]: ⬆️ POST /api/v1/node-load-method/chatGoogleGemini
+2025-06-11 10:45:00 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2025-06-11 10:45:17 [INFO]: 🖊 PUT /api/v1/chatflows/5186d5dc-e4a8-4110-8b88-cc7c1f89eaa0
+2025-06-11 10:45:58 [INFO]: ⬆️ POST /api/v1/internal-prediction/5186d5dc-e4a8-4110-8b88-cc7c1f89eaa0
+2025-06-11 10:46:58 [ERROR]: [server]: Error executing node agentAgentflow_1: Error in Agent node: Streaming finished without producing any chunks.
+2025-06-11 10:46:58 [ERROR]: [server]: Error: Error in Agent node: Streaming finished without producing any chunks.
+Error: Error in Agent node: Streaming finished without producing any chunks.
+    at executeAgentFlow (/home/lq/projects/liw/Flowise3.0/packages/server/dist/utils/buildAgentflow.js:1287:19)
+    at async utilBuildChatflow (/home/lq/projects/liw/Flowise3.0/packages/server/dist/utils/buildChatflow.js:797:28)
+    at async createAndStreamInternalPrediction (/home/lq/projects/liw/Flowise3.0/packages/server/dist/controllers/internal-predictions/index.js:38:29)
+2025-06-11 10:47:36 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2025-06-11 10:47:36 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2025-06-11 10:47:36 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2025-06-11 10:47:36 [INFO]: ⬆️ POST /api/v1/auth/refreshToken
+2025-06-11 10:47:36 [INFO]: ⬆️ POST /api/v1/auth/refreshToken
+2025-06-11 10:47:36 [INFO]: ⬆️ POST /api/v1/auth/refreshToken
+2025-06-11 10:47:37 [INFO]: ⬆️ POST /api/v1/node-load-method/chatGoogleGemini
+2025-06-11 10:48:18 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2025-06-11 10:48:19 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2025-06-11 10:48:19 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2025-06-11 10:48:19 [INFO]: ⬆️ POST /api/v1/node-load-method/chatGoogleGemini
+2025-06-11 10:48:29 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2025-06-11 10:48:30 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2025-06-11 10:48:30 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2025-06-11 10:48:30 [INFO]: ⬆️ POST /api/v1/node-load-method/chatGoogleGemini
+2025-06-11 10:48:36 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2025-06-11 10:48:45 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2025-06-11 10:48:46 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2025-06-11 10:48:46 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2025-06-11 10:48:46 [INFO]: ⬆️ POST /api/v1/node-load-method/chatGoogleGemini
+2025-06-11 10:48:52 [INFO]: 🖊 PUT /api/v1/chatflows/5186d5dc-e4a8-4110-8b88-cc7c1f89eaa0
+2025-06-11 10:48:57 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2025-06-11 10:48:57 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2025-06-11 10:48:57 [INFO]: ⬆️ POST /api/v1/node-load-method/chatGoogleGemini
+2025-06-11 10:49:14 [INFO]: 🖊 PUT /api/v1/chatflows/5186d5dc-e4a8-4110-8b88-cc7c1f89eaa0
+2025-06-11 10:50:06 [INFO]: ⬆️ POST /api/v1/internal-prediction/5186d5dc-e4a8-4110-8b88-cc7c1f89eaa0
+2025-06-11 10:50:51 [ERROR]: [server]: Error executing node agentAgentflow_1: Error in Agent node: Streaming finished without producing any chunks.
+2025-06-11 10:50:51 [ERROR]: [server]: Error: Error in Agent node: Streaming finished without producing any chunks.
+Error: Error in Agent node: Streaming finished without producing any chunks.
+    at executeAgentFlow (/home/lq/projects/liw/Flowise3.0/packages/server/dist/utils/buildAgentflow.js:1287:19)
+    at async utilBuildChatflow (/home/lq/projects/liw/Flowise3.0/packages/server/dist/utils/buildChatflow.js:797:28)
+    at async createAndStreamInternalPrediction (/home/lq/projects/liw/Flowise3.0/packages/server/dist/controllers/internal-predictions/index.js:38:29)
+2025-06-11 10:52:06 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2025-06-11 10:52:06 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2025-06-11 10:52:07 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2025-06-11 10:52:07 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2025-06-11 10:52:07 [INFO]: ⬆️ POST /api/v1/node-load-method/chatGoogleGemini
+2025-06-11 10:52:14 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2025-06-11 10:52:14 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2025-06-11 10:52:14 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2025-06-11 10:52:14 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2025-06-11 10:52:14 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2025-06-11 10:52:14 [INFO]: ⬆️ POST /api/v1/node-load-method/chatGoogleGemini
+2025-06-11 10:52:21 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2025-06-11 10:52:37 [INFO]: 🖊 PUT /api/v1/chatflows/5186d5dc-e4a8-4110-8b88-cc7c1f89eaa0
+2025-06-11 10:52:43 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2025-06-11 10:52:43 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2025-06-11 10:52:43 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2025-06-11 10:52:43 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2025-06-11 10:52:44 [INFO]: ⬆️ POST /api/v1/node-load-method/chatGoogleGemini
+2025-06-11 10:53:15 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2025-06-11 10:53:16 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2025-06-11 10:53:16 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2025-06-11 10:53:16 [INFO]: ⬆️ POST /api/v1/node-load-method/chatGoogleGemini
+2025-06-11 10:53:41 [INFO]: 🖊 PUT /api/v1/chatflows/5186d5dc-e4a8-4110-8b88-cc7c1f89eaa0
+2025-06-11 10:54:03 [INFO]: ⬆️ POST /api/v1/internal-prediction/5186d5dc-e4a8-4110-8b88-cc7c1f89eaa0
+2025-06-11 10:55:18 [ERROR]: [server]: Error executing node agentAgentflow_1: Error in Agent node: Streaming finished without producing any chunks.
+2025-06-11 10:55:18 [ERROR]: [server]: Error: Error in Agent node: Streaming finished without producing any chunks.
+Error: Error in Agent node: Streaming finished without producing any chunks.
+    at executeAgentFlow (/home/lq/projects/liw/Flowise3.0/packages/server/dist/utils/buildAgentflow.js:1287:19)
+    at async utilBuildChatflow (/home/lq/projects/liw/Flowise3.0/packages/server/dist/utils/buildChatflow.js:797:28)
+    at async createAndStreamInternalPrediction (/home/lq/projects/liw/Flowise3.0/packages/server/dist/controllers/internal-predictions/index.js:38:29)
+2025-06-11 10:56:33 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2025-06-11 10:56:34 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2025-06-11 10:56:34 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2025-06-11 10:56:35 [INFO]: ⬆️ POST /api/v1/node-load-method/chatGoogleGemini
+2025-06-11 10:56:52 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2025-06-11 10:56:52 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2025-06-11 10:56:52 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2025-06-11 10:56:53 [INFO]: ⬆️ POST /api/v1/node-load-method/chatGoogleGemini
+2025-06-11 10:57:00 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow

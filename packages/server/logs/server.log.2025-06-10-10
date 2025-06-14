@@ -1,0 +1,27 @@
+2025-06-10 10:11:02 [INFO]: Starting Flowise...
+2025-06-10 10:11:02 [INFO]: 📦 [server]: Data Source initialized successfully
+2025-06-10 10:11:02 [INFO]: 🔄 [server]: Database migrations completed successfully
+2025-06-10 10:11:02 [INFO]: 🔐 [server]: Identity Manager initialized successfully
+2025-06-10 10:11:08 [INFO]: 🔧 [server]: Nodes pool initialized successfully
+2025-06-10 10:11:08 [INFO]: ⏹️ [server]: Abort controllers pool initialized successfully
+2025-06-10 10:11:08 [INFO]: 🔑 [server]: Encryption key initialized successfully
+2025-06-10 10:11:08 [INFO]: 🚦 [server]: Rate limiters initialized successfully
+2025-06-10 10:11:08 [INFO]: 💾 [server]: Cache pool initialized successfully
+2025-06-10 10:11:08 [INFO]: 📊 [server]: Usage cache manager initialized successfully
+2025-06-10 10:11:08 [INFO]: 📈 [server]: Telemetry initialized successfully
+2025-06-10 10:11:08 [INFO]: 🌊 [server]: SSE Streamer initialized successfully
+2025-06-10 10:11:08 [INFO]: 🎉 [server]: All initialization steps completed successfully!
+2025-06-10 10:11:08 [INFO]: ⚡️ [server]: Flowise Server is listening at :3003
+2025-06-10 10:11:21 [INFO]: ⬆️ POST /api/v1/auth/refreshToken
+2025-06-10 10:11:23 [INFO]: ⬆️ POST /api/v1/node-load-method/groqChat
+2025-06-10 10:11:33 [INFO]: ⬆️ POST /api/v1/node-load-method/chatGoogleGemini
+2025-06-10 10:12:29 [INFO]: 🖊 PUT /api/v1/chatflows/8b62eb5b-a36d-46e9-b26a-7cd3a064c7a1
+2025-06-10 10:12:52 [INFO]: 🖊 PUT /api/v1/chatflows/8b62eb5b-a36d-46e9-b26a-7cd3a064c7a1
+2025-06-10 10:13:00 [INFO]: ⬆️ POST /api/v1/internal-prediction/8b62eb5b-a36d-46e9-b26a-7cd3a064c7a1
+2025-06-10 10:26:43 [INFO]: ❌ DELETE /api/v1/chatmessage/8b62eb5b-a36d-46e9-b26a-7cd3a064c7a1?chatId=dba7ebc9-18aa-48c2-b311-26ba38c3199e&chatType=INTERNAL
+2025-06-10 10:26:43 [ERROR]: [server]: Error deleting file storage for chatflow 8b62eb5b-a36d-46e9-b26a-7cd3a064c7a1, chatId dba7ebc9-18aa-48c2-b311-26ba38c3199e
+2025-06-10 10:27:22 [INFO]: 🖊 PUT /api/v1/chatflows/8b62eb5b-a36d-46e9-b26a-7cd3a064c7a1
+2025-06-10 10:27:29 [INFO]: ⬆️ POST /api/v1/internal-prediction/8b62eb5b-a36d-46e9-b26a-7cd3a064c7a1
+2025-06-10 10:42:27 [INFO]: ❌ DELETE /api/v1/chatmessage/8b62eb5b-a36d-46e9-b26a-7cd3a064c7a1?chatId=6729ab1b-4fd9-432d-9a00-f07d433eba3e&chatType=INTERNAL
+2025-06-10 10:42:27 [ERROR]: [server]: Error deleting file storage for chatflow 8b62eb5b-a36d-46e9-b26a-7cd3a064c7a1, chatId 6729ab1b-4fd9-432d-9a00-f07d433eba3e
+2025-06-10 10:42:35 [INFO]: ⬆️ POST /api/v1/internal-prediction/8b62eb5b-a36d-46e9-b26a-7cd3a064c7a1

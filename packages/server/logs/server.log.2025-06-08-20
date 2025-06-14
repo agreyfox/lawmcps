@@ -1,0 +1,51 @@
+2025-06-08 20:28:44 [INFO]: ⬆️ POST /api/v1/auth/refreshToken
+2025-06-08 20:28:47 [INFO]: ⬆️ POST /api/v1/node-load-method/customMCP
+2025-06-08 20:28:47 [INFO]: ⬆️ POST /api/v1/node-load-method/customTool
+2025-06-08 20:28:47 [INFO]: ⬆️ POST /api/v1/node-load-method/customTool
+2025-06-08 20:28:47 [INFO]: ⬆️ POST /api/v1/node-load-method/customTool
+2025-06-08 20:28:47 [INFO]: ⬆️ POST /api/v1/node-load-method/customTool
+2025-06-08 20:28:47 [INFO]: ⬆️ POST /api/v1/node-load-method/customTool
+2025-06-08 20:28:47 [INFO]: ⬆️ POST /api/v1/node-load-method/customTool
+2025-06-08 20:28:47 [INFO]: ⬆️ POST /api/v1/node-load-method/customTool
+2025-06-08 20:30:05 [INFO]: ⬆️ POST /api/v1/vector/internal-upsert/11cd36e7-a356-457c-af2b-1340d0be3c34
+2025-06-08 20:30:16 [ERROR]: [server]: [315b13a3-df63-4eea-b191-ac57d35d74c9]: TypeError: fetch failed
+Error: TypeError: fetch failed
+    at InMemoryVectorStore_VectorStores.upsert (/home/lq/projects/liw/Flowise3.0/packages/components/dist/nodes/vectorstores/InMemory/InMemoryVectorStore.js:26:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async buildFlow (/home/lq/projects/liw/Flowise3.0/packages/server/dist/utils/index.js:463:37)
+    at async executeUpsert (/home/lq/projects/liw/Flowise3.0/packages/server/dist/utils/upsertVector.js:143:28)
+    at async upsertVector (/home/lq/projects/liw/Flowise3.0/packages/server/dist/utils/upsertVector.js:268:28)
+    at async Object.upsertVectorMiddleware (/home/lq/projects/liw/Flowise3.0/packages/server/dist/services/vectors/index.js:9:16)
+    at async createInternalUpsert (/home/lq/projects/liw/Flowise3.0/packages/server/dist/controllers/vectors/index.js:28:29)
+2025-06-08 20:30:16 [ERROR]: [server]: Error: Error: TypeError: fetch failed
+Error: Error: TypeError: fetch failed
+    at buildFlow (/home/lq/projects/liw/Flowise3.0/packages/server/dist/utils/index.js:549:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async executeUpsert (/home/lq/projects/liw/Flowise3.0/packages/server/dist/utils/upsertVector.js:143:28)
+    at async upsertVector (/home/lq/projects/liw/Flowise3.0/packages/server/dist/utils/upsertVector.js:268:28)
+    at async Object.upsertVectorMiddleware (/home/lq/projects/liw/Flowise3.0/packages/server/dist/services/vectors/index.js:9:16)
+    at async createInternalUpsert (/home/lq/projects/liw/Flowise3.0/packages/server/dist/controllers/vectors/index.js:28:29)
+2025-06-08 20:47:19 [INFO]: Starting Flowise...
+2025-06-08 20:47:19 [INFO]: 📦 [server]: Data Source initialized successfully
+2025-06-08 20:47:19 [INFO]: 🔄 [server]: Database migrations completed successfully
+2025-06-08 20:47:19 [INFO]: 🔐 [server]: Identity Manager initialized successfully
+2025-06-08 20:47:25 [INFO]: 🔧 [server]: Nodes pool initialized successfully
+2025-06-08 20:47:25 [INFO]: ⏹️ [server]: Abort controllers pool initialized successfully
+2025-06-08 20:47:25 [INFO]: 🔑 [server]: Encryption key initialized successfully
+2025-06-08 20:47:25 [INFO]: 🚦 [server]: Rate limiters initialized successfully
+2025-06-08 20:47:25 [INFO]: 💾 [server]: Cache pool initialized successfully
+2025-06-08 20:47:25 [INFO]: 📊 [server]: Usage cache manager initialized successfully
+2025-06-08 20:47:25 [INFO]: 📈 [server]: Telemetry initialized successfully
+2025-06-08 20:47:25 [INFO]: 🌊 [server]: SSE Streamer initialized successfully
+2025-06-08 20:47:25 [INFO]: 🎉 [server]: All initialization steps completed successfully!
+2025-06-08 20:47:25 [INFO]: ⚡️ [server]: Flowise Server is listening at :3003
+2025-06-08 20:47:51 [INFO]: ⬆️ POST /api/v1/vector/internal-upsert/11cd36e7-a356-457c-af2b-1340d0be3c34
+2025-06-08 20:49:34 [INFO]: ⬆️ POST /api/v1/internal-prediction/11cd36e7-a356-457c-af2b-1340d0be3c34
+2025-06-08 20:51:27 [INFO]: ⬆️ POST /api/v1/node-load-method/documentStoreVS
+2025-06-08 20:51:38 [INFO]: 🖊 PUT /api/v1/chatflows/19907120-a90a-41c8-8720-708d5adf6247
+2025-06-08 20:52:13 [INFO]: ⬆️ POST /api/v1/internal-prediction/19907120-a90a-41c8-8720-708d5adf6247
+2025-06-08 20:53:24 [INFO]: ⬆️ POST /api/v1/internal-prediction/19907120-a90a-41c8-8720-708d5adf6247
+2025-06-08 20:55:05 [INFO]: ⬆️ POST /api/v1/internal-prediction/19907120-a90a-41c8-8720-708d5adf6247
+2025-06-08 20:57:01 [INFO]: ⬆️ POST /api/v1/node-load-method/customTool
+2025-06-08 20:57:02 [INFO]: ⬆️ POST /api/v1/node-load-method/chatGoogleGemini
+2025-06-08 20:58:42 [INFO]: 🖊 PUT /api/v1/chatflows/650a6a10-4e9e-47fc-8937-0d39f6d7b546

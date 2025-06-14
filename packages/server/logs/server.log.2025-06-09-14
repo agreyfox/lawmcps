@@ -1,0 +1,73 @@
+2025-06-09 14:38:12 [INFO]: Starting Flowise...
+2025-06-09 14:38:12 [INFO]: 📦 [server]: Data Source initialized successfully
+2025-06-09 14:38:12 [INFO]: 🔄 [server]: Database migrations completed successfully
+2025-06-09 14:38:12 [INFO]: 🔐 [server]: Identity Manager initialized successfully
+2025-06-09 14:38:19 [INFO]: 🔧 [server]: Nodes pool initialized successfully
+2025-06-09 14:38:19 [INFO]: ⏹️ [server]: Abort controllers pool initialized successfully
+2025-06-09 14:38:19 [INFO]: 🔑 [server]: Encryption key initialized successfully
+2025-06-09 14:38:19 [INFO]: 🚦 [server]: Rate limiters initialized successfully
+2025-06-09 14:38:19 [INFO]: 💾 [server]: Cache pool initialized successfully
+2025-06-09 14:38:19 [INFO]: 📊 [server]: Usage cache manager initialized successfully
+2025-06-09 14:38:19 [INFO]: 📈 [server]: Telemetry initialized successfully
+2025-06-09 14:38:19 [INFO]: 🌊 [server]: SSE Streamer initialized successfully
+2025-06-09 14:38:19 [INFO]: 🎉 [server]: All initialization steps completed successfully!
+2025-06-09 14:38:19 [INFO]: ⚡️ [server]: Flowise Server is listening at :3003
+2025-06-09 14:39:51 [INFO]: ⬆️ POST /api/v1/internal-prediction/652cbcc0-6dff-421e-b8af-02d10bdc4b98
+2025-06-09 14:40:36 [INFO]: ⬆️ POST /api/v1/node-load-method/customMCP
+2025-06-09 14:40:36 [INFO]: ⬆️ POST /api/v1/node-load-method/customTool
+2025-06-09 14:40:36 [INFO]: ⬆️ POST /api/v1/node-load-method/customTool
+2025-06-09 14:40:36 [INFO]: ⬆️ POST /api/v1/node-load-method/customTool
+2025-06-09 14:40:36 [INFO]: ⬆️ POST /api/v1/node-load-method/customTool
+2025-06-09 14:40:36 [INFO]: ⬆️ POST /api/v1/node-load-method/customTool
+2025-06-09 14:40:37 [INFO]: ⬆️ POST /api/v1/node-load-method/customTool
+2025-06-09 14:40:37 [INFO]: ⬆️ POST /api/v1/node-load-method/customTool
+2025-06-09 14:40:49 [INFO]: ⬆️ POST /api/v1/internal-prediction/652cbcc0-6dff-421e-b8af-02d10bdc4b98
+2025-06-09 14:41:14 [ERROR]: [server]: Error: 400 "Invalid request content: The arguments to a tool_call are not a valid JSON string. Parsing error: Error(\"trailing characters\", line: 1, column: 24)"
+Error: 400 "Invalid request content: The arguments to a tool_call are not a valid JSON string. Parsing error: Error(\"trailing characters\", line: 1, column: 24)"
+    at APIError.generate (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/openai@4.96.0_encoding@0.1.13_ws@8.18.0_bufferutil@4.0.8_utf-8-validate@6.0.4__zod@3.22.4/node_modules/openai/error.js:45:20)
+    at OpenAI.makeStatusError (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/openai@4.96.0_encoding@0.1.13_ws@8.18.0_bufferutil@4.0.8_utf-8-validate@6.0.4__zod@3.22.4/node_modules/openai/core.js:302:33)
+    at OpenAI.makeRequest (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/openai@4.96.0_encoding@0.1.13_ws@8.18.0_bufferutil@4.0.8_utf-8-validate@6.0.4__zod@3.22.4/node_modules/openai/core.js:346:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async /home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@langchain+openai@0.3.13_@langchain+core@0.3.37_openai@4.96.0_encoding@0.1.13_ws@8.18.0_3e7d0ad6beedde1e4cb64651d5d28791/node_modules/@langchain/openai/dist/chat_models.cjs:1558:29
+    at async RetryOperation._fn (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/p-retry@4.6.2/node_modules/p-retry/index.js:50:12)
+2025-06-09 14:41:24 [ERROR]: [server]: Error: 400 "Invalid request content: The arguments to a tool_call are not a valid JSON string. Parsing error: Error(\"trailing characters\", line: 1, column: 24)"
+Error: 400 "Invalid request content: The arguments to a tool_call are not a valid JSON string. Parsing error: Error(\"trailing characters\", line: 1, column: 24)"
+    at APIError.generate (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/openai@4.96.0_encoding@0.1.13_ws@8.18.0_bufferutil@4.0.8_utf-8-validate@6.0.4__zod@3.22.4/node_modules/openai/error.js:45:20)
+    at OpenAI.makeStatusError (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/openai@4.96.0_encoding@0.1.13_ws@8.18.0_bufferutil@4.0.8_utf-8-validate@6.0.4__zod@3.22.4/node_modules/openai/core.js:302:33)
+    at OpenAI.makeRequest (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/openai@4.96.0_encoding@0.1.13_ws@8.18.0_bufferutil@4.0.8_utf-8-validate@6.0.4__zod@3.22.4/node_modules/openai/core.js:346:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async /home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@langchain+openai@0.3.13_@langchain+core@0.3.37_openai@4.96.0_encoding@0.1.13_ws@8.18.0_3e7d0ad6beedde1e4cb64651d5d28791/node_modules/@langchain/openai/dist/chat_models.cjs:1558:29
+    at async RetryOperation._fn (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/p-retry@4.6.2/node_modules/p-retry/index.js:50:12)
+2025-06-09 14:57:05 [INFO]: Starting Flowise...
+2025-06-09 14:57:05 [INFO]: 📦 [server]: Data Source initialized successfully
+2025-06-09 14:57:05 [INFO]: 🔄 [server]: Database migrations completed successfully
+2025-06-09 14:57:05 [INFO]: 🔐 [server]: Identity Manager initialized successfully
+2025-06-09 14:57:10 [INFO]: 🔧 [server]: Nodes pool initialized successfully
+2025-06-09 14:57:10 [INFO]: ⏹️ [server]: Abort controllers pool initialized successfully
+2025-06-09 14:57:10 [INFO]: 🔑 [server]: Encryption key initialized successfully
+2025-06-09 14:57:10 [INFO]: 🚦 [server]: Rate limiters initialized successfully
+2025-06-09 14:57:10 [INFO]: 💾 [server]: Cache pool initialized successfully
+2025-06-09 14:57:10 [INFO]: 📊 [server]: Usage cache manager initialized successfully
+2025-06-09 14:57:10 [INFO]: 📈 [server]: Telemetry initialized successfully
+2025-06-09 14:57:10 [INFO]: 🌊 [server]: SSE Streamer initialized successfully
+2025-06-09 14:57:10 [INFO]: 🎉 [server]: All initialization steps completed successfully!
+2025-06-09 14:57:10 [INFO]: ⚡️ [server]: Flowise Server is listening at :3003
+2025-06-09 14:57:35 [INFO]: ⬆️ POST /api/v1/auth/refreshToken
+2025-06-09 14:57:35 [INFO]: ⬆️ POST /api/v1/auth/refreshToken
+2025-06-09 14:57:35 [INFO]: ⬆️ POST /api/v1/node-load-method/customMCP
+2025-06-09 14:57:35 [INFO]: ⬆️ POST /api/v1/node-load-method/customTool
+2025-06-09 14:57:35 [INFO]: ⬆️ POST /api/v1/node-load-method/customTool
+2025-06-09 14:57:35 [INFO]: ⬆️ POST /api/v1/node-load-method/customTool
+2025-06-09 14:57:35 [INFO]: ⬆️ POST /api/v1/node-load-method/customTool
+2025-06-09 14:57:35 [INFO]: ⬆️ POST /api/v1/node-load-method/customTool
+2025-06-09 14:57:35 [INFO]: ⬆️ POST /api/v1/node-load-method/customTool
+2025-06-09 14:57:35 [INFO]: ⬆️ POST /api/v1/node-load-method/customTool
+2025-06-09 14:57:41 [INFO]: ⬆️ POST /api/v1/internal-prediction/652cbcc0-6dff-421e-b8af-02d10bdc4b98
+2025-06-09 14:58:03 [ERROR]: [server]: Error: 400 "Invalid request content: The arguments to a tool_call are not a valid JSON string. Parsing error: Error(\"trailing characters\", line: 1, column: 24)"
+Error: 400 "Invalid request content: The arguments to a tool_call are not a valid JSON string. Parsing error: Error(\"trailing characters\", line: 1, column: 24)"
+    at APIError.generate (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/openai@4.96.0_encoding@0.1.13_ws@8.18.0_bufferutil@4.0.8_utf-8-validate@6.0.4__zod@3.22.4/node_modules/openai/error.js:45:20)
+    at OpenAI.makeStatusError (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/openai@4.96.0_encoding@0.1.13_ws@8.18.0_bufferutil@4.0.8_utf-8-validate@6.0.4__zod@3.22.4/node_modules/openai/core.js:302:33)
+    at OpenAI.makeRequest (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/openai@4.96.0_encoding@0.1.13_ws@8.18.0_bufferutil@4.0.8_utf-8-validate@6.0.4__zod@3.22.4/node_modules/openai/core.js:346:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async /home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@langchain+openai@0.3.13_@langchain+core@0.3.37_openai@4.96.0_encoding@0.1.13_ws@8.18.0_3e7d0ad6beedde1e4cb64651d5d28791/node_modules/@langchain/openai/dist/chat_models.cjs:1558:29
+    at async RetryOperation._fn (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/p-retry@4.6.2/node_modules/p-retry/index.js:50:12)

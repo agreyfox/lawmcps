@@ -1,0 +1,85 @@
+2025-06-08 17:00:53 [INFO]: ⬆️ POST /api/v1/agentflowv2-generator/generate
+2025-06-08 17:02:07 [INFO]: ⬆️ POST /api/v1/node-config
+2025-06-08 17:02:21 [INFO]: ⬆️ POST /api/v1/node-config
+2025-06-08 17:02:52 [INFO]: ⬆️ POST /api/v1/node-config
+2025-06-08 17:02:55 [INFO]: ⬆️ POST /api/v1/node-config
+2025-06-08 17:03:20 [INFO]: ⬆️ POST /api/v1/node-load-method/chatGoogleGemini
+2025-06-08 17:03:45 [INFO]: ⬆️ POST /api/v1/node-config
+2025-06-08 17:04:30 [INFO]: ⬆️ POST /api/v1/chatflows
+2025-06-08 17:05:46 [INFO]: ⬆️ POST /api/v1/node-config
+2025-06-08 17:08:33 [INFO]: ⬆️ POST /api/v1/node-config
+2025-06-08 17:10:37 [INFO]: ⬆️ POST /api/v1/node-load-method/chatGoogleGemini
+2025-06-08 17:15:48 [INFO]: 🖊 PUT /api/v1/chatflows/d7a90f4d-a279-4504-9a2e-174560cd0696
+2025-06-08 17:15:51 [INFO]: ⬆️ POST /api/v1/internal-prediction/d7a90f4d-a279-4504-9a2e-174560cd0696
+2025-06-08 17:15:51 [ERROR]: [server]: Error executing node agentAgentflow_0: Error in Agent node: Model is required
+2025-06-08 17:15:51 [ERROR]: [server]: Error: Error in Agent node: Model is required
+Error: Error in Agent node: Model is required
+    at executeAgentFlow (/home/lq/projects/liw/Flowise3.0/packages/server/dist/utils/buildAgentflow.js:1287:19)
+    at async utilBuildChatflow (/home/lq/projects/liw/Flowise3.0/packages/server/dist/utils/buildChatflow.js:797:28)
+    at async createAndStreamInternalPrediction (/home/lq/projects/liw/Flowise3.0/packages/server/dist/controllers/internal-predictions/index.js:38:29)
+2025-06-08 17:16:03 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2025-06-08 17:16:03 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2025-06-08 17:16:03 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2025-06-08 17:16:03 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2025-06-08 17:16:03 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2025-06-08 17:16:04 [INFO]: ⬆️ POST /api/v1/node-load-method/postgreSQLMCP
+2025-06-08 17:16:04 [INFO]: ⬆️ POST /api/v1/node-load-method/sequentialThinkingMCP
+2025-06-08 17:16:15 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2025-06-08 17:16:15 [INFO]: ⬆️ POST /api/v1/node-load-method/chatGoogleGemini
+2025-06-08 17:16:22 [INFO]: ⬆️ POST /api/v1/node-load-method/chatGoogleGemini
+2025-06-08 17:16:45 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2025-06-08 17:16:45 [INFO]: ⬆️ POST /api/v1/node-load-method/customTool
+2025-06-08 17:17:02 [INFO]: ⬆️ POST /api/v1/node-load-method/customTool
+2025-06-08 17:17:23 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2025-06-08 17:17:23 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2025-06-08 17:17:29 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2025-06-08 17:17:57 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2025-06-08 17:17:57 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2025-06-08 17:17:57 [INFO]: ⬆️ POST /api/v1/node-load-method/chatGoogleGemini
+2025-06-08 17:17:57 [INFO]: ⬆️ POST /api/v1/node-load-method/customTool
+2025-06-08 17:19:13 [INFO]: 🖊 PUT /api/v1/chatflows/d7a90f4d-a279-4504-9a2e-174560cd0696
+2025-06-08 17:19:14 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2025-06-08 17:19:15 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2025-06-08 17:19:15 [INFO]: ⬆️ POST /api/v1/node-load-method/chatGoogleGemini
+2025-06-08 17:19:15 [INFO]: ⬆️ POST /api/v1/node-load-method/customTool
+2025-06-08 17:19:25 [INFO]: ⬆️ POST /api/v1/node-load-method/chatGoogleGemini
+2025-06-08 17:19:36 [INFO]: ⬆️ POST /api/v1/node-load-method/chatGoogleGemini
+2025-06-08 17:19:45 [INFO]: 🖊 PUT /api/v1/chatflows/d7a90f4d-a279-4504-9a2e-174560cd0696
+2025-06-08 17:19:51 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2025-06-08 17:19:51 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2025-06-08 17:19:52 [INFO]: ⬆️ POST /api/v1/node-load-method/chatGoogleGemini
+2025-06-08 17:19:52 [INFO]: ⬆️ POST /api/v1/node-load-method/customTool
+2025-06-08 17:20:20 [INFO]: ⬆️ POST /api/v1/internal-prediction/d7a90f4d-a279-4504-9a2e-174560cd0696
+2025-06-08 17:20:24 [ERROR]: [server]: Error executing node llmAgentflow_0: Error in LLM node: Model is required
+2025-06-08 17:20:24 [ERROR]: [server]: Error: Error in LLM node: Model is required
+Error: Error in LLM node: Model is required
+    at executeAgentFlow (/home/lq/projects/liw/Flowise3.0/packages/server/dist/utils/buildAgentflow.js:1287:19)
+    at async utilBuildChatflow (/home/lq/projects/liw/Flowise3.0/packages/server/dist/utils/buildChatflow.js:797:28)
+    at async createAndStreamInternalPrediction (/home/lq/projects/liw/Flowise3.0/packages/server/dist/controllers/internal-predictions/index.js:38:29)
+2025-06-08 17:20:41 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2025-06-08 17:20:41 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2025-06-08 17:20:41 [INFO]: ⬆️ POST /api/v1/node-load-method/chatGoogleGemini
+2025-06-08 17:20:41 [INFO]: ⬆️ POST /api/v1/node-load-method/customTool
+2025-06-08 17:20:48 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2025-06-08 17:20:57 [INFO]: 🖊 PUT /api/v1/chatflows/d7a90f4d-a279-4504-9a2e-174560cd0696
+2025-06-08 17:21:01 [INFO]: ⬆️ POST /api/v1/internal-prediction/d7a90f4d-a279-4504-9a2e-174560cd0696
+2025-06-08 17:21:06 [ERROR]: [server]: Error executing node llmAgentflow_0: Error in LLM node: Model is required
+2025-06-08 17:21:06 [ERROR]: [server]: Error: Error in LLM node: Model is required
+Error: Error in LLM node: Model is required
+    at executeAgentFlow (/home/lq/projects/liw/Flowise3.0/packages/server/dist/utils/buildAgentflow.js:1287:19)
+    at async utilBuildChatflow (/home/lq/projects/liw/Flowise3.0/packages/server/dist/utils/buildChatflow.js:797:28)
+    at async createAndStreamInternalPrediction (/home/lq/projects/liw/Flowise3.0/packages/server/dist/controllers/internal-predictions/index.js:38:29)
+2025-06-08 17:21:15 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2025-06-08 17:21:15 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2025-06-08 17:21:22 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2025-06-08 17:21:41 [INFO]: 🖊 PUT /api/v1/chatflows/d7a90f4d-a279-4504-9a2e-174560cd0696
+2025-06-08 17:21:51 [INFO]: ⬆️ POST /api/v1/internal-prediction/d7a90f4d-a279-4504-9a2e-174560cd0696
+2025-06-08 17:23:15 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2025-06-08 17:23:15 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2025-06-08 17:23:15 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2025-06-08 17:23:16 [INFO]: ⬆️ POST /api/v1/node-load-method/customTool
+2025-06-08 17:24:16 [INFO]: 🖊 PUT /api/v1/chatflows/d7a90f4d-a279-4504-9a2e-174560cd0696
+2025-06-08 17:24:21 [INFO]: ⬆️ POST /api/v1/internal-prediction/d7a90f4d-a279-4504-9a2e-174560cd0696
+2025-06-08 17:25:44 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2025-06-08 17:25:44 [INFO]: ⬆️ POST /api/v1/node-load-method/startAgentflow
+2025-06-08 17:28:02 [INFO]: 🖊 PUT /api/v1/chatflows/d7a90f4d-a279-4504-9a2e-174560cd0696

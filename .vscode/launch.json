@@ -1,0 +1,103 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Start Flowise Server (Debug)",
+            "type": "node",
+            "request": "launch",
+            "program": "/home/lq/.nvm/versions/node/v18.20.4/bin/pnpm",
+            "args": ["run", "dev", "--filter", "./packages/server"],
+            "env": {
+                "NODE_ENV": "development",
+                "DATABASE_PATH": "${workspaceFolder}/database.sqlite",
+                "APIKEY_PATH": "${workspaceFolder}/api.key",
+                "LOG_LEVEL": "debug",
+                "LOG_PATH": "${workspaceFolder}/packages/server/logs",
+                "SECRETKEY_PATH": "${workspaceFolder}/secret.key",
+                "GLOBAL_AGENT_HTTP_PROXY": "http://127.0.0.1:61809",
+                "GLOBAL_AGENT_HTTPS_PROXY": "http://127.0.0.1:61809",
+                "HTTPS_PROXY": "http://127.0.0.1:61809",
+                "SOCKS_PROXY": "socks://127.0.0.1:62080",
+                "GLOBAL_AGENT_NO_PROXY": "localhost,127.0.0.1",
+                "CORS_ORIGINS": "http://127.0.0.1:8888,http://localhost:8888",
+                "FLOWISE_API_KEY": "ytdI9Qp_gYHdfR0JVpxgwaFyI0aAOssw8Bb1RR57p5E",
+                "FLOWISE_HOST": "http://localhost:3000",
+                "HUGGINGFACEHUB_API_KEY": "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",
+                "PORT": "3000",
+                "DEBUG": "true"
+            },
+            "console": "integratedTerminal",
+            "runtimeExecutable": "/home/lq/.nvm/versions/node/v18.20.4/bin/node",
+            "cwd": "${workspaceFolder}",
+            "preLaunchTask": "build-components"
+        },
+        {
+            "name": "Start Flowise UI (Debug)",
+            "type": "node",
+            "request": "launch",
+            "program": "${workspaceFolder}/packages/ui/node_modules/.bin/next",
+            "args": ["dev", "-p", "3001"],
+            "env": {
+                "NODE_ENV": "development",
+                "NEXT_PUBLIC_FLOWISE_PATH": "http://localhost:3000"
+            },
+            "console": "integratedTerminal",
+            "runtimeExecutable": "/home/lq/.nvm/versions/node/v18.20.4/bin/node",
+            "cwd": "${workspaceFolder}/packages/ui",
+            "preLaunchTask": "build-ui"
+        },
+        {
+            "name": "Build Components",
+            "type": "node",
+            "request": "launch",
+            "program": "/home/lq/.nvm/versions/node/v18.20.4/bin/pnpm",
+            "args": ["run", "build", "--filter", "./packages/components"],
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}",
+            "runtimeExecutable": "/home/lq/.nvm/versions/node/v18.20.4/bin/node"
+        },
+        {
+            "name": "Test ChatGoogleGemini",
+            "type": "node",
+            "request": "launch",
+            "program": "/home/lq/.nvm/versions/node/v18.20.4/bin/jest",
+            "args": ["--testPathPattern=ChatGoogleGemini", "--runInBand"],
+            "env": {
+                "NODE_ENV": "test"
+            },
+            "console": "integratedTerminal",
+            "runtimeExecutable": "/home/lq/.nvm/versions/node/v18.20.4/bin/node",
+            "cwd": "${workspaceFolder}",
+            "preLaunchTask": "build-components"
+        },
+        {
+            "name": "Debug Node Script",
+            "type": "node",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "sourceMaps": true,
+            "runtimeExecutable": "/home/lq/.nvm/versions/node/v18.20.4/bin/node",
+            "env": {
+                "NODE_ENV": "development"
+            }
+        },
+        {
+            "name": "Attach to Running Process",
+            "type": "node",
+            "request": "attach",
+            "port": 9229,
+            "restart": true,
+            "localRoot": "${workspaceFolder}",
+            "remoteRoot": "${workspaceFolder}"
+        }
+    ],
+    "compounds": [
+        {
+            "name": "Launch Flowise Full Stack",
+            "configurations": ["Start Flowise Server (Debug)", "Start Flowise UI (Debug)"],
+            "preLaunchTask": "build-all",
+            "stopAll": true
+        }
+    ]
+}

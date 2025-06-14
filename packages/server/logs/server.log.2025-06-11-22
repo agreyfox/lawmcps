@@ -1,0 +1,88 @@
+2025-06-11 22:22:46 [INFO]: ⬆️ POST /api/v1/auth/refreshToken
+2025-06-11 22:22:46 [INFO]: 🖊 PUT /api/v1/chatflows/652cbcc0-6dff-421e-b8af-02d10bdc4b98
+2025-06-11 22:22:58 [INFO]: ⬆️ POST /api/v1/node-load-method/customFunctionAgentflow
+2025-06-11 22:22:58 [INFO]: ⬆️ POST /api/v1/node-load-method/customFunctionAgentflow
+2025-06-11 22:23:18 [INFO]: ⬆️ POST /api/v1/internal-prediction/41313e33-ae4e-4338-92e9-fc1fc606d281
+2025-06-11 22:23:18 [ERROR]: [server]: Error executing node customFunctionAgentflow_0: SyntaxError: Unexpected end of input
+2025-06-11 22:23:18 [ERROR]: [server]: Error: SyntaxError: Unexpected end of input
+Error: SyntaxError: Unexpected end of input
+    at executeAgentFlow (/home/lq/projects/liw/Flowise3.0/packages/server/dist/utils/buildAgentflow.js:1287:19)
+    at async utilBuildChatflow (/home/lq/projects/liw/Flowise3.0/packages/server/dist/utils/buildChatflow.js:797:28)
+    at async createAndStreamInternalPrediction (/home/lq/projects/liw/Flowise3.0/packages/server/dist/controllers/internal-predictions/index.js:38:29)
+2025-06-11 22:25:24 [INFO]: ⬆️ POST /api/v1/node-load-method/customFunctionAgentflow
+2025-06-11 22:25:24 [INFO]: ⬆️ POST /api/v1/node-load-method/customFunctionAgentflow
+2025-06-11 22:26:23 [INFO]: ⬆️ POST /api/v1/internal-prediction/41313e33-ae4e-4338-92e9-fc1fc606d281
+2025-06-11 22:26:24 [ERROR]: [server]: Error executing node customFunctionAgentflow_0: SyntaxError: Unexpected end of input
+2025-06-11 22:26:24 [ERROR]: [server]: Error: SyntaxError: Unexpected end of input
+Error: SyntaxError: Unexpected end of input
+    at executeAgentFlow (/home/lq/projects/liw/Flowise3.0/packages/server/dist/utils/buildAgentflow.js:1287:19)
+    at async utilBuildChatflow (/home/lq/projects/liw/Flowise3.0/packages/server/dist/utils/buildChatflow.js:797:28)
+    at async createAndStreamInternalPrediction (/home/lq/projects/liw/Flowise3.0/packages/server/dist/controllers/internal-predictions/index.js:38:29)
+2025-06-11 22:27:55 [INFO]: ⬆️ POST /api/v1/node-load-method/customFunctionAgentflow
+2025-06-11 22:27:55 [INFO]: ⬆️ POST /api/v1/node-load-method/customFunctionAgentflow
+2025-06-11 22:29:21 [INFO]: 🖊 PUT /api/v1/chatflows/41313e33-ae4e-4338-92e9-fc1fc606d281
+2025-06-11 22:29:29 [INFO]: ⬆️ POST /api/v1/internal-prediction/41313e33-ae4e-4338-92e9-fc1fc606d281
+2025-06-11 22:29:29 [ERROR]: [server]: Error executing node customFunctionAgentflow_0: SyntaxError: Unexpected end of input
+2025-06-11 22:29:29 [ERROR]: [server]: Error: SyntaxError: Unexpected end of input
+Error: SyntaxError: Unexpected end of input
+    at executeAgentFlow (/home/lq/projects/liw/Flowise3.0/packages/server/dist/utils/buildAgentflow.js:1287:19)
+    at async utilBuildChatflow (/home/lq/projects/liw/Flowise3.0/packages/server/dist/utils/buildChatflow.js:797:28)
+    at async createAndStreamInternalPrediction (/home/lq/projects/liw/Flowise3.0/packages/server/dist/controllers/internal-predictions/index.js:38:29)
+2025-06-11 22:33:17 [INFO]: ⬆️ POST /api/v1/node-load-method/customFunctionAgentflow
+2025-06-11 22:33:17 [INFO]: ⬆️ POST /api/v1/node-load-method/customFunctionAgentflow
+2025-06-11 22:36:54 [INFO]: ⬆️ POST /api/v1/node-load-method/customFunctionAgentflow
+2025-06-11 22:38:03 [INFO]: ⬆️ POST /api/v1/node-load-method/customFunctionAgentflow
+2025-06-11 22:38:03 [INFO]: ⬆️ POST /api/v1/node-load-method/customFunctionAgentflow
+2025-06-11 22:38:33 [INFO]: ⬆️ POST /api/v1/node-load-method/customFunctionAgentflow
+2025-06-11 22:38:33 [INFO]: ⬆️ POST /api/v1/node-load-method/customFunctionAgentflow
+2025-06-11 22:39:31 [INFO]: ⬆️ POST /api/v1/internal-prediction/41313e33-ae4e-4338-92e9-fc1fc606d281
+2025-06-11 22:39:31 [ERROR]: [server]: Error executing node customFunctionAgentflow_0: SyntaxError: Unexpected end of input
+2025-06-11 22:39:32 [ERROR]: [server]: Error: SyntaxError: Unexpected end of input
+Error: SyntaxError: Unexpected end of input
+    at executeAgentFlow (/home/lq/projects/liw/Flowise3.0/packages/server/dist/utils/buildAgentflow.js:1287:19)
+    at async utilBuildChatflow (/home/lq/projects/liw/Flowise3.0/packages/server/dist/utils/buildChatflow.js:797:28)
+    at async createAndStreamInternalPrediction (/home/lq/projects/liw/Flowise3.0/packages/server/dist/controllers/internal-predictions/index.js:38:29)
+2025-06-11 22:40:37 [INFO]: 🖊 PUT /api/v1/chatflows/41313e33-ae4e-4338-92e9-fc1fc606d281
+2025-06-11 22:40:48 [INFO]: ⬆️ POST /api/v1/internal-prediction/41313e33-ae4e-4338-92e9-fc1fc606d281
+2025-06-11 22:40:48 [ERROR]: [server]: Error executing node customFunctionAgentflow_0: SyntaxError: Unexpected end of input
+2025-06-11 22:40:48 [ERROR]: [server]: Error: SyntaxError: Unexpected end of input
+Error: SyntaxError: Unexpected end of input
+    at executeAgentFlow (/home/lq/projects/liw/Flowise3.0/packages/server/dist/utils/buildAgentflow.js:1287:19)
+    at async utilBuildChatflow (/home/lq/projects/liw/Flowise3.0/packages/server/dist/utils/buildChatflow.js:797:28)
+    at async createAndStreamInternalPrediction (/home/lq/projects/liw/Flowise3.0/packages/server/dist/controllers/internal-predictions/index.js:38:29)
+2025-06-11 22:41:03 [INFO]: ⬆️ POST /api/v1/internal-prediction/41313e33-ae4e-4338-92e9-fc1fc606d281
+2025-06-11 22:41:03 [ERROR]: [server]: Error executing node customFunctionAgentflow_0: SyntaxError: Unexpected end of input
+2025-06-11 22:41:03 [ERROR]: [server]: Error: SyntaxError: Unexpected end of input
+Error: SyntaxError: Unexpected end of input
+    at executeAgentFlow (/home/lq/projects/liw/Flowise3.0/packages/server/dist/utils/buildAgentflow.js:1287:19)
+    at async utilBuildChatflow (/home/lq/projects/liw/Flowise3.0/packages/server/dist/utils/buildChatflow.js:797:28)
+    at async createAndStreamInternalPrediction (/home/lq/projects/liw/Flowise3.0/packages/server/dist/controllers/internal-predictions/index.js:38:29)
+2025-06-11 22:42:33 [INFO]: ⬆️ POST /api/v1/node-custom-function
+2025-06-11 22:45:11 [INFO]: 🖊 PUT /api/v1/chatflows/41313e33-ae4e-4338-92e9-fc1fc606d281
+2025-06-11 22:45:19 [INFO]: ⬆️ POST /api/v1/internal-prediction/41313e33-ae4e-4338-92e9-fc1fc606d281
+2025-06-11 22:45:19 [ERROR]: [server]: Error executing node customFunctionAgentflow_0: SyntaxError: Unexpected end of input
+2025-06-11 22:45:19 [ERROR]: [server]: Error: SyntaxError: Unexpected end of input
+Error: SyntaxError: Unexpected end of input
+    at executeAgentFlow (/home/lq/projects/liw/Flowise3.0/packages/server/dist/utils/buildAgentflow.js:1287:19)
+    at async utilBuildChatflow (/home/lq/projects/liw/Flowise3.0/packages/server/dist/utils/buildChatflow.js:797:28)
+    at async createAndStreamInternalPrediction (/home/lq/projects/liw/Flowise3.0/packages/server/dist/controllers/internal-predictions/index.js:38:29)
+2025-06-11 22:46:10 [INFO]: ⬆️ POST /api/v1/node-load-method/customFunctionAgentflow
+2025-06-11 22:46:10 [INFO]: ⬆️ POST /api/v1/node-load-method/customFunctionAgentflow
+2025-06-11 22:47:01 [INFO]: 🖊 PUT /api/v1/chatflows/41313e33-ae4e-4338-92e9-fc1fc606d281
+2025-06-11 22:47:09 [INFO]: ⬆️ POST /api/v1/internal-prediction/41313e33-ae4e-4338-92e9-fc1fc606d281
+2025-06-11 22:47:09 [ERROR]: [server]: Error executing node customFunctionAgentflow_0: SyntaxError: Unexpected end of input
+2025-06-11 22:47:09 [ERROR]: [server]: Error: SyntaxError: Unexpected end of input
+Error: SyntaxError: Unexpected end of input
+    at executeAgentFlow (/home/lq/projects/liw/Flowise3.0/packages/server/dist/utils/buildAgentflow.js:1287:19)
+    at async utilBuildChatflow (/home/lq/projects/liw/Flowise3.0/packages/server/dist/utils/buildChatflow.js:797:28)
+    at async createAndStreamInternalPrediction (/home/lq/projects/liw/Flowise3.0/packages/server/dist/controllers/internal-predictions/index.js:38:29)
+2025-06-11 22:48:28 [INFO]: ⬆️ POST /api/v1/node-load-method/customFunctionAgentflow
+2025-06-11 22:48:31 [INFO]: ⬆️ POST /api/v1/node-load-method/customFunctionAgentflow
+2025-06-11 22:49:00 [INFO]: 🖊 PUT /api/v1/chatflows/41313e33-ae4e-4338-92e9-fc1fc606d281
+2025-06-11 22:49:08 [INFO]: ⬆️ POST /api/v1/internal-prediction/41313e33-ae4e-4338-92e9-fc1fc606d281
+2025-06-11 22:49:08 [ERROR]: [server]: Error executing node customFunctionAgentflow_0: SyntaxError: Unexpected end of input
+2025-06-11 22:49:08 [ERROR]: [server]: Error: SyntaxError: Unexpected end of input
+Error: SyntaxError: Unexpected end of input
+    at executeAgentFlow (/home/lq/projects/liw/Flowise3.0/packages/server/dist/utils/buildAgentflow.js:1287:19)
+    at async utilBuildChatflow (/home/lq/projects/liw/Flowise3.0/packages/server/dist/utils/buildChatflow.js:797:28)
+    at async createAndStreamInternalPrediction (/home/lq/projects/liw/Flowise3.0/packages/server/dist/controllers/internal-predictions/index.js:38:29)

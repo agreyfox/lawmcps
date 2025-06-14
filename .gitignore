@@ -1,0 +1,18 @@
+node_modules
+
+# 编译产物目录
+packages/*/dist/
+packages/*/build/
+packages/*/public/build/
+packages/ui/build/
+packages/ui/dist/
+packages/server/dist/
+packages/components/dist/
+
+# TypeScript 编译信息
+*.tsbuildinfo
+packages/*/*.tsbuildinfo
+
+# 其他构建产物
+*.d.ts.map
+packages/*/lib/

@@ -1,0 +1,34 @@
+2025-06-11 12:03:58 [INFO]: 🖊 PUT /api/v1/chatflows/41313e33-ae4e-4338-92e9-fc1fc606d281
+2025-06-11 12:04:07 [INFO]: ⬆️ POST /api/v1/internal-prediction/41313e33-ae4e-4338-92e9-fc1fc606d281
+2025-06-11 12:04:07 [ERROR]: [server]: Error executing node customFunctionAgentflow_2: ReferenceError: $form is not defined
+2025-06-11 12:04:07 [ERROR]: [server]: Error: ReferenceError: $form is not defined
+Error: ReferenceError: $form is not defined
+    at executeAgentFlow (/home/lq/projects/liw/Flowise3.0/packages/server/dist/utils/buildAgentflow.js:1287:19)
+    at async utilBuildChatflow (/home/lq/projects/liw/Flowise3.0/packages/server/dist/utils/buildChatflow.js:797:28)
+    at async createAndStreamInternalPrediction (/home/lq/projects/liw/Flowise3.0/packages/server/dist/controllers/internal-predictions/index.js:38:29)
+2025-06-11 12:05:09 [INFO]: ⬆️ POST /api/v1/node-config
+2025-06-11 12:07:04 [INFO]: 🖊 PUT /api/v1/chatflows/41313e33-ae4e-4338-92e9-fc1fc606d281
+2025-06-11 12:07:54 [INFO]: 🖊 PUT /api/v1/chatflows/41313e33-ae4e-4338-92e9-fc1fc606d281
+2025-06-11 12:08:02 [INFO]: ⬆️ POST /api/v1/internal-prediction/41313e33-ae4e-4338-92e9-fc1fc606d281
+2025-06-11 12:08:02 [ERROR]: [server]: Error executing node httpAgentflow_1: AxiosError: Request failed with status code 404
+2025-06-11 12:08:02 [ERROR]: [server]: Error: AxiosError: Request failed with status code 404
+Error: AxiosError: Request failed with status code 404
+    at executeAgentFlow (/home/lq/projects/liw/Flowise3.0/packages/server/dist/utils/buildAgentflow.js:1287:19)
+    at async utilBuildChatflow (/home/lq/projects/liw/Flowise3.0/packages/server/dist/utils/buildChatflow.js:797:28)
+    at async createAndStreamInternalPrediction (/home/lq/projects/liw/Flowise3.0/packages/server/dist/controllers/internal-predictions/index.js:38:29)
+2025-06-11 12:10:05 [INFO]: ⬆️ POST /api/v1/node-load-method/customFunctionAgentflow
+2025-06-11 12:10:05 [INFO]: ⬆️ POST /api/v1/node-load-method/customFunctionAgentflow
+2025-06-11 12:10:11 [INFO]: ⬆️ POST /api/v1/node-load-method/customFunctionAgentflow
+2025-06-11 12:10:11 [INFO]: ⬆️ POST /api/v1/node-load-method/customFunctionAgentflow
+2025-06-11 12:10:15 [INFO]: ⬆️ POST /api/v1/node-load-method/customFunctionAgentflow
+2025-06-11 12:10:15 [INFO]: ⬆️ POST /api/v1/node-load-method/customFunctionAgentflow
+2025-06-11 12:10:20 [INFO]: ⬆️ POST /api/v1/node-load-method/customFunctionAgentflow
+2025-06-11 12:10:20 [INFO]: ⬆️ POST /api/v1/node-load-method/customFunctionAgentflow
+2025-06-11 12:10:36 [INFO]: 🖊 PUT /api/v1/chatflows/41313e33-ae4e-4338-92e9-fc1fc606d281
+2025-06-11 12:10:49 [INFO]: ⬆️ POST /api/v1/internal-prediction/41313e33-ae4e-4338-92e9-fc1fc606d281
+2025-06-11 12:10:50 [ERROR]: [server]: Error executing node httpAgentflow_1: AxiosError: Request failed with status code 404
+2025-06-11 12:10:50 [ERROR]: [server]: Error: AxiosError: Request failed with status code 404
+Error: AxiosError: Request failed with status code 404
+    at executeAgentFlow (/home/lq/projects/liw/Flowise3.0/packages/server/dist/utils/buildAgentflow.js:1287:19)
+    at async utilBuildChatflow (/home/lq/projects/liw/Flowise3.0/packages/server/dist/utils/buildChatflow.js:797:28)
+    at async createAndStreamInternalPrediction (/home/lq/projects/liw/Flowise3.0/packages/server/dist/controllers/internal-predictions/index.js:38:29)

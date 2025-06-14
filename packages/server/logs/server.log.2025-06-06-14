@@ -1,0 +1,69 @@
+2025-06-06 14:17:15 [INFO]: ⬆️ POST /api/v1/internal-prediction/19e4069c-6f98-4f25-95d6-23d4e5f95e60
+2025-06-06 14:23:45 [INFO]: Shutting down Flowise...
+2025-06-06 14:26:04 [INFO]: Starting Flowise...
+2025-06-06 14:26:04 [INFO]: 📦 [server]: Data Source initialized successfully
+2025-06-06 14:26:04 [INFO]: 🔄 [server]: Database migrations completed successfully
+2025-06-06 14:26:04 [INFO]: 🔐 [server]: Identity Manager initialized successfully
+2025-06-06 14:26:13 [INFO]: 🔧 [server]: Nodes pool initialized successfully
+2025-06-06 14:26:13 [INFO]: ⏹️ [server]: Abort controllers pool initialized successfully
+2025-06-06 14:26:13 [INFO]: 🔑 [server]: Encryption key initialized successfully
+2025-06-06 14:26:13 [INFO]: 🚦 [server]: Rate limiters initialized successfully
+2025-06-06 14:26:13 [INFO]: 💾 [server]: Cache pool initialized successfully
+2025-06-06 14:26:13 [INFO]: 📊 [server]: Usage cache manager initialized successfully
+2025-06-06 14:26:13 [INFO]: 📈 [server]: Telemetry initialized successfully
+2025-06-06 14:26:13 [INFO]: 🌊 [server]: SSE Streamer initialized successfully
+2025-06-06 14:26:13 [INFO]: 🎉 [server]: All initialization steps completed successfully!
+2025-06-06 14:26:13 [INFO]: ⚡️ [server]: Flowise Server is listening at :3003
+2025-06-06 14:26:13 [INFO]: ⬆️ POST /api/v1/internal-prediction/19e4069c-6f98-4f25-95d6-23d4e5f95e60
+2025-06-06 14:30:36 [INFO]: Shutting down Flowise...
+2025-06-06 14:40:29 [INFO]: Starting Flowise...
+2025-06-06 14:40:29 [INFO]: 📦 [server]: Data Source initialized successfully
+2025-06-06 14:40:29 [INFO]: 🔄 [server]: Database migrations completed successfully
+2025-06-06 14:40:29 [INFO]: 🔐 [server]: Identity Manager initialized successfully
+2025-06-06 14:40:34 [INFO]: 🔧 [server]: Nodes pool initialized successfully
+2025-06-06 14:40:34 [INFO]: ⏹️ [server]: Abort controllers pool initialized successfully
+2025-06-06 14:40:34 [INFO]: 🔑 [server]: Encryption key initialized successfully
+2025-06-06 14:40:34 [INFO]: 🚦 [server]: Rate limiters initialized successfully
+2025-06-06 14:40:34 [INFO]: 💾 [server]: Cache pool initialized successfully
+2025-06-06 14:40:34 [INFO]: 📊 [server]: Usage cache manager initialized successfully
+2025-06-06 14:40:34 [INFO]: 📈 [server]: Telemetry initialized successfully
+2025-06-06 14:40:34 [INFO]: 🌊 [server]: SSE Streamer initialized successfully
+2025-06-06 14:40:34 [INFO]: 🎉 [server]: All initialization steps completed successfully!
+2025-06-06 14:40:34 [INFO]: ⚡️ [server]: Flowise Server is listening at :3003
+2025-06-06 14:40:35 [INFO]: ⬆️ POST /api/v1/internal-prediction/19e4069c-6f98-4f25-95d6-23d4e5f95e60
+2025-06-06 14:41:20 [INFO]: ⬆️ POST /api/v1/auth/refreshToken
+2025-06-06 14:41:30 [INFO]: ⬆️ POST /api/v1/internal-prediction/19e4069c-6f98-4f25-95d6-23d4e5f95e60
+2025-06-06 14:42:02 [INFO]: 🖊 PUT /api/v1/chatflows/19e4069c-6f98-4f25-95d6-23d4e5f95e60
+2025-06-06 14:42:07 [INFO]: ⬆️ POST /api/v1/internal-prediction/19e4069c-6f98-4f25-95d6-23d4e5f95e60
+2025-06-06 14:44:29 [INFO]: ⬆️ POST /api/v1/node-load-method/documentStoreVS
+2025-06-06 14:44:35 [INFO]: ⬆️ POST /api/v1/internal-prediction/19907120-a90a-41c8-8720-708d5adf6247
+2025-06-06 14:45:27 [INFO]: ⬆️ POST /api/v1/node-load-method/groqChat
+2025-06-06 14:45:32 [INFO]: ⬆️ POST /api/v1/internal-prediction/233e1875-5daf-473b-85fb-211f579a5cf0
+2025-06-06 14:45:33 [ERROR]: [server]: Error: 404 {"error":{"message":"Not Found"}}
+Error: 404 {"error":{"message":"Not Found"}}
+    at APIError.generate (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/groq-sdk@0.5.0_encoding@0.1.13/node_modules/groq-sdk/error.js:49:20)
+    at Groq.makeStatusError (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/groq-sdk@0.5.0_encoding@0.1.13/node_modules/groq-sdk/core.js:275:33)
+    at Groq.makeRequest (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/groq-sdk@0.5.0_encoding@0.1.13/node_modules/groq-sdk/core.js:318:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async RetryOperation._fn (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/p-retry@4.6.2/node_modules/p-retry/index.js:50:12)
+2025-06-06 14:45:42 [INFO]: ⬆️ POST /api/v1/node-load-method/chatGoogleGemini
+2025-06-06 14:45:42 [INFO]: ⬆️ POST /api/v1/node-load-method/groqChat
+2025-06-06 14:46:06 [INFO]: ⬆️ POST /api/v1/node-load-method/customTool
+2025-06-06 14:46:06 [INFO]: ⬆️ POST /api/v1/node-load-method/chatGoogleGemini
+2025-06-06 14:46:30 [INFO]: Shutting down Flowise...
+2025-06-06 14:46:50 [INFO]: Starting Flowise...
+2025-06-06 14:46:50 [INFO]: 📦 [server]: Data Source initialized successfully
+2025-06-06 14:46:50 [INFO]: 🔄 [server]: Database migrations completed successfully
+2025-06-06 14:46:50 [INFO]: 🔐 [server]: Identity Manager initialized successfully
+2025-06-06 14:46:53 [INFO]: 🔧 [server]: Nodes pool initialized successfully
+2025-06-06 14:46:53 [INFO]: ⏹️ [server]: Abort controllers pool initialized successfully
+2025-06-06 14:46:53 [INFO]: 🔑 [server]: Encryption key initialized successfully
+2025-06-06 14:46:53 [INFO]: 🚦 [server]: Rate limiters initialized successfully
+2025-06-06 14:46:53 [INFO]: 💾 [server]: Cache pool initialized successfully
+2025-06-06 14:46:53 [INFO]: 📊 [server]: Usage cache manager initialized successfully
+2025-06-06 14:46:53 [INFO]: 📈 [server]: Telemetry initialized successfully
+2025-06-06 14:46:53 [INFO]: 🌊 [server]: SSE Streamer initialized successfully
+2025-06-06 14:46:53 [INFO]: 🎉 [server]: All initialization steps completed successfully!
+2025-06-06 14:46:53 [INFO]: ⚡️ [server]: Flowise Server is listening at :3003
+2025-06-06 14:47:06 [INFO]: ⬆️ POST /api/v1/internal-prediction/19e4069c-6f98-4f25-95d6-23d4e5f95e60
+2025-06-06 14:51:48 [INFO]: Shutting down Flowise...

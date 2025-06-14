@@ -1,0 +1,269 @@
+2025-06-10 13:00:30 [INFO]: ⬆️ POST /api/v1/internal-prediction/233e1875-5daf-473b-85fb-211f579a5cf0
+2025-06-10 13:02:10 [INFO]: ⬆️ POST /api/v1/internal-prediction/233e1875-5daf-473b-85fb-211f579a5cf0
+2025-06-10 13:04:01 [INFO]: ⬆️ POST /api/v1/internal-prediction/233e1875-5daf-473b-85fb-211f579a5cf0
+2025-06-10 13:04:35 [INFO]: 🖊 PUT /api/v1/chatflows/233e1875-5daf-473b-85fb-211f579a5cf0
+2025-06-10 13:04:40 [INFO]: ⬆️ POST /api/v1/node-load-method/groqChat
+2025-06-10 13:05:14 [INFO]: 🖊 PUT /api/v1/chatflows/8b62eb5b-a36d-46e9-b26a-7cd3a064c7a1
+2025-06-10 13:05:25 [INFO]: ⬆️ POST /api/v1/internal-prediction/8b62eb5b-a36d-46e9-b26a-7cd3a064c7a1
+2025-06-10 13:05:49 [INFO]: ⬆️ POST /api/v1/internal-prediction/8b62eb5b-a36d-46e9-b26a-7cd3a064c7a1
+2025-06-10 13:06:29 [INFO]: ⬆️ POST /api/v1/node-load-method/customMCP
+2025-06-10 13:06:29 [INFO]: ⬆️ POST /api/v1/node-load-method/customTool
+2025-06-10 13:06:29 [INFO]: ⬆️ POST /api/v1/node-load-method/customTool
+2025-06-10 13:06:29 [INFO]: ⬆️ POST /api/v1/node-load-method/customTool
+2025-06-10 13:06:29 [INFO]: ⬆️ POST /api/v1/node-load-method/customTool
+2025-06-10 13:06:29 [INFO]: ⬆️ POST /api/v1/node-load-method/customTool
+2025-06-10 13:06:29 [INFO]: ⬆️ POST /api/v1/node-load-method/customTool
+2025-06-10 13:06:29 [INFO]: ⬆️ POST /api/v1/node-load-method/customTool
+2025-06-10 13:07:50 [INFO]: ⬆️ POST /api/v1/internal-prediction/652cbcc0-6dff-421e-b8af-02d10bdc4b98
+2025-06-10 13:09:52 [ERROR]: [server]: Error: 500 <html>
+<head><title>500 Internal Server Error</title></head>
+<body>
+<center><h1>500 Internal Server Error</h1></center>
+<hr><center>nginx</center>
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'94d65beabe66f81e',t:'MTc0OTUzMjE5Mi4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>
+
+Error: 500 <html>
+<head><title>500 Internal Server Error</title></head>
+<body>
+<center><h1>500 Internal Server Error</h1></center>
+<hr><center>nginx</center>
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'94d65beabe66f81e',t:'MTc0OTUzMjE5Mi4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>
+
+    at APIError.generate (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/openai@4.96.0_encoding@0.1.13_ws@8.18.0_bufferutil@4.0.8_utf-8-validate@6.0.4__zod@3.22.4/node_modules/openai/error.js:66:20)
+    at OpenAI.makeStatusError (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/openai@4.96.0_encoding@0.1.13_ws@8.18.0_bufferutil@4.0.8_utf-8-validate@6.0.4__zod@3.22.4/node_modules/openai/core.js:302:33)
+    at OpenAI.makeRequest (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/openai@4.96.0_encoding@0.1.13_ws@8.18.0_bufferutil@4.0.8_utf-8-validate@6.0.4__zod@3.22.4/node_modules/openai/core.js:346:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async /home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@langchain+openai@0.3.13_@langchain+core@0.3.37_openai@4.96.0_encoding@0.1.13_ws@8.18.0_3e7d0ad6beedde1e4cb64651d5d28791/node_modules/@langchain/openai/dist/chat_models.cjs:1558:29
+    at async RetryOperation._fn (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/p-retry@4.6.2/node_modules/p-retry/index.js:50:12)
+2025-06-10 13:10:49 [INFO]: ❌ DELETE /api/v1/chatmessage/652cbcc0-6dff-421e-b8af-02d10bdc4b98?chatId=c59cd1bb-5d11-4085-990c-23ffca4e8e63&chatType=INTERNAL
+2025-06-10 13:10:49 [ERROR]: [server]: Error deleting file storage for chatflow 652cbcc0-6dff-421e-b8af-02d10bdc4b98, chatId c59cd1bb-5d11-4085-990c-23ffca4e8e63
+2025-06-10 13:22:01 [INFO]: ⬆️ POST /api/v1/internal-prediction/652cbcc0-6dff-421e-b8af-02d10bdc4b98
+2025-06-10 13:23:47 [ERROR]: [server]: Error: 500 <html>
+<head><title>500 Internal Server Error</title></head>
+<body>
+<center><h1>500 Internal Server Error</h1></center>
+<hr><center>nginx</center>
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'94d67048b8b9bfa5',t:'MTc0OTUzMzAyNi4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>
+
+Error: 500 <html>
+<head><title>500 Internal Server Error</title></head>
+<body>
+<center><h1>500 Internal Server Error</h1></center>
+<hr><center>nginx</center>
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'94d67048b8b9bfa5',t:'MTc0OTUzMzAyNi4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>
+
+    at APIError.generate (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/openai@4.96.0_encoding@0.1.13_ws@8.18.0_bufferutil@4.0.8_utf-8-validate@6.0.4__zod@3.22.4/node_modules/openai/error.js:66:20)
+    at OpenAI.makeStatusError (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/openai@4.96.0_encoding@0.1.13_ws@8.18.0_bufferutil@4.0.8_utf-8-validate@6.0.4__zod@3.22.4/node_modules/openai/core.js:302:33)
+    at OpenAI.makeRequest (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/openai@4.96.0_encoding@0.1.13_ws@8.18.0_bufferutil@4.0.8_utf-8-validate@6.0.4__zod@3.22.4/node_modules/openai/core.js:346:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async /home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@langchain+openai@0.3.13_@langchain+core@0.3.37_openai@4.96.0_encoding@0.1.13_ws@8.18.0_3e7d0ad6beedde1e4cb64651d5d28791/node_modules/@langchain/openai/dist/chat_models.cjs:1558:29
+    at async RetryOperation._fn (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/p-retry@4.6.2/node_modules/p-retry/index.js:50:12)
+2025-06-10 13:31:16 [INFO]: 🖊 PUT /api/v1/chatflows/652cbcc0-6dff-421e-b8af-02d10bdc4b98
+2025-06-10 13:31:31 [INFO]: ⬆️ POST /api/v1/internal-prediction/652cbcc0-6dff-421e-b8af-02d10bdc4b98
+2025-06-10 13:33:06 [INFO]: Shutting down Flowise...
+2025-06-10 13:36:17 [INFO]: Starting Flowise...
+2025-06-10 13:36:17 [INFO]: 📦 [server]: Data Source initialized successfully
+2025-06-10 13:36:17 [INFO]: 🔄 [server]: Database migrations completed successfully
+2025-06-10 13:36:17 [INFO]: 🔐 [server]: Identity Manager initialized successfully
+2025-06-10 13:36:30 [INFO]: 🔧 [server]: Nodes pool initialized successfully
+2025-06-10 13:36:30 [INFO]: ⏹️ [server]: Abort controllers pool initialized successfully
+2025-06-10 13:36:30 [INFO]: 🔑 [server]: Encryption key initialized successfully
+2025-06-10 13:36:30 [INFO]: 🚦 [server]: Rate limiters initialized successfully
+2025-06-10 13:36:30 [INFO]: 💾 [server]: Cache pool initialized successfully
+2025-06-10 13:36:30 [INFO]: 📊 [server]: Usage cache manager initialized successfully
+2025-06-10 13:36:30 [INFO]: 📈 [server]: Telemetry initialized successfully
+2025-06-10 13:36:30 [INFO]: 🌊 [server]: SSE Streamer initialized successfully
+2025-06-10 13:36:30 [INFO]: 🎉 [server]: All initialization steps completed successfully!
+2025-06-10 13:36:30 [INFO]: ⚡️ [server]: Flowise Server is listening at :3003
+2025-06-10 13:36:30 [INFO]: ⬆️ POST /api/v1/internal-prediction/652cbcc0-6dff-421e-b8af-02d10bdc4b98
+2025-06-10 13:37:56 [INFO]: ❌ DELETE /api/v1/chatmessage/652cbcc0-6dff-421e-b8af-02d10bdc4b98?chatId=b69e0058-0ecb-4c61-85ef-84ee65ebe8f0&chatType=INTERNAL
+2025-06-10 13:37:56 [ERROR]: [server]: Error deleting file storage for chatflow 652cbcc0-6dff-421e-b8af-02d10bdc4b98, chatId b69e0058-0ecb-4c61-85ef-84ee65ebe8f0
+2025-06-10 13:38:00 [INFO]: ⬆️ POST /api/v1/internal-prediction/652cbcc0-6dff-421e-b8af-02d10bdc4b98
+2025-06-10 13:38:05 [ERROR]: [server]: Error: 500 <html>
+<head><title>500 Internal Server Error</title></head>
+<body>
+<center><h1>500 Internal Server Error</h1></center>
+<hr><center>nginx</center>
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'94d6854068a1c020',t:'MTc0OTUzMzg4NS4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>
+
+Error: 500 <html>
+<head><title>500 Internal Server Error</title></head>
+<body>
+<center><h1>500 Internal Server Error</h1></center>
+<hr><center>nginx</center>
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'94d6854068a1c020',t:'MTc0OTUzMzg4NS4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>
+
+    at APIError.generate (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/openai@4.96.0_encoding@0.1.13_ws@8.18.0_bufferutil@4.0.8_utf-8-validate@6.0.4__zod@3.22.4/node_modules/openai/error.js:66:20)
+    at OpenAI.makeStatusError (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/openai@4.96.0_encoding@0.1.13_ws@8.18.0_bufferutil@4.0.8_utf-8-validate@6.0.4__zod@3.22.4/node_modules/openai/core.js:302:33)
+    at OpenAI.makeRequest (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/openai@4.96.0_encoding@0.1.13_ws@8.18.0_bufferutil@4.0.8_utf-8-validate@6.0.4__zod@3.22.4/node_modules/openai/core.js:346:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async /home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@langchain+openai@0.3.13_@langchain+core@0.3.37_openai@4.96.0_encoding@0.1.13_ws@8.18.0_3e7d0ad6beedde1e4cb64651d5d28791/node_modules/@langchain/openai/dist/chat_models.cjs:1558:29
+    at async RetryOperation._fn (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/p-retry@4.6.2/node_modules/p-retry/index.js:50:12)
+2025-06-10 13:39:07 [INFO]: ⬆️ POST /api/v1/internal-prediction/652cbcc0-6dff-421e-b8af-02d10bdc4b98
+2025-06-10 13:39:27 [INFO]: Shutting down Flowise...
+2025-06-10 13:40:43 [INFO]: Starting Flowise...
+2025-06-10 13:40:43 [INFO]: 📦 [server]: Data Source initialized successfully
+2025-06-10 13:40:43 [INFO]: 🔄 [server]: Database migrations completed successfully
+2025-06-10 13:40:43 [INFO]: 🔐 [server]: Identity Manager initialized successfully
+2025-06-10 13:40:56 [INFO]: 🔧 [server]: Nodes pool initialized successfully
+2025-06-10 13:40:56 [INFO]: ⏹️ [server]: Abort controllers pool initialized successfully
+2025-06-10 13:40:56 [INFO]: 🔑 [server]: Encryption key initialized successfully
+2025-06-10 13:40:56 [INFO]: 🚦 [server]: Rate limiters initialized successfully
+2025-06-10 13:40:56 [INFO]: 💾 [server]: Cache pool initialized successfully
+2025-06-10 13:40:56 [INFO]: 📊 [server]: Usage cache manager initialized successfully
+2025-06-10 13:40:56 [INFO]: 📈 [server]: Telemetry initialized successfully
+2025-06-10 13:40:56 [INFO]: 🌊 [server]: SSE Streamer initialized successfully
+2025-06-10 13:40:56 [INFO]: 🎉 [server]: All initialization steps completed successfully!
+2025-06-10 13:40:56 [INFO]: ⚡️ [server]: Flowise Server is listening at :3003
+2025-06-10 13:40:56 [INFO]: ⬆️ POST /api/v1/internal-prediction/652cbcc0-6dff-421e-b8af-02d10bdc4b98
+2025-06-10 13:40:56 [INFO]: ⬆️ POST /api/v1/internal-prediction/652cbcc0-6dff-421e-b8af-02d10bdc4b98
+2025-06-10 13:41:17 [INFO]: ⬆️ POST /api/v1/internal-prediction/652cbcc0-6dff-421e-b8af-02d10bdc4b98
+2025-06-10 13:41:41 [INFO]: ⬆️ POST /api/v1/node-load-method/groqChat
+2025-06-10 13:41:48 [INFO]: ❌ DELETE /api/v1/chatmessage/8b62eb5b-a36d-46e9-b26a-7cd3a064c7a1?chatId=6b5b2b46-5f8c-4050-b7ef-a6689f1db235&chatType=INTERNAL
+2025-06-10 13:41:48 [ERROR]: [server]: Error deleting file storage for chatflow 8b62eb5b-a36d-46e9-b26a-7cd3a064c7a1, chatId 6b5b2b46-5f8c-4050-b7ef-a6689f1db235
+2025-06-10 13:41:51 [INFO]: ⬆️ POST /api/v1/internal-prediction/8b62eb5b-a36d-46e9-b26a-7cd3a064c7a1
+2025-06-10 13:42:29 [ERROR]: [server]: Error: 500 <html>
+<head><title>500 Internal Server Error</title></head>
+<body>
+<center><h1>500 Internal Server Error</h1></center>
+<hr><center>nginx</center>
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'94d68baf1c27afc0',t:'MTc0OTUzNDE0OS4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>
+
+Error: 500 <html>
+<head><title>500 Internal Server Error</title></head>
+<body>
+<center><h1>500 Internal Server Error</h1></center>
+<hr><center>nginx</center>
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'94d68baf1c27afc0',t:'MTc0OTUzNDE0OS4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>
+
+    at APIError.generate (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/openai@4.96.0_encoding@0.1.13_ws@8.18.0_bufferutil@4.0.8_utf-8-validate@6.0.4__zod@3.22.4/node_modules/openai/error.js:66:20)
+    at OpenAI.makeStatusError (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/openai@4.96.0_encoding@0.1.13_ws@8.18.0_bufferutil@4.0.8_utf-8-validate@6.0.4__zod@3.22.4/node_modules/openai/core.js:302:33)
+    at OpenAI.makeRequest (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/openai@4.96.0_encoding@0.1.13_ws@8.18.0_bufferutil@4.0.8_utf-8-validate@6.0.4__zod@3.22.4/node_modules/openai/core.js:346:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async /home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@langchain+openai@0.3.13_@langchain+core@0.3.37_openai@4.96.0_encoding@0.1.13_ws@8.18.0_3e7d0ad6beedde1e4cb64651d5d28791/node_modules/@langchain/openai/dist/chat_models.cjs:1558:29
+    at async RetryOperation._fn (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/p-retry@4.6.2/node_modules/p-retry/index.js:50:12)
+2025-06-10 13:42:38 [INFO]: ⬆️ POST /api/v1/node-load-method/customMCP
+2025-06-10 13:42:38 [INFO]: ⬆️ POST /api/v1/node-load-method/customTool
+2025-06-10 13:42:38 [INFO]: ⬆️ POST /api/v1/node-load-method/customTool
+2025-06-10 13:42:38 [INFO]: ⬆️ POST /api/v1/node-load-method/customTool
+2025-06-10 13:42:38 [INFO]: ⬆️ POST /api/v1/node-load-method/customTool
+2025-06-10 13:42:38 [INFO]: ⬆️ POST /api/v1/node-load-method/customTool
+2025-06-10 13:42:38 [INFO]: ⬆️ POST /api/v1/node-load-method/customTool
+2025-06-10 13:42:38 [INFO]: ⬆️ POST /api/v1/node-load-method/customTool
+2025-06-10 13:42:48 [INFO]: ⬆️ POST /api/v1/internal-prediction/652cbcc0-6dff-421e-b8af-02d10bdc4b98
+2025-06-10 13:42:51 [ERROR]: [server]: Error: 500 <html>
+<head><title>500 Internal Server Error</title></head>
+<body>
+<center><h1>500 Internal Server Error</h1></center>
+<hr><center>nginx</center>
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'94d68c3789c1bf81',t:'MTc0OTUzNDE3MC4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>
+
+Error: 500 <html>
+<head><title>500 Internal Server Error</title></head>
+<body>
+<center><h1>500 Internal Server Error</h1></center>
+<hr><center>nginx</center>
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'94d68c3789c1bf81',t:'MTc0OTUzNDE3MC4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>
+
+    at APIError.generate (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/openai@4.96.0_encoding@0.1.13_ws@8.18.0_bufferutil@4.0.8_utf-8-validate@6.0.4__zod@3.22.4/node_modules/openai/error.js:66:20)
+    at OpenAI.makeStatusError (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/openai@4.96.0_encoding@0.1.13_ws@8.18.0_bufferutil@4.0.8_utf-8-validate@6.0.4__zod@3.22.4/node_modules/openai/core.js:302:33)
+    at OpenAI.makeRequest (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/openai@4.96.0_encoding@0.1.13_ws@8.18.0_bufferutil@4.0.8_utf-8-validate@6.0.4__zod@3.22.4/node_modules/openai/core.js:346:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async /home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@langchain+openai@0.3.13_@langchain+core@0.3.37_openai@4.96.0_encoding@0.1.13_ws@8.18.0_3e7d0ad6beedde1e4cb64651d5d28791/node_modules/@langchain/openai/dist/chat_models.cjs:1558:29
+    at async RetryOperation._fn (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/p-retry@4.6.2/node_modules/p-retry/index.js:50:12)
+2025-06-10 13:43:24 [ERROR]: [server]: Error: 500 <html>
+<head><title>500 Internal Server Error</title></head>
+<body>
+<center><h1>500 Internal Server Error</h1></center>
+<hr><center>nginx</center>
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'94d68d06b89e6d11',t:'MTc0OTUzNDIwMy4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>
+
+Error: 500 <html>
+<head><title>500 Internal Server Error</title></head>
+<body>
+<center><h1>500 Internal Server Error</h1></center>
+<hr><center>nginx</center>
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'94d68d06b89e6d11',t:'MTc0OTUzNDIwMy4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>
+
+    at APIError.generate (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/openai@4.96.0_encoding@0.1.13_ws@8.18.0_bufferutil@4.0.8_utf-8-validate@6.0.4__zod@3.22.4/node_modules/openai/error.js:66:20)
+    at OpenAI.makeStatusError (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/openai@4.96.0_encoding@0.1.13_ws@8.18.0_bufferutil@4.0.8_utf-8-validate@6.0.4__zod@3.22.4/node_modules/openai/core.js:302:33)
+    at OpenAI.makeRequest (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/openai@4.96.0_encoding@0.1.13_ws@8.18.0_bufferutil@4.0.8_utf-8-validate@6.0.4__zod@3.22.4/node_modules/openai/core.js:346:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async /home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@langchain+openai@0.3.13_@langchain+core@0.3.37_openai@4.96.0_encoding@0.1.13_ws@8.18.0_3e7d0ad6beedde1e4cb64651d5d28791/node_modules/@langchain/openai/dist/chat_models.cjs:1558:29
+    at async RetryOperation._fn (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/p-retry@4.6.2/node_modules/p-retry/index.js:50:12)
+2025-06-10 13:44:44 [ERROR]: [server]: Error: 500 <html>
+<head><title>500 Internal Server Error</title></head>
+<body>
+<center><h1>500 Internal Server Error</h1></center>
+<hr><center>nginx</center>
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'94d68efaab1c8bba',t:'MTc0OTUzNDI4NC4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>
+
+Error: 500 <html>
+<head><title>500 Internal Server Error</title></head>
+<body>
+<center><h1>500 Internal Server Error</h1></center>
+<hr><center>nginx</center>
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'94d68efaab1c8bba',t:'MTc0OTUzNDI4NC4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>
+
+    at APIError.generate (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/openai@4.96.0_encoding@0.1.13_ws@8.18.0_bufferutil@4.0.8_utf-8-validate@6.0.4__zod@3.22.4/node_modules/openai/error.js:66:20)
+    at OpenAI.makeStatusError (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/openai@4.96.0_encoding@0.1.13_ws@8.18.0_bufferutil@4.0.8_utf-8-validate@6.0.4__zod@3.22.4/node_modules/openai/core.js:302:33)
+    at OpenAI.makeRequest (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/openai@4.96.0_encoding@0.1.13_ws@8.18.0_bufferutil@4.0.8_utf-8-validate@6.0.4__zod@3.22.4/node_modules/openai/core.js:346:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async /home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@langchain+openai@0.3.13_@langchain+core@0.3.37_openai@4.96.0_encoding@0.1.13_ws@8.18.0_3e7d0ad6beedde1e4cb64651d5d28791/node_modules/@langchain/openai/dist/chat_models.cjs:1558:29
+    at async RetryOperation._fn (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/p-retry@4.6.2/node_modules/p-retry/index.js:50:12)
+2025-06-10 13:45:40 [INFO]: Shutting down Flowise...
+2025-06-10 13:48:18 [INFO]: Starting Flowise...
+2025-06-10 13:48:18 [INFO]: 📦 [server]: Data Source initialized successfully
+2025-06-10 13:48:18 [INFO]: 🔄 [server]: Database migrations completed successfully
+2025-06-10 13:48:18 [INFO]: 🔐 [server]: Identity Manager initialized successfully
+2025-06-10 13:48:25 [INFO]: 🔧 [server]: Nodes pool initialized successfully
+2025-06-10 13:48:25 [INFO]: ⏹️ [server]: Abort controllers pool initialized successfully
+2025-06-10 13:48:25 [INFO]: 🔑 [server]: Encryption key initialized successfully
+2025-06-10 13:48:25 [INFO]: 🚦 [server]: Rate limiters initialized successfully
+2025-06-10 13:48:25 [INFO]: 💾 [server]: Cache pool initialized successfully
+2025-06-10 13:48:25 [INFO]: 📊 [server]: Usage cache manager initialized successfully
+2025-06-10 13:48:25 [INFO]: 📈 [server]: Telemetry initialized successfully
+2025-06-10 13:48:25 [INFO]: 🌊 [server]: SSE Streamer initialized successfully
+2025-06-10 13:48:25 [INFO]: 🎉 [server]: All initialization steps completed successfully!
+2025-06-10 13:48:25 [INFO]: ⚡️ [server]: Flowise Server is listening at :3003
+2025-06-10 13:48:25 [INFO]: ⬆️ POST /api/v1/internal-prediction/652cbcc0-6dff-421e-b8af-02d10bdc4b98
+2025-06-10 13:48:32 [INFO]: 🖊 PUT /api/v1/chatflows/652cbcc0-6dff-421e-b8af-02d10bdc4b98
+2025-06-10 13:48:39 [INFO]: ⬆️ POST /api/v1/internal-prediction/19e4069c-6f98-4f25-95d6-23d4e5f95e60
+2025-06-10 13:49:10 [INFO]: ⬆️ POST /api/v1/internal-prediction/19e4069c-6f98-4f25-95d6-23d4e5f95e60
+2025-06-10 13:50:36 [ERROR]: [server]: Error: 500 <html>
+<head><title>500 Internal Server Error</title></head>
+<body>
+<center><h1>500 Internal Server Error</h1></center>
+<hr><center>nginx</center>
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'94d697938eb7afaa',t:'MTc0OTUzNDYzNi4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>
+
+Error: 500 <html>
+<head><title>500 Internal Server Error</title></head>
+<body>
+<center><h1>500 Internal Server Error</h1></center>
+<hr><center>nginx</center>
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'94d697938eb7afaa',t:'MTc0OTUzNDYzNi4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>
+
+    at APIError.generate (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/openai@4.96.0_encoding@0.1.13_ws@8.18.0_bufferutil@4.0.8_utf-8-validate@6.0.4__zod@3.22.4/node_modules/openai/error.js:66:20)
+    at OpenAI.makeStatusError (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/openai@4.96.0_encoding@0.1.13_ws@8.18.0_bufferutil@4.0.8_utf-8-validate@6.0.4__zod@3.22.4/node_modules/openai/core.js:302:33)
+    at OpenAI.makeRequest (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/openai@4.96.0_encoding@0.1.13_ws@8.18.0_bufferutil@4.0.8_utf-8-validate@6.0.4__zod@3.22.4/node_modules/openai/core.js:346:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async /home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@langchain+openai@0.3.13_@langchain+core@0.3.37_openai@4.96.0_encoding@0.1.13_ws@8.18.0_3e7d0ad6beedde1e4cb64651d5d28791/node_modules/@langchain/openai/dist/chat_models.cjs:1558:29
+    at async RetryOperation._fn (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/p-retry@4.6.2/node_modules/p-retry/index.js:50:12)
+2025-06-10 13:50:39 [INFO]: Shutting down Flowise...

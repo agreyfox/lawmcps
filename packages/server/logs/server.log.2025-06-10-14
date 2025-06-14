@@ -1,0 +1,62 @@
+2025-06-10 14:02:18 [INFO]: Starting Flowise...
+2025-06-10 14:02:18 [INFO]: 📦 [server]: Data Source initialized successfully
+2025-06-10 14:02:18 [INFO]: 🔄 [server]: Database migrations completed successfully
+2025-06-10 14:02:18 [INFO]: 🔐 [server]: Identity Manager initialized successfully
+2025-06-10 14:02:25 [INFO]: 🔧 [server]: Nodes pool initialized successfully
+2025-06-10 14:02:25 [INFO]: ⏹️ [server]: Abort controllers pool initialized successfully
+2025-06-10 14:02:25 [INFO]: 🔑 [server]: Encryption key initialized successfully
+2025-06-10 14:02:25 [INFO]: 🚦 [server]: Rate limiters initialized successfully
+2025-06-10 14:02:25 [INFO]: 💾 [server]: Cache pool initialized successfully
+2025-06-10 14:02:25 [INFO]: 📊 [server]: Usage cache manager initialized successfully
+2025-06-10 14:02:25 [INFO]: 📈 [server]: Telemetry initialized successfully
+2025-06-10 14:02:25 [INFO]: 🌊 [server]: SSE Streamer initialized successfully
+2025-06-10 14:02:25 [INFO]: 🎉 [server]: All initialization steps completed successfully!
+2025-06-10 14:02:25 [INFO]: ⚡️ [server]: Flowise Server is listening at :3003
+2025-06-10 14:02:25 [INFO]: ⬆️ POST /api/v1/internal-prediction/19e4069c-6f98-4f25-95d6-23d4e5f95e60
+2025-06-10 14:02:25 [INFO]: ⬆️ POST /api/v1/internal-prediction/652cbcc0-6dff-421e-b8af-02d10bdc4b98
+2025-06-10 14:02:25 [INFO]: ⬆️ POST /api/v1/internal-prediction/19e4069c-6f98-4f25-95d6-23d4e5f95e60
+2025-06-10 14:02:30 [INFO]: ⬆️ POST /api/v1/internal-prediction/19e4069c-6f98-4f25-95d6-23d4e5f95e60
+2025-06-10 14:02:41 [INFO]: ⬆️ POST /api/v1/auth/refreshToken
+2025-06-10 14:02:41 [INFO]: ⬆️ POST /api/v1/auth/refreshToken
+2025-06-10 14:02:46 [INFO]: ⬆️ POST /api/v1/internal-prediction/19e4069c-6f98-4f25-95d6-23d4e5f95e60
+2025-06-10 14:02:48 [ERROR]: [server]: Error: "The model is temporarily unavailable."
+Error: "The model is temporarily unavailable."
+    at Stream.iterator (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/openai@4.96.0_encoding@0.1.13_ws@8.18.0_bufferutil@4.0.8_utf-8-validate@6.0.4__zod@3.22.4/node_modules/openai/streaming.js:44:35)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ChatXAI._streamResponseChunks (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@langchain+openai@0.3.13_@langchain+core@0.3.37_openai@4.96.0_encoding@0.1.13_ws@8.18.0_3e7d0ad6beedde1e4cb64651d5d28791/node_modules/@langchain/openai/dist/chat_models.cjs:1235:26)
+    at async ChatXAI._generate (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@langchain+openai@0.3.13_@langchain+core@0.3.37_openai@4.96.0_encoding@0.1.13_ws@8.18.0_3e7d0ad6beedde1e4cb64651d5d28791/node_modules/@langchain/openai/dist/chat_models.cjs:1334:30)
+    at async Promise.allSettled (index 0)
+    at async ChatXAI._generateUncached (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@langchain+core@0.3.37_openai@4.96.0_encoding@0.1.13_ws@8.18.0_bufferutil@4.0.8_utf-8-validate@6.0.4__zod@3.22.4_/node_modules/@langchain/core/dist/language_models/chat_models.cjs:227:29)
+    at async LLMChain._call (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/langchain@0.3.6_984d09931986a819517b84fff70d409d/node_modules/langchain/dist/chains/llm_chain.cjs:162:37)
+    at async LLMChain.invoke (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/langchain@0.3.6_984d09931986a819517b84fff70d409d/node_modules/langchain/dist/chains/base.cjs:58:28)
+    at async LLMChain.run (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/langchain@0.3.6_984d09931986a819517b84fff70d409d/node_modules/langchain/dist/chains/base.cjs:117:30)
+    at async runPrediction (/home/lq/projects/liw/Flowise3.0/packages/components/dist/nodes/chains/LLMChain/LLMChain.js:259:25)
+    at async LLMChain_Chains.run (/home/lq/projects/liw/Flowise3.0/packages/components/dist/nodes/chains/LLMChain/LLMChain.js:127:21)
+    at async executeFlow (/home/lq/projects/liw/Flowise3.0/packages/server/dist/utils/buildChatflow.js:538:22)
+    at async utilBuildChatflow (/home/lq/projects/liw/Flowise3.0/packages/server/dist/utils/buildChatflow.js:797:28)
+    at async createAndStreamInternalPrediction (/home/lq/projects/liw/Flowise3.0/packages/server/dist/controllers/internal-predictions/index.js:38:29)
+2025-06-10 14:03:04 [INFO]: 🖊 PUT /api/v1/chatflows/19e4069c-6f98-4f25-95d6-23d4e5f95e60
+2025-06-10 14:03:08 [INFO]: ⬆️ POST /api/v1/internal-prediction/19e4069c-6f98-4f25-95d6-23d4e5f95e60
+2025-06-10 14:03:10 [ERROR]: [server]: Error: "The model is temporarily unavailable."
+Error: "The model is temporarily unavailable."
+    at Stream.iterator (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/openai@4.96.0_encoding@0.1.13_ws@8.18.0_bufferutil@4.0.8_utf-8-validate@6.0.4__zod@3.22.4/node_modules/openai/streaming.js:44:35)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ChatXAI._streamResponseChunks (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@langchain+openai@0.3.13_@langchain+core@0.3.37_openai@4.96.0_encoding@0.1.13_ws@8.18.0_3e7d0ad6beedde1e4cb64651d5d28791/node_modules/@langchain/openai/dist/chat_models.cjs:1235:26)
+    at async ChatXAI._generate (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@langchain+openai@0.3.13_@langchain+core@0.3.37_openai@4.96.0_encoding@0.1.13_ws@8.18.0_3e7d0ad6beedde1e4cb64651d5d28791/node_modules/@langchain/openai/dist/chat_models.cjs:1334:30)
+    at async Promise.allSettled (index 0)
+    at async ChatXAI._generateUncached (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@langchain+core@0.3.37_openai@4.96.0_encoding@0.1.13_ws@8.18.0_bufferutil@4.0.8_utf-8-validate@6.0.4__zod@3.22.4_/node_modules/@langchain/core/dist/language_models/chat_models.cjs:227:29)
+    at async LLMChain._call (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/langchain@0.3.6_984d09931986a819517b84fff70d409d/node_modules/langchain/dist/chains/llm_chain.cjs:162:37)
+    at async LLMChain.invoke (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/langchain@0.3.6_984d09931986a819517b84fff70d409d/node_modules/langchain/dist/chains/base.cjs:58:28)
+    at async LLMChain.run (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/langchain@0.3.6_984d09931986a819517b84fff70d409d/node_modules/langchain/dist/chains/base.cjs:117:30)
+    at async runPrediction (/home/lq/projects/liw/Flowise3.0/packages/components/dist/nodes/chains/LLMChain/LLMChain.js:259:25)
+    at async LLMChain_Chains.run (/home/lq/projects/liw/Flowise3.0/packages/components/dist/nodes/chains/LLMChain/LLMChain.js:127:21)
+    at async executeFlow (/home/lq/projects/liw/Flowise3.0/packages/server/dist/utils/buildChatflow.js:538:22)
+    at async utilBuildChatflow (/home/lq/projects/liw/Flowise3.0/packages/server/dist/utils/buildChatflow.js:797:28)
+    at async createAndStreamInternalPrediction (/home/lq/projects/liw/Flowise3.0/packages/server/dist/controllers/internal-predictions/index.js:38:29)
+2025-06-10 14:03:23 [INFO]: ⬆️ POST /api/v1/node-load-method/groqChat
+2025-06-10 14:03:44 [INFO]: ⬆️ POST /api/v1/internal-prediction/233e1875-5daf-473b-85fb-211f579a5cf0
+2025-06-10 14:04:44 [INFO]: ⬆️ POST /api/v1/node-load-method/chatGoogleGemini
+2025-06-10 14:04:52 [INFO]: ⬆️ POST /api/v1/internal-prediction/4f7a2e9a-7512-45a1-905e-c8c54d7f7ffa
+2025-06-10 14:05:07 [INFO]: ❌ DELETE /api/v1/chatmessage/4f7a2e9a-7512-45a1-905e-c8c54d7f7ffa?chatId=9ac5e7c9-67ad-4ac8-8bd5-c33679d4cc08&chatType=INTERNAL
+2025-06-10 14:05:07 [ERROR]: [server]: Error deleting file storage for chatflow 4f7a2e9a-7512-45a1-905e-c8c54d7f7ffa, chatId 9ac5e7c9-67ad-4ac8-8bd5-c33679d4cc08
+2025-06-10 14:05:13 [INFO]: ⬆️ POST /api/v1/internal-prediction/4f7a2e9a-7512-45a1-905e-c8c54d7f7ffa

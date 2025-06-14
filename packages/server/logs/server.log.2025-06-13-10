@@ -1,0 +1,39 @@
+2025-06-13 10:15:31 [INFO]: Starting Flowise...
+2025-06-13 10:15:31 [INFO]: 📦 [server]: Data Source initialized successfully
+2025-06-13 10:15:31 [INFO]: 🔄 [server]: Database migrations completed successfully
+2025-06-13 10:15:31 [INFO]: 🔐 [server]: Identity Manager initialized successfully
+2025-06-13 10:15:37 [INFO]: 🔧 [server]: Nodes pool initialized successfully
+2025-06-13 10:15:37 [INFO]: ⏹️ [server]: Abort controllers pool initialized successfully
+2025-06-13 10:15:37 [INFO]: 🔑 [server]: Encryption key initialized successfully
+2025-06-13 10:15:37 [INFO]: 🚦 [server]: Rate limiters initialized successfully
+2025-06-13 10:15:37 [INFO]: 💾 [server]: Cache pool initialized successfully
+2025-06-13 10:15:37 [INFO]: 📊 [server]: Usage cache manager initialized successfully
+2025-06-13 10:15:37 [INFO]: 📈 [server]: Telemetry initialized successfully
+2025-06-13 10:15:37 [INFO]: 🌊 [server]: SSE Streamer initialized successfully
+2025-06-13 10:15:37 [INFO]: 🎉 [server]: All initialization steps completed successfully!
+2025-06-13 10:15:37 [INFO]: ⚡️ [server]: Flowise Server is listening at :3003
+2025-06-13 10:16:03 [INFO]: ⬆️ POST /api/v1/prediction/41313e33-ae4e-4338-92e9-fc1fc606d281
+2025-06-13 10:16:03 [INFO]: [server]: Request originated from UNKNOWN ORIGIN
+2025-06-13 10:29:20 [INFO]: ⬆️ POST /api/v1/prediction/41313e33-ae4e-4338-92e9-fc1fc606d281
+2025-06-13 10:29:20 [INFO]: [server]: Request originated from UNKNOWN ORIGIN
+2025-06-13 10:29:20 [ERROR]: [server]: Error executing node customFunctionAgentflow_2: ReferenceError: inputs is not defined
+2025-06-13 10:29:27 [ERROR]: [server]: Error: ReferenceError: inputs is not defined
+Error: ReferenceError: inputs is not defined
+    at executeAgentFlow (/home/lq/projects/liw/Flowise3.0/packages/server/dist/utils/buildAgentflow.js:1287:19)
+    at async utilBuildChatflow (/home/lq/projects/liw/Flowise3.0/packages/server/dist/utils/buildChatflow.js:797:28)
+    at async Object.buildChatflow (/home/lq/projects/liw/Flowise3.0/packages/server/dist/services/predictions/index.js:9:28)
+    at async createPrediction (/home/lq/projects/liw/Flowise3.0/packages/server/dist/controllers/predictions/index.js:86:37)
+2025-06-13 10:29:27 [ERROR]: [server]: Error executing node customFunctionAgentflow_2: ReferenceError: inputs is not defined
+2025-06-13 10:29:27 [ERROR]: [server]: Error: ReferenceError: inputs is not defined
+Error: ReferenceError: inputs is not defined
+    at executeAgentFlow (/home/lq/projects/liw/Flowise3.0/packages/server/dist/utils/buildAgentflow.js:1287:19)
+    at async utilBuildChatflow (/home/lq/projects/liw/Flowise3.0/packages/server/dist/utils/buildChatflow.js:797:28)
+    at async Object.buildChatflow (/home/lq/projects/liw/Flowise3.0/packages/server/dist/services/predictions/index.js:9:28)
+    at async createPrediction (/home/lq/projects/liw/Flowise3.0/packages/server/dist/controllers/predictions/index.js:86:37)
+2025-06-13 10:30:12 [INFO]: 🖊 PUT /api/v1/chatflows/41313e33-ae4e-4338-92e9-fc1fc606d281
+2025-06-13 10:30:12 [INFO]: ⬆️ POST /api/v1/auth/refreshToken
+2025-06-13 10:30:12 [INFO]: 🖊 PUT /api/v1/chatflows/41313e33-ae4e-4338-92e9-fc1fc606d281
+2025-06-13 10:31:53 [INFO]: ⬆️ POST /api/v1/prediction/41313e33-ae4e-4338-92e9-fc1fc606d281
+2025-06-13 10:31:53 [INFO]: [server]: Request originated from UNKNOWN ORIGIN
+2025-06-13 10:53:50 [INFO]: ⬆️ POST /api/v1/prediction/41313e33-ae4e-4338-92e9-fc1fc606d281
+2025-06-13 10:53:50 [INFO]: [server]: Request originated from UNKNOWN ORIGIN

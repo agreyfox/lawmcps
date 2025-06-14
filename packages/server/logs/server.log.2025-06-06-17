@@ -1,0 +1,184 @@
+2025-06-06 17:02:42 [INFO]: Starting Flowise...
+2025-06-06 17:02:42 [INFO]: 📦 [server]: Data Source initialized successfully
+2025-06-06 17:02:42 [INFO]: 🔄 [server]: Database migrations completed successfully
+2025-06-06 17:02:42 [INFO]: 🔐 [server]: Identity Manager initialized successfully
+2025-06-06 17:02:45 [INFO]: 🔧 [server]: Nodes pool initialized successfully
+2025-06-06 17:02:45 [INFO]: ⏹️ [server]: Abort controllers pool initialized successfully
+2025-06-06 17:02:45 [INFO]: 🔑 [server]: Encryption key initialized successfully
+2025-06-06 17:02:45 [INFO]: 🚦 [server]: Rate limiters initialized successfully
+2025-06-06 17:02:45 [INFO]: 💾 [server]: Cache pool initialized successfully
+2025-06-06 17:02:45 [INFO]: 📊 [server]: Usage cache manager initialized successfully
+2025-06-06 17:02:45 [INFO]: 📈 [server]: Telemetry initialized successfully
+2025-06-06 17:02:45 [INFO]: 🌊 [server]: SSE Streamer initialized successfully
+2025-06-06 17:02:45 [INFO]: 🎉 [server]: All initialization steps completed successfully!
+2025-06-06 17:02:45 [INFO]: ⚡️ [server]: Flowise Server is listening at :3003
+2025-06-06 17:02:49 [INFO]: ⬆️ POST /api/v1/auth/refreshToken
+2025-06-06 17:02:49 [INFO]: ⬆️ POST /api/v1/auth/refreshToken
+2025-06-06 17:03:16 [INFO]: ⬆️ POST /api/v1/node-load-method/chatGoogleGemini
+2025-06-06 17:06:59 [INFO]: Shutting down Flowise...
+2025-06-06 17:09:43 [INFO]: Starting Flowise...
+2025-06-06 17:09:43 [INFO]: 📦 [server]: Data Source initialized successfully
+2025-06-06 17:09:43 [INFO]: 🔄 [server]: Database migrations completed successfully
+2025-06-06 17:09:43 [INFO]: 🔐 [server]: Identity Manager initialized successfully
+2025-06-06 17:09:44 [ERROR]: ❌ [server]: Error during initDatabase with file /home/lq/projects/liw/Flowise3.0/packages/server/node_modules/flowise-components/dist/nodes/chatmodels/ChatGoogleGemini/ChatGoogleGemini.js: Unexpected token ','
+/home/lq/projects/liw/Flowise3.0/packages/components/dist/nodes/chatmodels/ChatGoogleGemini/ChatGoogleGemini.js:804
+    if(, apiKey) {
+       ^
+
+SyntaxError: Unexpected token ','
+    at internalCompileFunction (node:internal/vm:76:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1283:20)
+    at Module._compile (node:internal/modules/cjs/loader:1328:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at /home/lq/projects/liw/Flowise3.0/packages/server/dist/NodesPool.js:36:46
+    at Array.map (<anonymous>)
+    at NodesPool.initializeNodes (/home/lq/projects/liw/Flowise3.0/packages/server/dist/NodesPool.js:33:38)
+    at async NodesPool.initialize (/home/lq/projects/liw/Flowise3.0/packages/server/dist/NodesPool.js:22:9)
+    at async App.initDatabase (/home/lq/projects/liw/Flowise3.0/packages/server/dist/index.js:115:13)
+    at async Object.start (/home/lq/projects/liw/Flowise3.0/packages/server/dist/index.js:352:5)
+    at async Start.run (/home/lq/projects/liw/Flowise3.0/packages/server/dist/commands/start.js:37:9)
+    at async Start._run (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@oclif+core@4.0.7/node_modules/@oclif/core/lib/command.js:302:22)
+2025-06-06 17:09:44 [ERROR]: ❌ [server]: Error during initDatabase with file /home/lq/projects/liw/Flowise3.0/packages/server/node_modules/flowise-components/dist/nodes/chatmodels/ChatGoogleGemini.original.backup/ChatGoogleGemini/ChatGoogleGemini.js: Cannot find module '../../../src/utils'
+Require stack:
+- /home/lq/projects/liw/Flowise3.0/packages/components/dist/nodes/chatmodels/ChatGoogleGemini.original.backup/ChatGoogleGemini/ChatGoogleGemini.js
+- /home/lq/projects/liw/Flowise3.0/packages/server/dist/NodesPool.js
+- /home/lq/projects/liw/Flowise3.0/packages/server/dist/index.js
+- /home/lq/projects/liw/Flowise3.0/packages/server/dist/commands/start.js
+- /home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@oclif+core@4.0.7/node_modules/@oclif/core/lib/module-loader.js
+- /home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@oclif+core@4.0.7/node_modules/@oclif/core/lib/help/index.js
+- /home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@oclif+core@4.0.7/node_modules/@oclif/core/lib/errors/handle.js
+- /home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@oclif+core@4.0.7/node_modules/@oclif/core/lib/errors/index.js
+- /home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@oclif+core@4.0.7/node_modules/@oclif/core/lib/config/config.js
+- /home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@oclif+core@4.0.7/node_modules/@oclif/core/lib/config/index.js
+- /home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@oclif+core@4.0.7/node_modules/@oclif/core/lib/command.js
+- /home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@oclif+core@4.0.7/node_modules/@oclif/core/lib/index.js
+- /home/lq/projects/liw/Flowise3.0/packages/server/bin/run
+Error: Cannot find module '../../../src/utils'
+Require stack:
+- /home/lq/projects/liw/Flowise3.0/packages/components/dist/nodes/chatmodels/ChatGoogleGemini.original.backup/ChatGoogleGemini/ChatGoogleGemini.js
+- /home/lq/projects/liw/Flowise3.0/packages/server/dist/NodesPool.js
+- /home/lq/projects/liw/Flowise3.0/packages/server/dist/index.js
+- /home/lq/projects/liw/Flowise3.0/packages/server/dist/commands/start.js
+- /home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@oclif+core@4.0.7/node_modules/@oclif/core/lib/module-loader.js
+- /home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@oclif+core@4.0.7/node_modules/@oclif/core/lib/help/index.js
+- /home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@oclif+core@4.0.7/node_modules/@oclif/core/lib/errors/handle.js
+- /home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@oclif+core@4.0.7/node_modules/@oclif/core/lib/errors/index.js
+- /home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@oclif+core@4.0.7/node_modules/@oclif/core/lib/config/config.js
+- /home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@oclif+core@4.0.7/node_modules/@oclif/core/lib/config/index.js
+- /home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@oclif+core@4.0.7/node_modules/@oclif/core/lib/command.js
+- /home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@oclif+core@4.0.7/node_modules/@oclif/core/lib/index.js
+- /home/lq/projects/liw/Flowise3.0/packages/server/bin/run
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1140:15)
+    at Module._load (node:internal/modules/cjs/loader:981:27)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/lq/projects/liw/Flowise3.0/packages/components/dist/nodes/chatmodels/ChatGoogleGemini.original.backup/ChatGoogleGemini/ChatGoogleGemini.js:10:17)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at /home/lq/projects/liw/Flowise3.0/packages/server/dist/NodesPool.js:36:46
+    at Array.map (<anonymous>)
+    at NodesPool.initializeNodes (/home/lq/projects/liw/Flowise3.0/packages/server/dist/NodesPool.js:33:38)
+    at async NodesPool.initialize (/home/lq/projects/liw/Flowise3.0/packages/server/dist/NodesPool.js:22:9)
+    at async App.initDatabase (/home/lq/projects/liw/Flowise3.0/packages/server/dist/index.js:115:13)
+2025-06-06 17:09:45 [INFO]: 🔧 [server]: Nodes pool initialized successfully
+2025-06-06 17:09:45 [INFO]: ⏹️ [server]: Abort controllers pool initialized successfully
+2025-06-06 17:09:45 [INFO]: 🔑 [server]: Encryption key initialized successfully
+2025-06-06 17:09:45 [INFO]: 🚦 [server]: Rate limiters initialized successfully
+2025-06-06 17:09:45 [INFO]: 💾 [server]: Cache pool initialized successfully
+2025-06-06 17:09:45 [INFO]: 📊 [server]: Usage cache manager initialized successfully
+2025-06-06 17:09:45 [INFO]: 📈 [server]: Telemetry initialized successfully
+2025-06-06 17:09:45 [INFO]: 🌊 [server]: SSE Streamer initialized successfully
+2025-06-06 17:09:45 [INFO]: 🎉 [server]: All initialization steps completed successfully!
+2025-06-06 17:09:45 [INFO]: ⚡️ [server]: Flowise Server is listening at :3003
+2025-06-06 17:13:30 [INFO]: Shutting down Flowise...
+2025-06-06 17:18:43 [INFO]: Starting Flowise...
+2025-06-06 17:18:43 [INFO]: 📦 [server]: Data Source initialized successfully
+2025-06-06 17:18:43 [INFO]: 🔄 [server]: Database migrations completed successfully
+2025-06-06 17:18:43 [INFO]: 🔐 [server]: Identity Manager initialized successfully
+2025-06-06 17:18:44 [ERROR]: ❌ [server]: Error during initDatabase with file /home/lq/projects/liw/Flowise3.0/packages/server/node_modules/flowise-components/dist/nodes/chatmodels/ChatGoogleGemini/ChatGoogleGemini.js: Unexpected token ','
+/home/lq/projects/liw/Flowise3.0/packages/components/dist/nodes/chatmodels/ChatGoogleGemini/ChatGoogleGemini.js:809
+    if(, apiKey) {
+       ^
+
+SyntaxError: Unexpected token ','
+    at internalCompileFunction (node:internal/vm:76:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1283:20)
+    at Module._compile (node:internal/modules/cjs/loader:1328:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at /home/lq/projects/liw/Flowise3.0/packages/server/dist/NodesPool.js:36:46
+    at Array.map (<anonymous>)
+    at NodesPool.initializeNodes (/home/lq/projects/liw/Flowise3.0/packages/server/dist/NodesPool.js:33:38)
+    at async NodesPool.initialize (/home/lq/projects/liw/Flowise3.0/packages/server/dist/NodesPool.js:22:9)
+    at async App.initDatabase (/home/lq/projects/liw/Flowise3.0/packages/server/dist/index.js:115:13)
+    at async Object.start (/home/lq/projects/liw/Flowise3.0/packages/server/dist/index.js:352:5)
+    at async Start.run (/home/lq/projects/liw/Flowise3.0/packages/server/dist/commands/start.js:37:9)
+    at async Start._run (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@oclif+core@4.0.7/node_modules/@oclif/core/lib/command.js:302:22)
+2025-06-06 17:18:44 [ERROR]: ❌ [server]: Error during initDatabase with file /home/lq/projects/liw/Flowise3.0/packages/server/node_modules/flowise-components/dist/nodes/chatmodels/ChatGoogleGemini.original.backup/ChatGoogleGemini/ChatGoogleGemini.js: Cannot find module '../../../src/utils'
+Require stack:
+- /home/lq/projects/liw/Flowise3.0/packages/components/dist/nodes/chatmodels/ChatGoogleGemini.original.backup/ChatGoogleGemini/ChatGoogleGemini.js
+- /home/lq/projects/liw/Flowise3.0/packages/server/dist/NodesPool.js
+- /home/lq/projects/liw/Flowise3.0/packages/server/dist/index.js
+- /home/lq/projects/liw/Flowise3.0/packages/server/dist/commands/start.js
+- /home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@oclif+core@4.0.7/node_modules/@oclif/core/lib/module-loader.js
+- /home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@oclif+core@4.0.7/node_modules/@oclif/core/lib/help/index.js
+- /home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@oclif+core@4.0.7/node_modules/@oclif/core/lib/errors/handle.js
+- /home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@oclif+core@4.0.7/node_modules/@oclif/core/lib/errors/index.js
+- /home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@oclif+core@4.0.7/node_modules/@oclif/core/lib/config/config.js
+- /home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@oclif+core@4.0.7/node_modules/@oclif/core/lib/config/index.js
+- /home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@oclif+core@4.0.7/node_modules/@oclif/core/lib/command.js
+- /home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@oclif+core@4.0.7/node_modules/@oclif/core/lib/index.js
+- /home/lq/projects/liw/Flowise3.0/packages/server/bin/run
+Error: Cannot find module '../../../src/utils'
+Require stack:
+- /home/lq/projects/liw/Flowise3.0/packages/components/dist/nodes/chatmodels/ChatGoogleGemini.original.backup/ChatGoogleGemini/ChatGoogleGemini.js
+- /home/lq/projects/liw/Flowise3.0/packages/server/dist/NodesPool.js
+- /home/lq/projects/liw/Flowise3.0/packages/server/dist/index.js
+- /home/lq/projects/liw/Flowise3.0/packages/server/dist/commands/start.js
+- /home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@oclif+core@4.0.7/node_modules/@oclif/core/lib/module-loader.js
+- /home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@oclif+core@4.0.7/node_modules/@oclif/core/lib/help/index.js
+- /home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@oclif+core@4.0.7/node_modules/@oclif/core/lib/errors/handle.js
+- /home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@oclif+core@4.0.7/node_modules/@oclif/core/lib/errors/index.js
+- /home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@oclif+core@4.0.7/node_modules/@oclif/core/lib/config/config.js
+- /home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@oclif+core@4.0.7/node_modules/@oclif/core/lib/config/index.js
+- /home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@oclif+core@4.0.7/node_modules/@oclif/core/lib/command.js
+- /home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@oclif+core@4.0.7/node_modules/@oclif/core/lib/index.js
+- /home/lq/projects/liw/Flowise3.0/packages/server/bin/run
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1140:15)
+    at Module._load (node:internal/modules/cjs/loader:981:27)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/lq/projects/liw/Flowise3.0/packages/components/dist/nodes/chatmodels/ChatGoogleGemini.original.backup/ChatGoogleGemini/ChatGoogleGemini.js:10:17)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at /home/lq/projects/liw/Flowise3.0/packages/server/dist/NodesPool.js:36:46
+    at Array.map (<anonymous>)
+    at NodesPool.initializeNodes (/home/lq/projects/liw/Flowise3.0/packages/server/dist/NodesPool.js:33:38)
+    at async NodesPool.initialize (/home/lq/projects/liw/Flowise3.0/packages/server/dist/NodesPool.js:22:9)
+    at async App.initDatabase (/home/lq/projects/liw/Flowise3.0/packages/server/dist/index.js:115:13)
+2025-06-06 17:18:46 [INFO]: 🔧 [server]: Nodes pool initialized successfully
+2025-06-06 17:18:46 [INFO]: ⏹️ [server]: Abort controllers pool initialized successfully
+2025-06-06 17:18:46 [INFO]: 🔑 [server]: Encryption key initialized successfully
+2025-06-06 17:18:46 [INFO]: 🚦 [server]: Rate limiters initialized successfully
+2025-06-06 17:18:46 [INFO]: 💾 [server]: Cache pool initialized successfully
+2025-06-06 17:18:46 [INFO]: 📊 [server]: Usage cache manager initialized successfully
+2025-06-06 17:18:46 [INFO]: 📈 [server]: Telemetry initialized successfully
+2025-06-06 17:18:46 [INFO]: 🌊 [server]: SSE Streamer initialized successfully
+2025-06-06 17:18:46 [INFO]: 🎉 [server]: All initialization steps completed successfully!
+2025-06-06 17:18:46 [INFO]: ⚡️ [server]: Flowise Server is listening at :3003
+2025-06-06 17:38:02 [INFO]: Shutting down Flowise...

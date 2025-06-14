@@ -28,6 +28,7 @@ import { getErrorMessage } from './error'
 
 export const SOURCE_DOCUMENTS_PREFIX = '\n\n----FLOWISE_SOURCE_DOCUMENTS----\n\n'
 export const ARTIFACTS_PREFIX = '\n\n----FLOWISE_ARTIFACTS----\n\n'
+export const TOOL_ARGS_PREFIX = '\n\n----FLOWISE_TOOL_ARGS----\n\n'
 
 export type AgentFinish = {
     returnValues: Record<string, any>
@@ -444,9 +445,19 @@ export class AgentExecutor extends BaseChain<ChainValues, AgentExecutorOutput> {
                             if (typeof toolOutput === 'string' && toolOutput.includes(ARTIFACTS_PREFIX)) {
                                 toolOutput = toolOutput.split(ARTIFACTS_PREFIX)[0]
                             }
+                            let toolInput
+                            if (typeof toolOutput === 'string' && toolOutput.includes(TOOL_ARGS_PREFIX)) {
+                                const splitArray = toolOutput.split(TOOL_ARGS_PREFIX)
+                                toolOutput = splitArray[0]
+                                try {
+                                    toolInput = JSON.parse(splitArray[1])
+                                } catch (e) {
+                                    console.error('Error parsing tool input from tool')
+                                }
+                            }
                             usedTools.push({
                                 tool: tool.name,
-                                toolInput: action.toolInput as any,
+                                toolInput: toolInput ?? (action.toolInput as any),
                                 toolOutput
                             })
                         } else {
@@ -501,6 +512,10 @@ export class AgentExecutor extends BaseChain<ChainValues, AgentExecutorOutput> {
                         } catch (e) {
                             console.error('Error parsing source documents from tool')
                         }
+                    }
+                    if (typeof observation === 'string' && observation.includes(TOOL_ARGS_PREFIX)) {
+                        const observationArray = observation.split(TOOL_ARGS_PREFIX)
+                        observation = observationArray[0]
                     }
                     return { action, observation: observation ?? '' }
                 })
@@ -608,6 +623,10 @@ export class AgentExecutor extends BaseChain<ChainValues, AgentExecutorOutput> {
                     }
                     if (typeof observation === 'string' && observation.includes(ARTIFACTS_PREFIX)) {
                         const observationArray = observation.split(ARTIFACTS_PREFIX)
+                        observation = observationArray[0]
+                    }
+                    if (typeof observation === 'string' && observation.includes(TOOL_ARGS_PREFIX)) {
+                        const observationArray = observation.split(TOOL_ARGS_PREFIX)
                         observation = observationArray[0]
                     }
                 } catch (e) {
@@ -884,32 +903,68 @@ export type ToolsAgentAction = AgentAction & {
 export type ToolsAgentStep = AgentStep & {
     action: ToolsAgentAction
 }
-
 function parseAIMessageToToolAction(message: AIMessage): ToolsAgentAction[] | AgentFinish {
     const stringifiedMessageContent = typeof message.content === 'string' ? message.content : JSON.stringify(message.content)
+
+    // === 添加LLM返回消息的工具调用状态日志 ===
+    const timestamp = new Date().toISOString()
+    console.log(`\n[TOOL-LOG ${timestamp}] === LLM RESPONSE TOOL ANALYSIS ===`)
+    console.log(`[TOOL-LOG] Message type: ${message.constructor.name}`)
+    console.log(`[TOOL-LOG] Content: ${stringifiedMessageContent.substring(0, 200)}...`)
+
+    // 检查 tool_calls 属性
+    console.log(`[TOOL-LOG] message.tool_calls exists: ${message.tool_calls !== undefined}`)
+    if (message.tool_calls !== undefined) {
+        console.log(`[TOOL-LOG] message.tool_calls length: ${message.tool_calls.length}`)
+        message.tool_calls.forEach((toolCall, index) => {
+            console.log(`[TOOL-LOG] tool_calls[${index}]: ${toolCall.name} (${toolCall.id})`)
+        })
+    }
+
+    // 检查 additional_kwargs.tool_calls 属性
+    if (message.additional_kwargs?.tool_calls) {
+        console.log(`[TOOL-LOG] additional_kwargs.tool_calls length: ${message.additional_kwargs.tool_calls.length}`)
+        message.additional_kwargs.tool_calls.forEach((toolCall: any, index: number) => {
+            console.log(`[TOOL-LOG] additional_kwargs.tool_calls[${index}]: ${toolCall.function?.name} (${toolCall.id})`)
+        })
+    }
+
     let toolCalls: ToolCall[] = []
     if (message.tool_calls !== undefined && message.tool_calls.length > 0) {
+        console.log(`[TOOL-LOG] ✅ Using message.tool_calls`)
         toolCalls = message.tool_calls
     } else {
         if (message.additional_kwargs.tool_calls === undefined || message.additional_kwargs.tool_calls.length === 0) {
+            console.log(`[TOOL-LOG] ❌ No tool calls found, returning final answer`)
             return {
                 returnValues: { output: message.content },
                 log: stringifiedMessageContent
             }
         }
+        console.log(`[TOOL-LOG] 🔄 Parsing tool calls from additional_kwargs`)
         // Best effort parsing
         for (const toolCall of message.additional_kwargs.tool_calls ?? []) {
             const functionName = toolCall.function?.name
+            console.log(`[TOOL-LOG] Processing tool: ${functionName}`)
             try {
                 const args = JSON.parse(toolCall.function.arguments)
                 toolCalls.push({ name: functionName, args, id: toolCall.id })
+                console.log(`[TOOL-LOG] ✅ Parsed tool: ${functionName}`)
             } catch (e: any) {
+                console.log(`[TOOL-LOG] ❌ Failed to parse tool: ${functionName} - ${e.message}`)
                 throw new OutputParserException(
                     `Failed to parse tool arguments from chat model response. Text: "${JSON.stringify(toolCalls)}". ${e}`
                 )
             }
         }
     }
+
+    console.log(`[TOOL-LOG] === FINAL RESULT: ${toolCalls.length} tool(s) ===`)
+    toolCalls.forEach((toolCall, index) => {
+        console.log(`[TOOL-LOG] Tool ${index}: ${toolCall.name} (${toolCall.id})`)
+    })
+    console.log(`[TOOL-LOG] === END TOOL ANALYSIS ===\n`)
+
     return toolCalls.map((toolCall, i) => {
         const messageLog = i === 0 ? [message] : []
         const log = `Invoking "${toolCall.name}" with ${JSON.stringify(toolCall.args ?? {})}\n${stringifiedMessageContent}`

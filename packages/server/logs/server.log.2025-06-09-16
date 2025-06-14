@@ -1,0 +1,240 @@
+2025-06-09 16:02:08 [INFO]: ⬆️ POST /api/v1/auth/refreshToken
+2025-06-09 16:02:08 [INFO]: 🖊 PUT /api/v1/chatflows/652cbcc0-6dff-421e-b8af-02d10bdc4b98
+2025-06-09 16:02:19 [INFO]: ⬆️ POST /api/v1/internal-prediction/652cbcc0-6dff-421e-b8af-02d10bdc4b98
+2025-06-09 16:05:33 [INFO]: ⬆️ POST /api/v1/node-load-method/chatGoogleGemini
+2025-06-09 16:05:36 [INFO]: 🖊 PUT /api/v1/chatflows/652cbcc0-6dff-421e-b8af-02d10bdc4b98
+2025-06-09 16:05:47 [INFO]: ❌ DELETE /api/v1/chatmessage/652cbcc0-6dff-421e-b8af-02d10bdc4b98?chatId=bbc860f3-2304-4af6-aa52-66711b575e47&chatType=INTERNAL
+2025-06-09 16:05:47 [ERROR]: [server]: Error deleting file storage for chatflow 652cbcc0-6dff-421e-b8af-02d10bdc4b98, chatId bbc860f3-2304-4af6-aa52-66711b575e47
+2025-06-09 16:05:49 [INFO]: ⬆️ POST /api/v1/internal-prediction/652cbcc0-6dff-421e-b8af-02d10bdc4b98
+2025-06-09 16:09:25 [INFO]: ⬆️ POST /api/v1/internal-prediction/652cbcc0-6dff-421e-b8af-02d10bdc4b98
+2025-06-09 16:12:13 [INFO]: ⬆️ POST /api/v1/node-load-method/chatGoogleGemini
+2025-06-09 16:12:22 [INFO]: ⬆️ POST /api/v1/node-load-method/chatGoogleGemini
+2025-06-09 16:12:34 [INFO]: 🖊 PUT /api/v1/chatflows/652cbcc0-6dff-421e-b8af-02d10bdc4b98
+2025-06-09 16:12:44 [INFO]: ❌ DELETE /api/v1/chatmessage/652cbcc0-6dff-421e-b8af-02d10bdc4b98?chatId=bbc860f3-2304-4af6-aa52-66711b575e47&chatType=INTERNAL
+2025-06-09 16:12:44 [ERROR]: [server]: Error deleting file storage for chatflow 652cbcc0-6dff-421e-b8af-02d10bdc4b98, chatId bbc860f3-2304-4af6-aa52-66711b575e47
+2025-06-09 16:13:00 [INFO]: ⬆️ POST /api/v1/internal-prediction/652cbcc0-6dff-421e-b8af-02d10bdc4b98
+2025-06-09 16:13:00 [ERROR]: [server]: [315b13a3-df63-4eea-b191-ac57d35d74c9]: Cannot read properties of undefined (reading 'bindTools')
+TypeError: Cannot read properties of undefined (reading 'bindTools')
+    at prepareAgent (/home/lq/projects/liw/Flowise3.0/packages/components/dist/nodes/agents/ToolAgent/ToolAgent.js:281:15)
+    at ToolAgent_Agents.init (/home/lq/projects/liw/Flowise3.0/packages/components/dist/nodes/agents/ToolAgent/ToolAgent.js:86:16)
+    at buildFlow (/home/lq/projects/liw/Flowise3.0/packages/server/dist/utils/index.js:494:58)
+    at async executeFlow (/home/lq/projects/liw/Flowise3.0/packages/server/dist/utils/buildChatflow.js:331:28)
+    at async utilBuildChatflow (/home/lq/projects/liw/Flowise3.0/packages/server/dist/utils/buildChatflow.js:797:28)
+    at async createAndStreamInternalPrediction (/home/lq/projects/liw/Flowise3.0/packages/server/dist/controllers/internal-predictions/index.js:38:29)
+2025-06-09 16:13:00 [ERROR]: [server]: Error: TypeError: Cannot read properties of undefined (reading 'bindTools')
+Error: TypeError: Cannot read properties of undefined (reading 'bindTools')
+    at buildFlow (/home/lq/projects/liw/Flowise3.0/packages/server/dist/utils/index.js:549:19)
+    at async executeFlow (/home/lq/projects/liw/Flowise3.0/packages/server/dist/utils/buildChatflow.js:331:28)
+    at async utilBuildChatflow (/home/lq/projects/liw/Flowise3.0/packages/server/dist/utils/buildChatflow.js:797:28)
+    at async createAndStreamInternalPrediction (/home/lq/projects/liw/Flowise3.0/packages/server/dist/controllers/internal-predictions/index.js:38:29)
+2025-06-09 16:13:16 [INFO]: 🖊 PUT /api/v1/chatflows/652cbcc0-6dff-421e-b8af-02d10bdc4b98
+2025-06-09 16:13:26 [INFO]: ⬆️ POST /api/v1/internal-prediction/652cbcc0-6dff-421e-b8af-02d10bdc4b98
+2025-06-09 16:22:33 [INFO]: ⬆️ POST /api/v1/node-load-method/chatGoogleGemini
+2025-06-09 16:22:38 [INFO]: ⬆️ POST /api/v1/internal-prediction/652cbcc0-6dff-421e-b8af-02d10bdc4b98
+2025-06-09 16:22:41 [INFO]: 🖊 PUT /api/v1/chatflows/652cbcc0-6dff-421e-b8af-02d10bdc4b98
+2025-06-09 16:22:47 [INFO]: ⬆️ POST /api/v1/internal-prediction/652cbcc0-6dff-421e-b8af-02d10bdc4b98
+2025-06-09 16:22:49 [ERROR]: [server]: Error: Google API Error 404: 
+Error: Google API Error 404: 
+    at ChatGoogleGeminiWithProxy._streamResponseChunks (/home/lq/projects/liw/Flowise3.0/packages/components/dist/nodes/chatmodels/ChatGoogleGemini/ChatGoogleGemini.js:250:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ChatGoogleGeminiWithProxy._streamIterator (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@langchain+core@0.3.37_openai@4.96.0_encoding@0.1.13_ws@8.18.0_bufferutil@4.0.8_utf-8-validate@6.0.4__zod@3.22.4_/node_modules/@langchain/core/dist/language_models/chat_models.cjs:100:34)
+    at async ChatGoogleGeminiWithProxy.transform (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@langchain+core@0.3.37_openai@4.96.0_encoding@0.1.13_ws@8.18.0_bufferutil@4.0.8_utf-8-validate@6.0.4__zod@3.22.4_/node_modules/@langchain/core/dist/runnables/base.cjs:402:9)
+    at async ToolCallingAgentOutputParser.transform (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@langchain+core@0.3.37_openai@4.96.0_encoding@0.1.13_ws@8.18.0_bufferutil@4.0.8_utf-8-validate@6.0.4__zod@3.22.4_/node_modules/@langchain/core/dist/runnables/base.cjs:391:26)
+    at async RunnableSequence._streamIterator (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@langchain+core@0.3.37_openai@4.96.0_encoding@0.1.13_ws@8.18.0_bufferutil@4.0.8_utf-8-validate@6.0.4__zod@3.22.4_/node_modules/@langchain/core/dist/runnables/base.cjs:1349:30)
+2025-06-09 16:22:57 [INFO]: ⬆️ POST /api/v1/node-load-method/chatGoogleGemini
+2025-06-09 16:24:59 [INFO]: Starting Flowise...
+2025-06-09 16:24:59 [INFO]: 📦 [server]: Data Source initialized successfully
+2025-06-09 16:24:59 [INFO]: 🔄 [server]: Database migrations completed successfully
+2025-06-09 16:24:59 [INFO]: 🔐 [server]: Identity Manager initialized successfully
+2025-06-09 16:25:04 [INFO]: 🔧 [server]: Nodes pool initialized successfully
+2025-06-09 16:25:04 [INFO]: ⏹️ [server]: Abort controllers pool initialized successfully
+2025-06-09 16:25:04 [INFO]: 🔑 [server]: Encryption key initialized successfully
+2025-06-09 16:25:04 [INFO]: 🚦 [server]: Rate limiters initialized successfully
+2025-06-09 16:25:04 [INFO]: 💾 [server]: Cache pool initialized successfully
+2025-06-09 16:25:04 [INFO]: 📊 [server]: Usage cache manager initialized successfully
+2025-06-09 16:25:04 [INFO]: 📈 [server]: Telemetry initialized successfully
+2025-06-09 16:25:04 [INFO]: 🌊 [server]: SSE Streamer initialized successfully
+2025-06-09 16:25:04 [INFO]: 🎉 [server]: All initialization steps completed successfully!
+2025-06-09 16:25:04 [INFO]: ⚡️ [server]: Flowise Server is listening at :3003
+2025-06-09 16:25:04 [INFO]: ⬆️ POST /api/v1/internal-prediction/652cbcc0-6dff-421e-b8af-02d10bdc4b98
+2025-06-09 16:25:06 [ERROR]: [server]: Error: Google API Error 404: 
+Error: Google API Error 404: 
+    at ChatGoogleGeminiWithProxy._streamResponseChunks (/home/lq/projects/liw/Flowise3.0/packages/components/dist/nodes/chatmodels/ChatGoogleGemini/ChatGoogleGemini.js:250:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ChatGoogleGeminiWithProxy._streamIterator (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@langchain+core@0.3.37_openai@4.96.0_encoding@0.1.13_ws@8.18.0_bufferutil@4.0.8_utf-8-validate@6.0.4__zod@3.22.4_/node_modules/@langchain/core/dist/language_models/chat_models.cjs:100:34)
+    at async ChatGoogleGeminiWithProxy.transform (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@langchain+core@0.3.37_openai@4.96.0_encoding@0.1.13_ws@8.18.0_bufferutil@4.0.8_utf-8-validate@6.0.4__zod@3.22.4_/node_modules/@langchain/core/dist/runnables/base.cjs:402:9)
+    at async ToolCallingAgentOutputParser.transform (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@langchain+core@0.3.37_openai@4.96.0_encoding@0.1.13_ws@8.18.0_bufferutil@4.0.8_utf-8-validate@6.0.4__zod@3.22.4_/node_modules/@langchain/core/dist/runnables/base.cjs:391:26)
+    at async RunnableSequence._streamIterator (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@langchain+core@0.3.37_openai@4.96.0_encoding@0.1.13_ws@8.18.0_bufferutil@4.0.8_utf-8-validate@6.0.4__zod@3.22.4_/node_modules/@langchain/core/dist/runnables/base.cjs:1349:30)
+2025-06-09 16:25:20 [INFO]: ⬆️ POST /api/v1/node-load-method/customMCP
+2025-06-09 16:25:20 [INFO]: ⬆️ POST /api/v1/node-load-method/customTool
+2025-06-09 16:25:20 [INFO]: ⬆️ POST /api/v1/node-load-method/customTool
+2025-06-09 16:25:20 [INFO]: ⬆️ POST /api/v1/node-load-method/customTool
+2025-06-09 16:25:20 [INFO]: ⬆️ POST /api/v1/node-load-method/customTool
+2025-06-09 16:25:21 [INFO]: ⬆️ POST /api/v1/node-load-method/customTool
+2025-06-09 16:25:21 [INFO]: ⬆️ POST /api/v1/node-load-method/customTool
+2025-06-09 16:25:21 [INFO]: ⬆️ POST /api/v1/node-load-method/customTool
+2025-06-09 16:25:21 [INFO]: ⬆️ POST /api/v1/node-load-method/chatGoogleGemini
+2025-06-09 16:25:30 [INFO]: ⬆️ POST /api/v1/node-load-method/chatGoogleGemini
+2025-06-09 16:25:32 [INFO]: 🖊 PUT /api/v1/chatflows/652cbcc0-6dff-421e-b8af-02d10bdc4b98
+2025-06-09 16:26:05 [INFO]: ⬆️ POST /api/v1/internal-prediction/652cbcc0-6dff-421e-b8af-02d10bdc4b98
+2025-06-09 16:26:21 [ERROR]: [server]: Error: request to https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:streamGenerateContent?alt=sse failed, reason: socket hang up
+FetchError: request to https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:streamGenerateContent?alt=sse failed, reason: socket hang up
+    at ClientRequest.<anonymous> (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/node-fetch@2.7.0_encoding@0.1.13/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:529:35)
+    at ClientRequest.emit (node:domain:489:12)
+    at TLSSocket.socketOnEnd (node:_http_client:525:9)
+    at TLSSocket.emit (node:events:529:35)
+    at TLSSocket.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1400:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2025-06-09 16:27:35 [INFO]: ⬆️ POST /api/v1/internal-prediction/652cbcc0-6dff-421e-b8af-02d10bdc4b98
+2025-06-09 16:28:27 [ERROR]: [server]: Error: request to https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:streamGenerateContent?alt=sse failed, reason: socket hang up
+FetchError: request to https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:streamGenerateContent?alt=sse failed, reason: socket hang up
+    at ClientRequest.<anonymous> (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/node-fetch@2.7.0_encoding@0.1.13/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:529:35)
+    at ClientRequest.emit (node:domain:489:12)
+    at TLSSocket.socketOnEnd (node:_http_client:525:9)
+    at TLSSocket.emit (node:events:529:35)
+    at TLSSocket.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1400:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2025-06-09 16:35:20 [INFO]: ⬆️ POST /api/v1/node-load-method/chatGoogleGemini
+2025-06-09 16:35:23 [INFO]: 🖊 PUT /api/v1/chatflows/652cbcc0-6dff-421e-b8af-02d10bdc4b98
+2025-06-09 16:35:29 [INFO]: ⬆️ POST /api/v1/internal-prediction/652cbcc0-6dff-421e-b8af-02d10bdc4b98
+2025-06-09 16:38:28 [INFO]: 🖊 PUT /api/v1/chatflows/652cbcc0-6dff-421e-b8af-02d10bdc4b98
+2025-06-09 16:38:33 [INFO]: ⬆️ POST /api/v1/internal-prediction/652cbcc0-6dff-421e-b8af-02d10bdc4b98
+2025-06-09 16:38:33 [ERROR]: [server]: [315b13a3-df63-4eea-b191-ac57d35d74c9]: This agent requires that the "bindTools()" method be implemented on the input model.
+Error: This agent requires that the "bindTools()" method be implemented on the input model.
+    at prepareAgent (/home/lq/projects/liw/Flowise3.0/packages/components/dist/nodes/agents/ToolAgent/ToolAgent.js:282:15)
+    at ToolAgent_Agents.init (/home/lq/projects/liw/Flowise3.0/packages/components/dist/nodes/agents/ToolAgent/ToolAgent.js:86:16)
+    at buildFlow (/home/lq/projects/liw/Flowise3.0/packages/server/dist/utils/index.js:494:58)
+    at async executeFlow (/home/lq/projects/liw/Flowise3.0/packages/server/dist/utils/buildChatflow.js:331:28)
+    at async utilBuildChatflow (/home/lq/projects/liw/Flowise3.0/packages/server/dist/utils/buildChatflow.js:797:28)
+    at async createAndStreamInternalPrediction (/home/lq/projects/liw/Flowise3.0/packages/server/dist/controllers/internal-predictions/index.js:38:29)
+2025-06-09 16:38:33 [ERROR]: [server]: Error: Error: This agent requires that the "bindTools()" method be implemented on the input model.
+Error: Error: This agent requires that the "bindTools()" method be implemented on the input model.
+    at buildFlow (/home/lq/projects/liw/Flowise3.0/packages/server/dist/utils/index.js:549:19)
+    at async executeFlow (/home/lq/projects/liw/Flowise3.0/packages/server/dist/utils/buildChatflow.js:331:28)
+    at async utilBuildChatflow (/home/lq/projects/liw/Flowise3.0/packages/server/dist/utils/buildChatflow.js:797:28)
+    at async createAndStreamInternalPrediction (/home/lq/projects/liw/Flowise3.0/packages/server/dist/controllers/internal-predictions/index.js:38:29)
+2025-06-09 16:38:40 [INFO]: 🖊 PUT /api/v1/chatflows/652cbcc0-6dff-421e-b8af-02d10bdc4b98
+2025-06-09 16:38:44 [INFO]: ⬆️ POST /api/v1/internal-prediction/652cbcc0-6dff-421e-b8af-02d10bdc4b98
+2025-06-09 16:38:56 [ERROR]: [server]: Error: Failed to parse tool arguments from chat model response. Text: "[]". SyntaxError: Unexpected token { in JSON at position 2
+
+Troubleshooting URL: https://js.langchain.com/docs/troubleshooting/errors/OUTPUT_PARSING_FAILURE/
+
+Error: Failed to parse tool arguments from chat model response. Text: "[]". SyntaxError: Unexpected token { in JSON at position 2
+
+Troubleshooting URL: https://js.langchain.com/docs/troubleshooting/errors/OUTPUT_PARSING_FAILURE/
+
+    at parseAIMessageToToolAction (/home/lq/projects/liw/Flowise3.0/packages/components/dist/src/agents.js:787:23)
+    at ToolCallingAgentOutputParser.parseResult (/home/lq/projects/liw/Flowise3.0/packages/components/dist/src/agents.js:816:20)
+    at ToolCallingAgentOutputParser._callWithConfig (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@langchain+core@0.3.37_openai@4.96.0_encoding@0.1.13_ws@8.18.0_bufferutil@4.0.8_utf-8-validate@6.0.4__zod@3.22.4_/node_modules/@langchain/core/dist/output_parsers/base.cjs:46:72)
+    at ToolCallingAgentOutputParser._callWithConfig (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@langchain+core@0.3.37_openai@4.96.0_encoding@0.1.13_ws@8.18.0_bufferutil@4.0.8_utf-8-validate@6.0.4__zod@3.22.4_/node_modules/@langchain/core/dist/runnables/base.cjs:223:34)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ToolCallingAgentOutputParser._streamIterator (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@langchain+core@0.3.37_openai@4.96.0_encoding@0.1.13_ws@8.18.0_bufferutil@4.0.8_utf-8-validate@6.0.4__zod@3.22.4_/node_modules/@langchain/core/dist/runnables/base.cjs:165:9)
+    at async ToolCallingAgentOutputParser.transform (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@langchain+core@0.3.37_openai@4.96.0_encoding@0.1.13_ws@8.18.0_bufferutil@4.0.8_utf-8-validate@6.0.4__zod@3.22.4_/node_modules/@langchain/core/dist/runnables/base.cjs:402:9)
+    at async RunnableSequence._streamIterator (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@langchain+core@0.3.37_openai@4.96.0_encoding@0.1.13_ws@8.18.0_bufferutil@4.0.8_utf-8-validate@6.0.4__zod@3.22.4_/node_modules/@langchain/core/dist/runnables/base.cjs:1349:30)
+2025-06-09 16:40:47 [INFO]: ❌ DELETE /api/v1/chatmessage/652cbcc0-6dff-421e-b8af-02d10bdc4b98?chatId=085db5c1-acf6-4f87-a362-23f2490234e3&chatType=INTERNAL
+2025-06-09 16:40:47 [ERROR]: [server]: Error deleting file storage for chatflow 652cbcc0-6dff-421e-b8af-02d10bdc4b98, chatId 085db5c1-acf6-4f87-a362-23f2490234e3
+2025-06-09 16:45:55 [INFO]: ⬆️ POST /api/v1/node-load-method/chatGoogleGemini
+2025-06-09 16:46:04 [INFO]: ⬆️ POST /api/v1/node-load-method/customTool
+2025-06-09 16:46:04 [INFO]: ⬆️ POST /api/v1/node-load-method/customTool
+2025-06-09 16:46:04 [INFO]: ⬆️ POST /api/v1/node-load-method/chatGoogleGemini
+2025-06-09 16:46:04 [INFO]: ⬆️ POST /api/v1/node-load-method/customTool
+2025-06-09 16:46:29 [INFO]: 🖊 PUT /api/v1/chatflows/8b62eb5b-a36d-46e9-b26a-7cd3a064c7a1
+2025-06-09 16:46:34 [INFO]: 🖊 PUT /api/v1/chatflows/8b62eb5b-a36d-46e9-b26a-7cd3a064c7a1
+2025-06-09 16:46:37 [INFO]: ⬆️ POST /api/v1/internal-prediction/8b62eb5b-a36d-46e9-b26a-7cd3a064c7a1
+2025-06-09 16:46:54 [INFO]: ⬆️ POST /api/v1/internal-prediction/8b62eb5b-a36d-46e9-b26a-7cd3a064c7a1
+2025-06-09 16:47:39 [INFO]: ❌ DELETE /api/v1/chatmessage/8b62eb5b-a36d-46e9-b26a-7cd3a064c7a1?chatId=01abd9c8-6a6f-4510-ab4c-c23bb109524f&chatType=INTERNAL
+2025-06-09 16:47:40 [ERROR]: [server]: Error deleting file storage for chatflow 8b62eb5b-a36d-46e9-b26a-7cd3a064c7a1, chatId 01abd9c8-6a6f-4510-ab4c-c23bb109524f
+2025-06-09 16:48:15 [INFO]: ⬆️ POST /api/v1/internal-prediction/8b62eb5b-a36d-46e9-b26a-7cd3a064c7a1
+2025-06-09 16:49:04 [INFO]: ⬆️ POST /api/v1/internal-prediction/8b62eb5b-a36d-46e9-b26a-7cd3a064c7a1
+2025-06-09 16:49:11 [ERROR]: [server]: Error: Failed to parse tool arguments from chat model response. Text: "[]". SyntaxError: Unexpected token { in JSON at position 29
+
+Troubleshooting URL: https://js.langchain.com/docs/troubleshooting/errors/OUTPUT_PARSING_FAILURE/
+
+Error: Failed to parse tool arguments from chat model response. Text: "[]". SyntaxError: Unexpected token { in JSON at position 29
+
+Troubleshooting URL: https://js.langchain.com/docs/troubleshooting/errors/OUTPUT_PARSING_FAILURE/
+
+    at parseAIMessageToToolAction (/home/lq/projects/liw/Flowise3.0/packages/components/dist/src/agents.js:787:23)
+    at ToolCallingAgentOutputParser.parseResult (/home/lq/projects/liw/Flowise3.0/packages/components/dist/src/agents.js:816:20)
+    at ToolCallingAgentOutputParser._callWithConfig (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@langchain+core@0.3.37_openai@4.96.0_encoding@0.1.13_ws@8.18.0_bufferutil@4.0.8_utf-8-validate@6.0.4__zod@3.22.4_/node_modules/@langchain/core/dist/output_parsers/base.cjs:46:72)
+    at ToolCallingAgentOutputParser._callWithConfig (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@langchain+core@0.3.37_openai@4.96.0_encoding@0.1.13_ws@8.18.0_bufferutil@4.0.8_utf-8-validate@6.0.4__zod@3.22.4_/node_modules/@langchain/core/dist/runnables/base.cjs:223:34)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ToolCallingAgentOutputParser._streamIterator (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@langchain+core@0.3.37_openai@4.96.0_encoding@0.1.13_ws@8.18.0_bufferutil@4.0.8_utf-8-validate@6.0.4__zod@3.22.4_/node_modules/@langchain/core/dist/runnables/base.cjs:165:9)
+    at async ToolCallingAgentOutputParser.transform (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@langchain+core@0.3.37_openai@4.96.0_encoding@0.1.13_ws@8.18.0_bufferutil@4.0.8_utf-8-validate@6.0.4__zod@3.22.4_/node_modules/@langchain/core/dist/runnables/base.cjs:402:9)
+    at async RunnableSequence._streamIterator (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@langchain+core@0.3.37_openai@4.96.0_encoding@0.1.13_ws@8.18.0_bufferutil@4.0.8_utf-8-validate@6.0.4__zod@3.22.4_/node_modules/@langchain/core/dist/runnables/base.cjs:1349:30)
+2025-06-09 16:49:52 [INFO]: 🖊 PUT /api/v1/chatflows/8b62eb5b-a36d-46e9-b26a-7cd3a064c7a1
+2025-06-09 16:50:03 [INFO]: ⬆️ POST /api/v1/internal-prediction/8b62eb5b-a36d-46e9-b26a-7cd3a064c7a1
+2025-06-09 16:50:12 [ERROR]: [server]: Error: Failed to parse tool arguments from chat model response. Text: "[]". SyntaxError: Unexpected token { in JSON at position 29
+
+Troubleshooting URL: https://js.langchain.com/docs/troubleshooting/errors/OUTPUT_PARSING_FAILURE/
+
+Error: Failed to parse tool arguments from chat model response. Text: "[]". SyntaxError: Unexpected token { in JSON at position 29
+
+Troubleshooting URL: https://js.langchain.com/docs/troubleshooting/errors/OUTPUT_PARSING_FAILURE/
+
+    at parseAIMessageToToolAction (/home/lq/projects/liw/Flowise3.0/packages/components/dist/src/agents.js:787:23)
+    at ToolCallingAgentOutputParser.parseResult (/home/lq/projects/liw/Flowise3.0/packages/components/dist/src/agents.js:816:20)
+    at ToolCallingAgentOutputParser._callWithConfig (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@langchain+core@0.3.37_openai@4.96.0_encoding@0.1.13_ws@8.18.0_bufferutil@4.0.8_utf-8-validate@6.0.4__zod@3.22.4_/node_modules/@langchain/core/dist/output_parsers/base.cjs:46:72)
+    at ToolCallingAgentOutputParser._callWithConfig (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@langchain+core@0.3.37_openai@4.96.0_encoding@0.1.13_ws@8.18.0_bufferutil@4.0.8_utf-8-validate@6.0.4__zod@3.22.4_/node_modules/@langchain/core/dist/runnables/base.cjs:223:34)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ToolCallingAgentOutputParser._streamIterator (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@langchain+core@0.3.37_openai@4.96.0_encoding@0.1.13_ws@8.18.0_bufferutil@4.0.8_utf-8-validate@6.0.4__zod@3.22.4_/node_modules/@langchain/core/dist/runnables/base.cjs:165:9)
+    at async ToolCallingAgentOutputParser.transform (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@langchain+core@0.3.37_openai@4.96.0_encoding@0.1.13_ws@8.18.0_bufferutil@4.0.8_utf-8-validate@6.0.4__zod@3.22.4_/node_modules/@langchain/core/dist/runnables/base.cjs:402:9)
+    at async RunnableSequence._streamIterator (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@langchain+core@0.3.37_openai@4.96.0_encoding@0.1.13_ws@8.18.0_bufferutil@4.0.8_utf-8-validate@6.0.4__zod@3.22.4_/node_modules/@langchain/core/dist/runnables/base.cjs:1349:30)
+2025-06-09 16:50:35 [INFO]: 🖊 PUT /api/v1/chatflows/8b62eb5b-a36d-46e9-b26a-7cd3a064c7a1
+2025-06-09 16:50:38 [INFO]: ❌ DELETE /api/v1/chatmessage/8b62eb5b-a36d-46e9-b26a-7cd3a064c7a1?chatId=a6d75ebc-69a8-4cf9-9d33-8b67b8267d01&chatType=INTERNAL
+2025-06-09 16:50:38 [ERROR]: [server]: Error deleting file storage for chatflow 8b62eb5b-a36d-46e9-b26a-7cd3a064c7a1, chatId a6d75ebc-69a8-4cf9-9d33-8b67b8267d01
+2025-06-09 16:50:43 [INFO]: ⬆️ POST /api/v1/internal-prediction/8b62eb5b-a36d-46e9-b26a-7cd3a064c7a1
+2025-06-09 16:50:47 [ERROR]: [server]: Error: Failed to parse tool arguments from chat model response. Text: "[]". SyntaxError: Unexpected token { in JSON at position 29
+
+Troubleshooting URL: https://js.langchain.com/docs/troubleshooting/errors/OUTPUT_PARSING_FAILURE/
+
+Error: Failed to parse tool arguments from chat model response. Text: "[]". SyntaxError: Unexpected token { in JSON at position 29
+
+Troubleshooting URL: https://js.langchain.com/docs/troubleshooting/errors/OUTPUT_PARSING_FAILURE/
+
+    at parseAIMessageToToolAction (/home/lq/projects/liw/Flowise3.0/packages/components/dist/src/agents.js:787:23)
+    at ToolCallingAgentOutputParser.parseResult (/home/lq/projects/liw/Flowise3.0/packages/components/dist/src/agents.js:816:20)
+    at ToolCallingAgentOutputParser._callWithConfig (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@langchain+core@0.3.37_openai@4.96.0_encoding@0.1.13_ws@8.18.0_bufferutil@4.0.8_utf-8-validate@6.0.4__zod@3.22.4_/node_modules/@langchain/core/dist/output_parsers/base.cjs:46:72)
+    at ToolCallingAgentOutputParser._callWithConfig (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@langchain+core@0.3.37_openai@4.96.0_encoding@0.1.13_ws@8.18.0_bufferutil@4.0.8_utf-8-validate@6.0.4__zod@3.22.4_/node_modules/@langchain/core/dist/runnables/base.cjs:223:34)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ToolCallingAgentOutputParser._streamIterator (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@langchain+core@0.3.37_openai@4.96.0_encoding@0.1.13_ws@8.18.0_bufferutil@4.0.8_utf-8-validate@6.0.4__zod@3.22.4_/node_modules/@langchain/core/dist/runnables/base.cjs:165:9)
+    at async ToolCallingAgentOutputParser.transform (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@langchain+core@0.3.37_openai@4.96.0_encoding@0.1.13_ws@8.18.0_bufferutil@4.0.8_utf-8-validate@6.0.4__zod@3.22.4_/node_modules/@langchain/core/dist/runnables/base.cjs:402:9)
+    at async RunnableSequence._streamIterator (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@langchain+core@0.3.37_openai@4.96.0_encoding@0.1.13_ws@8.18.0_bufferutil@4.0.8_utf-8-validate@6.0.4__zod@3.22.4_/node_modules/@langchain/core/dist/runnables/base.cjs:1349:30)
+2025-06-09 16:55:24 [INFO]: Starting Flowise...
+2025-06-09 16:55:24 [INFO]: 📦 [server]: Data Source initialized successfully
+2025-06-09 16:55:24 [INFO]: 🔄 [server]: Database migrations completed successfully
+2025-06-09 16:55:24 [INFO]: 🔐 [server]: Identity Manager initialized successfully
+2025-06-09 16:55:30 [INFO]: 🔧 [server]: Nodes pool initialized successfully
+2025-06-09 16:55:30 [INFO]: ⏹️ [server]: Abort controllers pool initialized successfully
+2025-06-09 16:55:30 [INFO]: 🔑 [server]: Encryption key initialized successfully
+2025-06-09 16:55:30 [INFO]: 🚦 [server]: Rate limiters initialized successfully
+2025-06-09 16:55:30 [INFO]: 💾 [server]: Cache pool initialized successfully
+2025-06-09 16:55:30 [INFO]: 📊 [server]: Usage cache manager initialized successfully
+2025-06-09 16:55:30 [INFO]: 📈 [server]: Telemetry initialized successfully
+2025-06-09 16:55:30 [INFO]: 🌊 [server]: SSE Streamer initialized successfully
+2025-06-09 16:55:30 [INFO]: 🎉 [server]: All initialization steps completed successfully!
+2025-06-09 16:55:30 [INFO]: ⚡️ [server]: Flowise Server is listening at :3003
+2025-06-09 16:55:35 [INFO]: ⬆️ POST /api/v1/node-load-method/customTool
+2025-06-09 16:55:35 [INFO]: ⬆️ POST /api/v1/node-load-method/customTool
+2025-06-09 16:55:35 [INFO]: ⬆️ POST /api/v1/node-load-method/customTool
+2025-06-09 16:55:44 [INFO]: ⬆️ POST /api/v1/internal-prediction/8b62eb5b-a36d-46e9-b26a-7cd3a064c7a1
+2025-06-09 16:55:46 [ERROR]: [server]: Error: Failed to parse tool arguments from chat model response. Text: "[]". SyntaxError: Unexpected token { in JSON at position 29
+
+Troubleshooting URL: https://js.langchain.com/docs/troubleshooting/errors/OUTPUT_PARSING_FAILURE/
+
+Error: Failed to parse tool arguments from chat model response. Text: "[]". SyntaxError: Unexpected token { in JSON at position 29
+
+Troubleshooting URL: https://js.langchain.com/docs/troubleshooting/errors/OUTPUT_PARSING_FAILURE/
+
+    at parseAIMessageToToolAction (/home/lq/projects/liw/Flowise3.0/packages/components/dist/src/agents.js:787:23)
+    at ToolCallingAgentOutputParser.parseResult (/home/lq/projects/liw/Flowise3.0/packages/components/dist/src/agents.js:816:20)
+    at ToolCallingAgentOutputParser._callWithConfig (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@langchain+core@0.3.37_openai@4.96.0_encoding@0.1.13_ws@8.18.0_bufferutil@4.0.8_utf-8-validate@6.0.4__zod@3.22.4_/node_modules/@langchain/core/dist/output_parsers/base.cjs:46:72)
+    at ToolCallingAgentOutputParser._callWithConfig (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@langchain+core@0.3.37_openai@4.96.0_encoding@0.1.13_ws@8.18.0_bufferutil@4.0.8_utf-8-validate@6.0.4__zod@3.22.4_/node_modules/@langchain/core/dist/runnables/base.cjs:223:34)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ToolCallingAgentOutputParser._streamIterator (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@langchain+core@0.3.37_openai@4.96.0_encoding@0.1.13_ws@8.18.0_bufferutil@4.0.8_utf-8-validate@6.0.4__zod@3.22.4_/node_modules/@langchain/core/dist/runnables/base.cjs:165:9)
+    at async ToolCallingAgentOutputParser.transform (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@langchain+core@0.3.37_openai@4.96.0_encoding@0.1.13_ws@8.18.0_bufferutil@4.0.8_utf-8-validate@6.0.4__zod@3.22.4_/node_modules/@langchain/core/dist/runnables/base.cjs:402:9)
+    at async RunnableSequence._streamIterator (/home/lq/projects/liw/Flowise3.0/node_modules/.pnpm/@langchain+core@0.3.37_openai@4.96.0_encoding@0.1.13_ws@8.18.0_bufferutil@4.0.8_utf-8-validate@6.0.4__zod@3.22.4_/node_modules/@langchain/core/dist/runnables/base.cjs:1349:30)
