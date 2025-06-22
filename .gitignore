@@ -8,6 +8,7 @@ packages/ui/build/
 packages/ui/dist/
 packages/server/dist/
 packages/components/dist/
+packages/server/logs/
 
 # TypeScript 编译信息
 *.tsbuildinfo
@@ -16,3 +17,4 @@ packages/*/*.tsbuildinfo
 # 其他构建产物
 *.d.ts.map
 packages/*/lib/
+*.gz

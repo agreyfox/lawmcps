@@ -524,6 +524,24 @@
             "name": "chatGoogleGenerativeAI",
             "models": [
                 {
+                    "label": "gemini-2.5-pro",
+                    "name": "gemini-2.5-pro",
+                    "input_cost": 0.15e-6,
+                    "output_cost": 6e-7
+                },
+                {
+                    "label": "gemini-2.5-flash",
+                    "name": "gemini-2.5-flash",
+                    "input_cost": 0.15e-6,
+                    "output_cost": 6e-7
+                },
+                {
+                    "label": "gemini-2.5-flash-lite-preview-06-17",
+                    "name": "gemini-2.5-flash-lite-preview-06-17",
+                    "input_cost": 0.15e-6,
+                    "output_cost": 6e-7
+                },
+                {
                     "label": "gemini-2.5-pro-preview-06-05",
                     "name": "gemini-2.5-pro-preview-06-05",
                     "input_cost": 0.15e-6,
@@ -563,6 +581,12 @@
                 {
                     "label": "gemini-1.5-pro",
                     "name": "gemini-1.5-pro",
+                    "input_cost": 1.25e-6,
+                    "output_cost": 5e-6
+                },
+                {
+                    "label": "gemma-3-27b-it",
+                    "name": "gemma-3-27b-it",
                     "input_cost": 1.25e-6,
                     "output_cost": 5e-6
                 }
